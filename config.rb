@@ -103,10 +103,10 @@ activate :livereload
 # Site Settings
 ###
 # Set site setting, used in helpers / sitemap.xml / feed.xml.
-set :site_url, 'http://blog.url.com'
-set :site_author, 'Blog author'
-set :site_title, 'Blog title'
-set :site_description, 'Blog description'
+set :site_url, 'http://www.shigekitakeguchi.com'
+set :site_author, 'shigeki.takeguchi'
+set :site_title, 'shigeki.takeguchi.log'
+set :site_description, ''
 # Select the theme from bootswatch.com.
 # If false, you can get plain bootstrap style.
 # set :theme_name, 'flatly'
@@ -182,3 +182,5 @@ activate :deploy do |deploy|
   deploy.method = :git
   deploy.branch = 'master'
 end
+
+activate :syntax, :line_numbers => true

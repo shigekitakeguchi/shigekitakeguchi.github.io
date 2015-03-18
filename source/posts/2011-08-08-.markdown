@@ -1,0 +1,20 @@
+---
+title: 二つのシャッターを持つカメラを公開。
+date: 2011-08-08 23:46:56
+tags: ios-app, 
+---
+<img src="http://zoomone.net/facebook/app/welcome/images/img_promotion_01.jpg" alt="TwinCamera" />
+二つのシャッターを持つカメラアプリ、TwinCameraをリリースしました。iPhone3G, iPhone3GS, iPhone4用です。<a href="http://apps.zoomone.net/2011/07/26/twincamera/" title="TwinCamera" target="_blank">TwinCameraアプリのページ</a>です。
+分割した2画面をそれぞれ別のボタンで撮影できます。
+<br class="mb10p" />
+<a href="http://itunes.apple.com/us/app/twincamera/id447010914?l=ja&ls=1&mt=8" title="TwinCamera App Store" target="_blank"><img src="http://apps.zoomone.net/common/images/App_Store_Badge_EN_0609.gif" alt="App Store" /></a>
+<br class="mb20p" />
+<img src="http://farm7.static.flickr.com/6017/6013330409_cfd2d921b7.jpg" alt="" />
+<img src="http://farm7.static.flickr.com/6123/6016100071_6262fd7829.jpg" alt="" />
+<img src="http://farm7.static.flickr.com/6141/5989944268_6c9821e39a.jpg" alt="" />
+<br class="mb20p" />
+ショップカードやダイレクトメッセージのカードって素敵なものが多いのに箱に取っておいても数ヶ月後には捨ててしまうんですよ。ちゃんと整理すればいいんですがそこまでのマメさはない。でiPhoneで撮影しておいたら。。。って思いましたが裏面、表面あってはじめて記憶に残ったりするものなので別々に撮影してPCで加工して。。。ってやっぱりそこまでマメじゃあない。。。なら裏面、表面撮影してひとつの画像にするようなアプリがあればええんやんか、ってのが作ろうと思ったきっかけです。
+<br class="mb20p" />
+ちょっと予定よりも遅くなってしまいましたが何とか公開することができました。協力いただいた方々、応援いただいた方々、ほんとうにありがとうございます。
+というわけで公開するとここをこうしたいああしたいなどという要望や要求がありますので随時アップデートしていきます。
+今後ともよろしくお願いいたします。
