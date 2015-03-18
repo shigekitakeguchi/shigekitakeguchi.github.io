@@ -112,7 +112,7 @@ set :site_description, ''
 # set :theme_name, 'flatly'
 set :theme_name, false
 # set @analytics_account, like "XX-12345678-9"
-@analytics_account = false
+@analytics_account = "UA-21820122-1"
 
 # Asset Settings
 set :css_dir, 'css'

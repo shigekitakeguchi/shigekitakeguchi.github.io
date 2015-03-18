@@ -1,4 +1,4 @@
-| <!doctype html> 
+| <!doctype html>
 html
   head
     meta[charset="utf-8"]
@@ -7,6 +7,7 @@ html
       = page_title
     meta[name="description" content="#{page_description}"]
     = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
+    meta[name="google-site-verification" content="1PeiHaq_mDiuRL5xVm8MudEecmLupcJyJUBGIvqUbVs"]
     /[if lt IE 9]
       = javascript_include_tag "ie8"
     = stylesheet_link_tag "all"
@@ -26,7 +27,7 @@ html
             hr
             p
               span.glyphicon.glyphicon-time
-              |  Posted on 
+              |  Posted on
               = current_article.date.strftime('%b %e')
             hr
             - if current_article.data.image_src
@@ -44,6 +45,6 @@ html
                     = article.date.strftime('%b %e')
           hr
             p.text-center
-              | 2014 
-              = link_to "#{site_title}", "/"          
+              | 2014
+              = link_to "#{site_title}", "/"
     = javascript_include_tag  "all"
