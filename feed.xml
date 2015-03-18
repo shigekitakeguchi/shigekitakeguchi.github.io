@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog title</title>
+  <subtitle>Blog description</subtitle>
+  <id>http://blog.url.com</id>
+  <link href="http://blog.url.com"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2015-03-10T01:52:18Z</updated>
+  <author>
+    <name>Blog author</name>
+  </author>
+  <entry>
+    <title>Storyboardを使用しないSwiftでアプリを準備する。</title>
+    <link rel="alternate" href="http://blog.url.com/2015/03/10/storyboardswift.html"/>
+    <id>http://blog.url.com/2015/03/10/storyboardswift.html</id>
+    <published>2015-03-10T01:52:18Z</published>
+    <updated>2015-03-16T11:01:29+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;ObjCで作っていたiOSアプリをSwiftで作り直そうとしたらXcode 6からEmpty Applicationのテンプレートがなくなっていた。
+なのでSingle View ApplicationのテンプレートをベースにStoryboardを使用しないアプリを作っていく。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.flickr.com/photos/shigeki_takeguchi/16092695304" title="スクリーンショット 2015-03-04 23.54.36 by shigeki takeguchi, on Flickr"&gt;&lt;img src="https://farm9.staticflickr.com/8674/16092695304_1d75be976e_z.jpg" width="640" height="453" alt="スクリーンショット 2015-03-04 23.54.36"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;「Create a new Xcode project」を選び、テンプレートを選択する画面で「iOS」→「Application」で「Single View Application」を選ぶ。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.flickr.com/photos/shigeki_takeguchi/16528887759" title="スクリーンショット 2015-03-04 23.54.49 by shigeki takeguchi, on Flickr"&gt;&lt;img src="https://farm9.staticflickr.com/8562/16528887759_4d28634277_z.jpg" width="640" height="453" alt="スクリーンショット 2015-03-04 23.54.49"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Product Nameは任意の名前を入力し、Languageは「Swift」を選び、次の画面で保存先を選んで保存。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.flickr.com/photos/shigeki_takeguchi/16715016725" title="スクリーンショット 2015-03-04 23.55.23 by shigeki takeguchi, on Flickr"&gt;&lt;img src="https://farm9.staticflickr.com/8681/16715016725_f202c3448f_z.jpg" width="640" height="453" alt="スクリーンショット 2015-03-04 23.55.23"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Project、General画面でMain Interfaceの値から「Main」を消す。これはMain.storyboardを起動時に読み込まないようにしている。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.flickr.com/photos/shigeki_takeguchi/16507727767" title="スクリーンショット 2015-03-04 23.55.58 by shigeki takeguchi, on Flickr"&gt;&lt;img src="https://farm9.staticflickr.com/8574/16507727767_f62c40a66e_z.jpg" width="640" height="453" alt="スクリーンショット 2015-03-04 23.55.58"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;不要になったMain.storyboardを削除する。参照だけではなくゴミ箱へ移動させてしまう。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.flickr.com/photos/shigeki_takeguchi/16715011135" title="スクリーンショット 2015-03-04 23.56.42 by shigeki takeguchi, on Flickr"&gt;&lt;img src="https://farm9.staticflickr.com/8670/16715011135_8064fce2c7_z.jpg" width="640" height="453" alt="スクリーンショット 2015-03-04 23.56.42"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;以前のXcodeであったEmpty Applicationから作成したアプリのようになる。&lt;/p&gt;
+
+&lt;p&gt;ViewController.swiftを追加。またUINavigationControllerのrootViewControllerにViewControllerを追加した方がナビゲーションバーやステータスバー、遷移など後々やりやすくなるのでその記述もする。&lt;/p&gt;
+
+&lt;pre class="theme:sublime-text font-size:12 line-height:16 lang:swift decode:true"&gt;
+
+import UIKit
+
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+
+  var window: UIWindow?
+  var navigationController: UINavigationController?
+
+  func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -&amp;gt; Bool {
+    window = UIWindow(frame: UIScreen.mainScreen().bounds)
+    window!.makeKeyAndVisible()
+    var viewController: ViewController? = ViewController()
+    navigationController = UINavigationController(rootViewController: viewController!)
+    window!.rootViewController = navigationController
+    return true
+  }
+
+  func applicationWillResignActive(application: UIApplication) {
+  }
+
+  func applicationDidEnterBackground(application: UIApplication) {
+  }
+
+  func applicationWillEnterForeground(application: UIApplication) {
+  }
+
+  func applicationDidBecomeActive(application: UIApplication) {
+  }
+
+  func applicationWillTerminate(application: UIApplication) {
+  }
+}
+&lt;/pre&gt;
+
+&lt;p&gt;Objective-Cの時にはこんな記述だった。
+AppDelegate.h
+&lt;pre class="theme:sublime-text font-size:12 line-height:16 lang:objc decode:true " &gt;
+#import &amp;lt;UIKit/UIKit.h&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;@class RootViewController;&lt;/p&gt;
+
+&lt;p&gt;@interface AppDelegate : UIResponder
+&amp;lt;UIApplicationDelegate&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;@property( strong, nonatomic )UIWindow *window;
+@property( strong, nonatomic )RootViewController *viewController;&lt;/p&gt;
+
+&lt;p&gt;@end&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;AppDelegate.m&lt;/p&gt;
+
+&lt;pre class="theme:sublime-text font-size:12 line-height:16 lang:objc decode:true " &gt;#import "AppDelegate.h"
+#import "ViewController.h"
+
+@interface AppDelegate ()
+@end
+
+@implementation AppDelegate
+
+- (BOOL)application:(UIApplication *)application
+didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+  self.viewController = [[ViewController alloc] init];
+  UINavigationController *naviController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+  self.window.rootViewController = naviController;
+  [self.window makeKeyAndVisible];
+  return YES;
+}
+
+- (void)applicationWillResignActive:(UIApplication *)application
+{
+}
+
+- (void)applicationDidEnterBackground:(UIApplication *)application
+{
+}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application
+{
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+}
+
+@end&lt;/pre&gt;
+</content>
+  </entry>
+  <entry>
+    <title>使いやすくするための何か。</title>
+    <link rel="alternate" href="http://blog.url.com/2013/07/09/.html"/>
+    <id>http://blog.url.com/2013/07/09/.html</id>
+    <published>2013-07-09T22:51:21Z</published>
+    <updated>2015-03-16T11:01:29+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;スマートフォンアプリは使いやすくないといけないとよく言われますが、では具体的には何をどうすれば使いやすくなるんでしょうかね？
+それをメモ書きのような感じで書いていけたらと思いました。
+なぜにそんなことを書こうと思ったかというと身近なところでえらく使い勝手の悪いスマホアプリが作られていたからです。
+そのアプリなんですが視覚的には決して雑で品質が悪いようには見えなかったんですがいざ使ってみるとまったくもって使い勝手が悪くて自分がやりたい操作ができませんでした。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.flickr.com/photos/shigeki_takeguchi/16801740261" title="Untitled by shigeki takeguchi, on Flickr"&gt;
+&lt;img src="https://farm8.staticflickr.com/7655/16801740261_0415b9db53_z.jpg" width="640" height="304" alt="Untitled"&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;日頃、スマホにインストールするアプリってだいたいが評判の良いアプリに偏っていきます。
+毎日、たくさんのアプリがストアで公開されています。
+その中からあれこれ探してインストールするアプリを決めることはほとんどなくなってしまいました。
+だいたいが「これいいよ、使ってみなよ」という口こみでインストールして使います。
+だからだろうと思いますが、日常的に使い勝手のよくないアプリに出会うことが希になっていますね。
+なのですっかり使い勝手のよくないアプリの存在がないものとして、すっかり安心していました。&lt;/p&gt;
+
+&lt;p&gt;そんなことはあるはずもなく相変わらず、ほとんどのアプリが使い勝手の悪いんだなと実感しました。
+そして自分もそういうアプリに関わることがあるんだなと思いました。&lt;/p&gt;
+
+&lt;p&gt;それを避けるために何かできることが具体的にないものなんですかね？&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>愚にもつかないことを書きはじめて3日目。</title>
+    <link rel="alternate" href="http://blog.url.com/2013/07/07/3.html"/>
+    <id>http://blog.url.com/2013/07/07/3.html</id>
+    <published>2013-07-07T13:30:57Z</published>
+    <updated>2015-03-16T11:01:29+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;ったく少しは意義のあること書けないものかと思うんですけど、これと行ってやっぱりあまり思いつかないのでしかたがないもんですね。
+どうも梅雨が明けたらしく、起きたら夏がやってきてました。起きぬけにシーツやらを洗濯して干すためにベランダに出たらうだりました。ベランダが東向きということもあって朝がもっとも日光が注ぎまして暑いわけです。なのでさっそく今日は出かける気が失せました。でもって、なぜか今日はずっと１日中眠くて起きては寝てを何度か繰り返してしまいました。
+自覚はないですが寝不足だったんですかねぇ、それなりに寝てたと思うのでまったくのなぞです。&lt;/p&gt;
+
+&lt;p&gt;起きてるといってもソファでごろっとなりながら本を読んでました。ここのところずっとKindleで本を読んでたんですが物理的なのしかない本を数冊買ってしまいました。本来ならKindle本だけ紹介しようと思ってましたが物理的な本を読み始めたのでそれを紹介します。&lt;/p&gt;
+
+&lt;div class="amazon-wrapper"&gt;
+&lt;p class="amazon-image"&gt;
+&lt;a href="http://www.amazon.co.jp/gp/product/4822249468/ref=as_li_ss_il?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=4822249468&amp;linkCode=as2&amp;tag=uuuu-22"&gt;&lt;img border="0" src="http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=4822249468&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=JP&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=uuuu-22" &gt;&lt;/a&gt;&lt;img src="http://ir-jp.amazon-adsystem.com/e/ir?t=uuuu-22&amp;l=as2&amp;o=9&amp;a=4822249468" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;
+&lt;/p&gt;
+&lt;p class="amazon-text"&gt;
+&lt;a href="http://www.amazon.co.jp/gp/product/4822249468/ref=as_li_ss_tl?ie=UTF8&amp;camp=247&amp;creative=7399&amp;creativeASIN=4822249468&amp;linkCode=as2&amp;tag=uuuu-22"&gt;Yコンビネーター   シリコンバレー最強のスタートアップ養成スクール&lt;/a&gt;&lt;img src="http://ir-jp.amazon-adsystem.com/e/ir?t=uuuu-22&amp;l=as2&amp;o=9&amp;a=4822249468" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;この手の記者が書いたドキュメンタリー的な本はアメリカ人ってうまいですね。
+（あ、そういえばアメリカ人と日本人以外がこの手の取材したのをまとめるって習慣がないのかあまり人気がないんですかね？）
+Googleのことを取材して書いた本も面白かったですが、取材する人がうまい距離を置いて抑制の効いた感じで書くからか読んでいて不快にならないところがいいですね。どうもそんな気がします。気持ちが入ってたりすると軽く読めないので面白くないですが、こうやって書けるところが面白いですね。ただ難を言えばあまり参考にならないし考えを深めたり試行錯誤の糧というかにはならない感じです。あーシリコンバレーでスタートアップするってこういう感じなのかなー以上ではないといった感じです。
+あと取材が数年前なのでその後閉じてしまったサービスとかが紹介されてたりもあってスタートアップの難しさというか確率の低さをあらためて痛感します。DropboxやHerokuは特殊な存在なんだなーと思います。&lt;/p&gt;
+
+&lt;p&gt;日本でこれからサービス作ってやるぜとか起業してやるぜとか思っている人には参考になるような感じでもないですね。
+そういうのは期待しない方がよいです。ポール・グレアムの文章読んだ方がいいでしょうね。&lt;/p&gt;
+
+&lt;p&gt;紹介するんだからもっとほめといた方がいいんかなと思いながら書きました。&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>今日やったことなど。</title>
+    <link rel="alternate" href="http://blog.url.com/2013/07/06/.html"/>
+    <id>http://blog.url.com/2013/07/06/.html</id>
+    <published>2013-07-06T15:30:01Z</published>
+    <updated>2015-03-16T11:01:29+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;まずは毎日書くことから再開してみたろうということであまり内容はありませんがリハビリ的に文章書きます。&lt;/p&gt;
+
+&lt;p&gt;ずっとアップデートしようと思ってコード書いたりデザインしてたアプリをひとつアップルへ審査いれました。
+かなり間が空いてしまったけどようやくといった感じです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.flickr.com/photos/shigeki_takeguchi/16616726889" title="Untitled by shigeki takeguchi, on Flickr"&gt;&lt;img src="https://farm9.staticflickr.com/8691/16616726889_ed4f76c735_z.jpg" width="640" height="480" alt="Untitled"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;前回が昨年の10月でしたので半年以上といった感じになってしまいました。
+この勢いで気になっているアプリをもうひとつアップデートしたいところです。
+毎月、何かしらアップデートやら新規で公開やらといったペースにしていこうと思ってます。要は習慣にしないといけませんね。
+何事もこつこつと続けるような体質にしないとです。&lt;/p&gt;
+
+&lt;p&gt;あとは歯医者に行ってきました。
+あまり医者に通うってことがなかったんですがここのところ毎週のように治療にいってます。
+なので任意継続していた健康保険が先月で終了というのに気づきました。
+失効の紙が届いたので急いで金曜日に区役所へ行ってきたんですが、あいかわらず閑散としていてこれって中央区役所だけなのかな？と思いながらこんなに人が少ない区役所は珍しいんじゃないかと思ってますがどうなんですかね？&lt;/p&gt;
+
+&lt;p&gt;しかしフリーランスも思ったよりも長く続いている気がします。組織を作るか属するかするかと思っていましたがこの気楽さにすっかり親しんだというか慣れたというか、ずるずるとやれてますね。大丈夫だろうかと思いながらも悪くないと思ってます。
+でも、税金やらのことを考えるとそろそろ会社にしないといけないのかと思ってます。&lt;/p&gt;
+
+&lt;p&gt;あとは本を読んでます。物理的な本です。
+これチューハイを飲みながら書いてるんですがそろそろ酔いが回ってきました。
+本のことは機会があれば書きます。&lt;/p&gt;
+
+&lt;p&gt;では、みなさんお休みなさいませ。&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>ブログ、ご無沙汰しております。</title>
+    <link rel="alternate" href="http://blog.url.com/2013/07/05/.html"/>
+    <id>http://blog.url.com/2013/07/05/.html</id>
+    <published>2013-07-05T14:07:42Z</published>
+    <updated>2015-03-16T11:01:29+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;どうも引越ししてからというもの、文章を書くという習慣をすっかり失ってしまいました。
+もやもやと書こうかなという気になってみたりしましたがどうも最後まで到達せず削除してしまって公開にまで至らずといった感じでした。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.flickr.com/photos/shigeki_takeguchi/8574278330" title="Untitled by shigeki takeguchi, on Flickr"&gt;&lt;img src="https://farm9.staticflickr.com/8090/8574278330_b034db96ee_z.jpg" width="640" height="480" alt="Untitled"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;４月以降も福島はいわき市、新潟は長岡、そして四国は愛媛の松山へ旅行に行ったりして旅の記録などでも書こうかな〜、などとゆるくだらだらとしているうちにすっかり月日がたってしまい、えーと何だっけ？状態へと邁進してしまって書けなくなってしまいました。&lt;/p&gt;
+
+&lt;p&gt;このままずーっと書かないってのもありなんですが、技術的なことや、あれこれ考えていることをちゃんとまとめるってのが必要なんじゃないのか？思ってた以上に重要なことだったんじゃないのか？などと思ってですね、ですのでそろそろリハビリをかねて書いてみるか、と思ってこうやって書き始めたというわけです。&lt;/p&gt;
+
+&lt;p&gt;目黒にあるソーシャルゲームの会社にもそろそろ半年いることになって思ってた以上に通勤できる人なんじゃないのかと自分のことを見直してみてあらためて褒めています。
+しかしソーシャルゲームの業界もいろいろあるもんですね。まったくと言っていいほどゲームしてない、ゲーム業界興味ないといった状態でしたが少し面白みもわかってきました。そのあたりの雑感なんかも書きたかったりするわけです。&lt;/p&gt;
+
+&lt;p&gt;というわけで、あいかわらずだらだらと書いていこうと思ってますのでよろしくお願いいたします。&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>ミロクローゼをやっと観た。</title>
+    <link rel="alternate" href="http://blog.url.com/2013/03/30/.html"/>
+    <id>http://blog.url.com/2013/03/30/.html</id>
+    <published>2013-03-30T12:34:14Z</published>
+    <updated>2015-03-16T11:01:29+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;iframe width="490" height="315" src="http://www.youtube.com/embed/BX0BGvpae8A" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;script type="text/javascript" src="http://ext.nicovideo.jp/thumb_watch/1354694593?w=490&amp;amp;h=307"&gt;&lt;/script&gt;
+&lt;noscript&gt;&lt;a href="http://www.nicovideo.jp/watch/1354694593"&gt;【ニコニコ動画】besson dance Ⅰ&lt;/a&gt;&lt;/noscript&gt;
+&lt;/p&gt;
+
+&lt;p&gt;公開から数ヶ月、やっと観れました。&lt;br /&gt;やっぱりというぺきなのか、熊谷ベッソンのノリというかテンションとダンスシーンが気に入りました。&lt;br /&gt;これが&lt;a href="http://www.milocrorze.jp/theater.html"&gt;劇場情報&lt;/a&gt;です。DVDも出るとのことなので、そちらでも楽しめます。&lt;br /&gt;
+東京近郊ですと5月終わりに品川でも上映されるとのこと。山田孝之って役者さん、ファンになりました。&lt;/p&gt;
+</content>
+  </entry>
+</feed>
