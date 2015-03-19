@@ -22,3 +22,4 @@ gem "nokogiri", "~> 1.6.6.2"
 # For feed.xml.builder/sitemap.xml.builder
 gem "builder", "~> 3.0"
 gem "middleman-syntax"
+gem "middleman-alias"

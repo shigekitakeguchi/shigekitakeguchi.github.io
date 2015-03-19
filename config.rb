@@ -119,6 +119,8 @@ set :css_dir, 'css'
 set :js_dir, 'js'
 set :images_dir, 'images'
 
+activate :syntax, :line_numbers => true
+
 after_configuration do
   @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
   Dir.glob(File.join("#{root}", @bower_config["directory"], "*", "fonts")) do |f|
@@ -182,5 +184,3 @@ activate :deploy do |deploy|
   deploy.method = :git
   deploy.branch = 'master'
 end
-
-activate :syntax, :line_numbers => true
