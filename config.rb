@@ -119,7 +119,9 @@ set :css_dir, 'css'
 set :js_dir, 'js'
 set :images_dir, 'images'
 
-activate :syntax, :line_numbers => true
+activate :syntax
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 after_configuration do
   @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))

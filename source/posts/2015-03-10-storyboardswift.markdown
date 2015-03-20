@@ -28,10 +28,8 @@ Project、General画面でMain Interfaceの値から「Main」を消す。これ
 
 ViewController.swiftを追加。またUINavigationControllerのrootViewControllerにViewControllerを追加した方がナビゲーションバーやステータスバー、遷移など後々やりやすくなるのでその記述もする。
 
-<% code("swift") do %>
 
-<pre class="highlight swift">
-
+```swift
 import UIKit
 
 @UIApplicationMain
@@ -40,7 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var window: UIWindow?
   var navigationController: UINavigationController?
 
-  func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -&gt; Bool {
+  func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) ->; Bool {
     window = UIWindow(frame: UIScreen.mainScreen().bounds)
     window!.makeKeyAndVisible()
     var viewController: ViewController? = ViewController()
@@ -64,12 +62,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func applicationWillTerminate(application: UIApplication) {
   }
 }
-</pre>
+```
 
 Objective-Cの時にはこんな記述だった。
 AppDelegate.h
-<pre class="highlight objc" >
-\#import &lt;UIKit/UIKit.h&gt;
+
+```objc
+#import &lt;UIKit/UIKit.h&gt;
 
 @class RootViewController;
 
@@ -79,11 +78,13 @@ AppDelegate.h
 @property( strong, nonatomic )UIWindow *window;
 @property( strong, nonatomic )RootViewController *viewController;
 
-@end</pre>
+@end
+```
 
 AppDelegate.m
 
-<pre class="theme:sublime-text font-size:12 line-height:16 lang:objc decode:true " >#import "AppDelegate.h"
+```objc
+#import "AppDelegate.h"
 #import "ViewController.h"
 
 @interface AppDelegate ()
@@ -122,4 +123,5 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 }
 
-@end</pre>
+@end
+```
