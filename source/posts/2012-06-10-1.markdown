@@ -1,7 +1,7 @@
 ---
 title: ウェブフォントでアイコンを表示するってのを使ってみた。
 date: 2012-06-10 01:56:55
-tags: htmlcss, web-designing, 
+tags: htmlcss, web-designing,
 ---
 <a href="zoomone.net" title="zoomone.net"><img src="http://farm8.staticflickr.com/7221/7170852371_20f21dc9c9.jpg" width="500" height="238" alt=""></a>
 <p>アイコン用のウェブフォントを読み込んでアイコンを表示するってのをやってみた。何て言われてるんだろう、一般的に。<br>
@@ -13,7 +13,9 @@ Facebook、Twitter、Email、Blogなどの先頭にあるアイコンがそれ�
 フロントエンド側のHTMLやらCSSやらが苦手な人でも使えるようにTwitter Bootstrapってのに対応してるのが売りらしいけど、普通に使える。</p>
 
 <p>Font Awesomeは、シンプルな使い方をする場合は以下のようにするだけ。
-[cc lang="css"]
+
+```css
+
 @font-face {
   font-family: 'FontAwesome';
   src: url('../font/fontawesome-webfont.eot');
@@ -21,7 +23,8 @@ Facebook、Twitter、Email、Blogなどの先頭にあるアイコンがそれ�
   font-weight: normal;
   font-style: normal;
 }
-[/cc]
+```
+
 「font-awesome.css」っていうCSS内の@font-face内のフォントファイルへのパスを書き換えること。上記のような記述がコメントの後にあるので自分の環境にあわせて書き換える。<a href="http://zoomone.net" target="_blank">zoomone.net</a>の場合はドキュメントルートに「/fontawesome/」というディレクトリを作ってその中に「font」ディレクトリを作ってフォントファイルを置いたので以下のように書き換えた。必要なのはフォントデータの形式って（.eot、.woff、.ttf、.svg）これだけあるってのが驚き。<br>
 [cc lang="css"]
 @font-face {

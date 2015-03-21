@@ -15,13 +15,14 @@ tags: cocoa-touch, ios-app, objective-c, xcode,
 ちまたで話題のiOSフレームワーク「<a href="http://nimbuskit.info/">NimbusKit</a>」を利用するプロジェクトを作っていきます。
 まずはNimbusフレームワークがあるかどうかを調べます。対応しているとどんなバージョンがあるのかなどがわかります。
 Terminalを起動して以下のように入力して最後にenter（return）ですね。
-[cc lang="teraterm"]
-<pre>
+
+```shell
 $ pod search 'Nimbus'
-</pre>
+```
 
 以下が検索結果です。
-<pre>
+
+```shell
 -> Nimbus (1.0.0)
    An iOS framework whose growth is bounded by O(documentation).
    - Homepage: http://docs.nimbuskit.info/index.html
@@ -43,7 +44,7 @@ $ pod search 'Nimbus'
          - Nimbus/Operations (1.0.0)
          - Nimbus/Operations/JSON (1.0.0)
          - Nimbus/WebController (1.0.0)
-</pre>
+```
 
 <p><img src="http://farm9.staticflickr.com/8362/8309747906_4ba577f9ec.jpg" alt="" /></p>
 
