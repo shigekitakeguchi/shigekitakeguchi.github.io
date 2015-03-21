@@ -43,3 +43,10 @@ pre {
     font-weight: lighter !important;
   }
 }
+
+.amazon-wrapper {
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin-bottom: 12px;
+  @include border-radius(6px);
+}

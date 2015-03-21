@@ -35,7 +35,7 @@ myCircle.fillColor = '#000000';
 </script>
 <canvas id="myCanvas" style="background: #eee;" class="mt15p"></canvas>
 ```
-<p class="mt15p">上の黒い丸を描画しているのが以下のスクリプトを実行した結果。</p>
+<p class="mt15p">上の黒い丸を描画しているのが以下のスクリプトを実行した結果。
 
 ```javascript
 var myView = new View("myCanvas");
@@ -43,7 +43,7 @@ myView.viewSize = new Size(500, 300);
 var myCircle = new Path.Circle(myView.center, 50);
 myCircle.fillColor = '#000000';
 ```
-<p>ちょっと解説すると以下はcanvas要素の大きさを設定している。canvasってCSSで幅と高さを指定すると単純に拡大されたり縮小されたりして変な描画になってしまうの？style属性でwidthとheightでPixel指定したら駄目なのかな？なのでwidth、height属性で指定か以下のような指定をする。</p>
+ちょっと解説すると以下はcanvas要素の大きさを設定している。canvasってCSSで幅と高さを指定すると単純に拡大されたり縮小されたりして変な描画になってしまうの？style属性でwidthとheightでPixel指定したら駄目なのかな？なのでwidth、height属性で指定か以下のような指定をする。
 
 ```javascript
 var myView = new View("myCanvas");
@@ -57,6 +57,6 @@ myView.viewSize = new Size(500, 300);
 var myCircle = new Path.Circle(myView.center, 50);
 myCircle.fillColor = '#000000';
 ```
-<p>これでベクターベースの形を描画できるようになる。<br />
+これでベクターベースの形を描画できるようになる。<br />
 ちょっと面白くなってきたのでアニメーションのこと、レイヤーのことなども書いていこうと思う。<br />
-次は簡単なアニメーションのやり方かな？</p>
+次は簡単なアニメーションのやり方かな？
