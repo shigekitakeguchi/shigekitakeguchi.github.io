@@ -55,6 +55,7 @@ page "/sitemap.xml", layout: false
 
 # Slim settings
 Slim::Engine.set_default_options :pretty => true
+Slim::Engine.disable_option_validator!
 # shortcut
 Slim::Engine.set_default_options :shortcut => {
   '#' => {:tag => 'div', :attr => 'id'},

@@ -4,6 +4,7 @@
 @import "imports";
 @import "compass";
 @import "syntax_highlight";
+
 @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300);
 
 body {
@@ -49,4 +50,31 @@ pre {
   padding: 12px;
   margin-bottom: 12px;
   @include border-radius(6px);
+}
+
+@media only screen and (max-width: 479px) {
+  html, body {
+    overflow-x: hidden;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  .container {
+    padding: 0 10px
+  }
+  .navbar-toggle {
+    display: none;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  img {
+    max-width: 300px;
+    height: auto;
+  }
+  pre {
+    overflow: scroll;
+    code {
+      white-space: pre;
+    }
+  }
 }

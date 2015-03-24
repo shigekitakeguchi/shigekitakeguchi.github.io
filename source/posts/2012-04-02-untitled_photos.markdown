@@ -13,7 +13,6 @@ tags: log,
 
 でも枯れたあじさいはいいなと思いました。
 
-
 <a href="http://www.flickr.com/photos/shigeki_takeguchi/7026875211/" title="Untitled by shigeki.takeguchi, on Flickr"><img src="http://farm8.staticflickr.com/7048/7026875211_5e8e50f4f4.jpg" width="500" height="375" alt=""></a>
 
 <a href="http://www.flickr.com/photos/shigeki_takeguchi/7026887473/" title="Untitled by shigeki.takeguchi, on Flickr"><img src="http://farm8.staticflickr.com/7083/7026887473_b8fe27a1d8.jpg" width="500" height="375" alt=""></a>

@@ -5,6 +5,7 @@ html
     meta[http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"]
     title
       = page_title
+    meta[name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"]
     meta[name="description" content="#{page_description}"]
     = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
     meta[name="google-site-verification" content="1PeiHaq_mDiuRL5xVm8MudEecmLupcJyJUBGIvqUbVs"]
