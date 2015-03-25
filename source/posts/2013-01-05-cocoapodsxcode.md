@@ -1,11 +1,11 @@
 ---
-title: CocoaPodsを使ったXcodeプロジェクトの作り方（３）
-date: 2013-01-05 12:53:18
+title: CocoaPodsを使ったXcodeプロジェクトの作り方（４）
+date: 2013-01-05
 tags: about-programing, cocoa-touch, ios-app, objective-c, xcode,
 ---
 
-３回目ですね。前回からの続きです。<br>
-今回はここままでで、これで設定は終了。<br>
+４回目ですね。ビルド実行してコンパイルして確認します。<br>
+これで設定は終了。<br>
 これを終えると正しくコンパイルができるようになります。<br>
 これをやっておくと全くいつもどおりにライブラリ、フレームワークを使用することができます。
 
@@ -25,5 +25,3 @@ tags: about-programing, cocoa-touch, ios-app, objective-c, xcode,
 
 ビルドが成功すると「Build Successed」と表示され「Frameworks」内に赤字で表示されていた「libPods.a」が黒字で表示されます。
 これで静的ライブラリである「libPods.a」を使用することができるようになりました。
-
-

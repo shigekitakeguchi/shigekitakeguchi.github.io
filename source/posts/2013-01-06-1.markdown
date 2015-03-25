@@ -19,5 +19,3 @@ tags: log,
 <a href="http://www.flickr.com/photos/shigeki_takeguchi/8328966982/in/photostream"><img src="http://farm9.staticflickr.com/8075/8328966982_3647d12964.jpg" alt="" /></a>
 
 <a href="http://www.flickr.com/photos/shigeki_takeguchi/8327913989/in/photostream"><img src="http://farm9.staticflickr.com/8355/8327913989_fd7b1668bf.jpg" alt="" /></a>
-
-
