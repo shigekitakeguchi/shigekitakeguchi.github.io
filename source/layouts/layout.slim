@@ -34,6 +34,7 @@ html
               img.img-responsive src=current_article.data.image_src
               hr
           = yield
+
         = partial "partials/sidebar"
       aside
         h3
@@ -44,7 +45,27 @@ html
               = link_to article.title, article
               span<>
                 = article.date.strftime('%b %e')
+        hr
+        - if defined?(settings[:disqus_shortname]) && settings[:disqus_shortname]
+          #disqus_thread
+
+          javascript:
+            var disqus_shortname = '#{disqus_shortname}';
+            (function() {
+              var dsq = document.createElement('script');
+              dsq.type = 'text/javascript';
+              dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0]
+              || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+
+          noscript
+            p
+              Please enable JavaScript to view the
+              a href: "http://disqus.com/?ref_noscript" comments powered by Disqus.
       hr
         p.text-center
           | &copy; 2012 shigeki.takeguchi
+
     = javascript_include_tag  "all"

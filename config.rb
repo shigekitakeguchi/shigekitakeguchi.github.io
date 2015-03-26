@@ -133,6 +133,7 @@ after_configuration do
   sprockets.append_path File.join "#{root}", @bower_config["directory"]
 end
 
+set :disqus_shortname, "shigekitakeguchilog"
 
 ###
 # Target settings
