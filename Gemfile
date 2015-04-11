@@ -4,7 +4,7 @@ source 'http://rubygems.org'
 
 gem "middleman", "~> 3.2.2"
 gem "middleman-blog", "~> 3.5.1"
-gem "middleman-target", "~> 0.0.6"
+#gem "middleman-target", "~> 0.0.6"
 gem "middleman-deploy", "~> 0.1.4"
 
 # Live-reloading plugin

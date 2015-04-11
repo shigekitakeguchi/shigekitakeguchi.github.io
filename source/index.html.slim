@@ -12,7 +12,7 @@ per_page: 10
   hr
   p
     span.glyphicon.glyphicon-time
-    |  Posted on 
+    |  Posted on
     = article.date.strftime('%b %e')
   hr
   - if article.data.image_src
@@ -31,9 +31,9 @@ per_page: 10
           li.previous
             = link_to '&larr;', prev_page
         span.text-center
-          | Page 
+          | Page
           = page_number
-          |  of 
+          |  of
           = num_pages
         - if page_number < num_pages
           li.next
