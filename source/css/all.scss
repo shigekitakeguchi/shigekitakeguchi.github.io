@@ -69,6 +69,58 @@ pre {
   @include border-radius(6px);
 }
 
+
+.itunes-link {
+  a {
+    display: block;
+    border: 1px solid #ccc;
+    @include border-radius(6px);
+    padding: 12px;
+    margin-bottom: 12px;
+    .image {
+      float: left;
+      margin-right: 12px;
+    }
+    .trackName {
+      font-size: 120%;
+      margin-bottom: 8px;
+    }
+    .longDescription {
+      font-size: 90%;
+      color: #666;
+    }
+    .textWrap {
+      float: left;
+      width: 86%;
+    }
+    &:hover {
+      border: 1px solid #666;
+    }
+    &::after {
+      content: " ";
+      clear: both;
+      display: block;
+      visibility: hidden;
+      height: 0;
+      font-size: 0;
+    }
+    p {
+      margin: 0;
+    }
+    .priceWrap {
+      margin-bottom: 8px;
+    }
+    .rentalPrice {
+      font-size: 90%;
+      color: #666;
+    }
+    .price {
+      font-size: 90%;
+      color: #666;
+    }
+  }
+}
+
 @media only screen and (max-width: 479px) {
   html, body {
     overflow-x: hidden;
@@ -92,6 +144,32 @@ pre {
     overflow: scroll;
     code {
       white-space: pre;
+    }
+  }
+  .itunes-link {
+    a {
+      .image {
+        float: none;
+        margin-bottom: 12px;
+      }
+      .textWrap{
+        float: none;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 788px) {
+  .itunes-link {
+    a {
+      .image {
+        float: none;
+        margin-bottom: 12px;
+      }
+      .textWrap{
+        float: none;
+      }
     }
   }
 }
