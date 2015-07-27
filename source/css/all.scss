@@ -121,6 +121,62 @@ pre {
   }
 }
 
+.review {
+  font-size: 80%;
+  margin-top: 12px;
+  line-height: 1;
+}
+
+.review-author {
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.review-rating {
+  display: inline-block;
+  width: 60px;
+  height: 1.2em;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: url(/images/grade6.gif) no-repeat;
+  margin: 0 4px;
+}
+
+.rating-0 {
+  background-position: -47px -7px;
+}
+.rating-1 {
+  background-position: -137px -7px;
+}
+.rating-2 {
+  background-position: -225px -7px;
+}
+.rating-3 {
+  background-position: -313px -7px;
+}
+.rating-4 {
+  background-position: -47px -37px;
+}
+.rating-5 {
+  background-position: -137px -37px;
+}
+.rating-05 {
+  background-position: -225px -37px;
+}
+.rating-15 {
+  background-position: -313px -37px;
+}
+.rating-25 {
+  background-position: -47px -68px;
+}
+.rating-35 {
+  background-position:  -137px -68px;
+}
+.rating-45 {
+  background-position: -225px -68px;
+}
+
 @media only screen and (max-width: 479px) {
   html, body {
     overflow-x: hidden;
