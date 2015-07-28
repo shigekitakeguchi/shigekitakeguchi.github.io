@@ -11,6 +11,14 @@ body {
   margin-top: $marginTopBody;
 }
 
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  margin-top: 10px;
+}
+
 .redirect-link {
   margin-top: 30px;
   font-size: 120%;
@@ -68,7 +76,6 @@ pre {
   margin-bottom: 12px;
   @include border-radius(6px);
 }
-
 
 .itunes-link {
   a {
