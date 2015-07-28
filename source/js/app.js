@@ -13,7 +13,7 @@
         success: function(json){
           console.log(json['results'][0]);
           var htmlElement = '<a href="' + json['results'][0]['trackViewUrl'] + '&at=1010l55r' + '">' + '\n';
-          htmlElement += '<p class="image"><img src="' + json['results'][0]['artworkUrl100'] + '" width="67" height="100"></p>' + '\n';
+          htmlElement += '<p class="image"><img src="' + json['results'][0]['artworkUrl100'] + '"></p>' + '\n';
           htmlElement += '<div class="textWrap"><p class="trackName">' + json['results'][0]['trackName'] + '</p>' + '\n';
           htmlElement += '<div class="priceWrap">';
           if(json['results'][0]['trackHdPrice'] !== undefined){
@@ -23,9 +23,11 @@
             htmlElement += '<p class="rentalPrice">￥' + json['results'][0]['trackHdRentalPrice'] + ' HDレンタル</p>' + '\n';
           }
           htmlElement += '</div>' + '\n';
-          htmlElement += '<p class="longDescription">' + json['results'][0]['longDescription'] + '</p></div>' + '\n';
-
-          htmlElement += '</a>';
+          if(json['results'][0]['longDescription'] !== undefined){
+            htmlElement += '<p class="longDescription">' + json['results'][0]['longDescription'] + '</p>' + '\n';
+          }
+          htmlElement += '<p><img src="/images/iTunes_Badge_Small_44x15.png"></p>';
+          htmlElement += '</div></a>';
           element.append(htmlElement);
         }
       });

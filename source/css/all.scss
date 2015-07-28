@@ -86,7 +86,7 @@ pre {
     margin-bottom: 12px;
     .image {
       float: left;
-      margin-right: 12px;
+      margin: 0 12px 12px 0;
     }
     .trackName {
       font-size: 120%;
@@ -94,6 +94,7 @@ pre {
     }
     .longDescription {
       font-size: 90%;
+      margin-bottom: 8px;
       color: #666;
     }
     .textWrap {
