@@ -11,6 +11,11 @@ body {
   margin-top: $marginTopBody;
 }
 
+ul,
+ol {
+  padding-left: 20px;
+}
+
 .mb10 {
   margin-bottom: 10px;
 }
