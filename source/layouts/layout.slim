@@ -27,8 +27,8 @@ html
             hr
             p
               span.glyphicon.glyphicon-time
-              |  Posted on
-              = current_article.date.strftime('%b %e')
+              |  Posted on 
+              = current_article.date.strftime('%Y-%m-%d')
             hr
             - if current_article.data.image_src
               img.img-responsive src=current_article.data.image_src
@@ -44,7 +44,7 @@ html
             li
               = link_to article.title, article
               span<>
-                = article.date.strftime('%b %e')
+                = article.date.strftime('%Y-%m-%d')
         hr
         - if defined?(settings[:disqus_shortname]) && settings[:disqus_shortname]
           #disqus_thread

@@ -27,7 +27,7 @@ ul
     p
       span.glyphicon.glyphicon-time
       |  Posted on 
-      = article.date.strftime('%b %e')
+      = article.date.strftime('%Y-%m-%d')
     hr
     - if article.data.image_src
       img.img-responsive src=article.data.image_src
