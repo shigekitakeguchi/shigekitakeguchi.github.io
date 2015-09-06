@@ -24,7 +24,7 @@ ul
         small.label.label-default
           = tag
     hr
-    p
+    p.posted
       span.glyphicon.glyphicon-time
       |  Posted on 
       = article.date.strftime('%Y-%m-%d')
@@ -34,8 +34,8 @@ ul
       hr
     = article.summary
     a.btn.btn-primary href=article.url
-      | Read More
-      span.glyphicon.glyphicon-chevron-right
+      | もっと読む
+
     hr
 - if paginate
   - if next_page
