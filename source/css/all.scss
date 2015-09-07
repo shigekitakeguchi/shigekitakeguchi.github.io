@@ -9,6 +9,21 @@
 
 body {
   margin-top: $marginTopBody;
+  font-size: 16px;
+  line-height: 1.8;
+  background: #f5f8fa;
+  margin-top: 68px;
+}
+
+.col-lg-9 {
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #e1e8ed;
+}
+
+ul,
+ol {
+  padding-left: 20px;
 }
 
 .mb10 {
@@ -30,11 +45,11 @@ body {
 
 .navbar-inverse {
   background: #fff;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #e1e8ed;
   .navbar-brand {
     color: #666;
     font-family: "Georgia", "Times New Roman", serif;
-    font-size: 24px;
+    font-size: 26px;
   }
 }
 .navbar-inverse .navbar-brand:hover,
@@ -42,12 +57,31 @@ body {
   color: #999;
 }
 
+h1 {
+  font-size: 26px;
+}
+
+h3, .h3 {
+  font-size: 22px;
+}
+
 .well {
-  background-color: #fff;
-  border: none;
-  border-radius: 0;
+  border-radius: 4px;
+  border: 1px solid #e1e8ed;
   box-shadow: none;
-  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+
+.posted {
+  font-size: 14px;
+}
+
+.btn {
+  font-size: 12px;
+}
+
+.glyphicon-new-window {
+  font-size: 12px;
 }
 
 a:hover,
@@ -151,6 +185,10 @@ pre {
   margin: 0 4px;
 }
 
+.banner {
+  padding: 8px;
+}
+
 .rating-0 {
   background-position: -47px -7px;
 }
@@ -229,6 +267,9 @@ pre {
 }
 
 @media only screen and (max-width: 788px) {
+  .navbar-brand {
+    padding: 25px 15px;
+  }
   .itunes-link {
     a {
       .image {
