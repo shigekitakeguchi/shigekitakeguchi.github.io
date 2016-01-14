@@ -17,7 +17,7 @@ gem "slim", "~> 2.0.2"
 gem "redcarpet", "~> 3.1.1"
 
 # For blog summary
-gem "nokogiri", "~> 1.6.6.2"
+gem "nokogiri", "~> 1.6.7.1"
 
 # For feed.xml.builder/sitemap.xml.builder
 gem "builder", "~> 3.0"
