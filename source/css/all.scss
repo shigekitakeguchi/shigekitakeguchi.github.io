@@ -265,6 +265,24 @@ pre {
     }
   }
 }
+ul {
+  &.social-buttons {
+    padding: 8px;
+    list-style-type: none;
+    &::after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+    li {
+      float: left;
+      padding-right: 12px;
+    }
+    .twitter {
+      padding-top: 40px;
+    }
+  }
+}
 
 @media only screen and (max-width: 788px) {
   .navbar-brand {

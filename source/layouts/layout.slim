@@ -34,6 +34,16 @@ html
               img.img-responsive src=current_article.data.image_src
               hr
           = yield
+          = if is_blog_article? then
+            ul.social-buttons
+              li
+                a.hatena-bookmark-button data-hatena-bookmark-lang="ja" data-hatena-bookmark-layout="vertical-balloon" href="http://b.hatena.ne.jp/entry/http://shigekitakeguchi.com#{current_article.url}" title="このエントリーをはてなブックマークに追加"
+              li
+                .fb-share-button data-href="http://shigekitakeguchi.com#{current_article.url}" data-layout="box_count"
+              li
+                .g-plusone data-size="tall" data-href="http://shigekitakeguchi.com#{current_article.url}"
+              li.twitter 
+                a href="https://twitter.com/share" class="twitter-share-button" data-via="shigektakeguchi"
 
         = partial "partials/sidebar"
       aside
@@ -45,10 +55,9 @@ html
               = link_to article.title, article
               span<>
                 = article.date.strftime('%Y-%m-%d')
-        hr
+        hr        
         - if defined?(settings[:disqus_shortname]) && settings[:disqus_shortname]
           #disqus_thread
-
           javascript:
             var disqus_shortname = '#{disqus_shortname}';
             (function() {
@@ -69,3 +78,17 @@ html
           | &copy; 2012 shigeki.takeguchi
 
     = javascript_include_tag  "all"
+    script async="async" charset="utf-8" src="https://b.st-hatena.com/js/bookmark_button.js" type="text/javascript"
+    #fb-root
+    javascript:
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5&appId=143086195820241";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    script async="" defer="" src="https://apis.google.com/js/platform.js" 
+      | {lang: 'ja'}
+    javascript:
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
