@@ -108,7 +108,7 @@ activate :livereload
 set :site_url, 'http://shigekitakeguchi.com'
 set :site_author, 'shigeki.takeguchi'
 set :site_title, 'shigeki.takeguchi.log'
-set :site_description, 'newsfeed from shigeki.takeguchi. : digital artist and designer located in tokyo.'
+set :site_description, '食べること、地方都市、アプリ作るための技術などつらつらと書いていきます'
 # Select the theme from bootswatch.com.
 # If false, you can get plain bootstrap style.
 # set :theme_name, 'flatly'
