@@ -105,7 +105,7 @@ activate :livereload
 # Site Settings
 ###
 # Set site setting, used in helpers / sitemap.xml / feed.xml.
-set :site_url, 'http://shigekitakeguchi.com'
+set :site_url, 'https://shigekitakeguchi.com'
 set :site_author, 'shigeki.takeguchi'
 set :site_title, 'shigeki.takeguchi.log'
 set :site_description, '食べること、地方都市、アプリ作るための技術などつらつらと書いていきます'

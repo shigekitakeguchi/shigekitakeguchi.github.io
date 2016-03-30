@@ -20,12 +20,14 @@ per_page: 10
     hr
   = article.summary
   ul.social-buttons
-    li
-      a.hatena-bookmark-button data-hatena-bookmark-lang="ja" data-hatena-bookmark-layout="vertical-balloon" href="http://b.hatena.ne.jp/entry/http://shigekitakeguchi.com#{article.url}" title="このエントリーをはてなブックマークに追加"
-    li
-      .fb-share-button data-href="http://shigekitakeguchi.com#{article.url}" data-layout="box_count"
-    li
-      .g-plusone data-size="tall" data-href="http://shigekitakeguchi.com#{article.url}"
+    li.hatena
+      a.hatena-bookmark-button data-hatena-bookmark-lang="ja" data-hatena-bookmark-layout="vertical-balloon" href="http://b.hatena.ne.jp/entry/https://shigekitakeguchi.com#{article.url}" title="このエントリーをはてなブックマークに追加"
+    li.facebook
+      .fb-share-button data-href="https://shigekitakeguchi.com#{article.url}" data-layout="box_count"
+    li.google
+      .g-plusone data-size="tall" data-href="https://shigekitakeguchi.com#{article.url}"
+    li.pocket
+      a.pocket-btn data-lang="en" data-pocket-count="vertical" data-pocket-label="pocket" data-save-url="https://shigekitakeguchi.com#{article.url}"
     li.twitter 
       a href="https://twitter.com/share" class="twitter-share-button" data-via="shigektakeguchi"
   a.btn.btn-primary href=article.url
