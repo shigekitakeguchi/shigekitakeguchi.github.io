@@ -127,12 +127,19 @@ pre {
   a {
     display: block;
     border: 1px solid #ccc;
-    @include border-radius(6px);
+    @include border-radius(4px);
     padding: 12px;
     margin-bottom: 12px;
+    .mb15 {
+      margin-bottom: 15px;
+    }
     .image {
       float: left;
-      margin: 0 12px 12px 0;
+      margin: 0 12px 0 0;
+      img {
+        border: 1px solid #ccc;
+        box-shadow:0px 0px 3px 1px #ccc;
+      }
     }
     .trackName {
       font-size: 120%;
@@ -145,7 +152,7 @@ pre {
     }
     .textWrap {
       float: left;
-      width: 86%;
+      width: 76%;
     }
     &:hover {
       border: 1px solid #666;
@@ -160,16 +167,25 @@ pre {
     }
     p {
       margin: 0;
+      line-height: 1.4;
+    }
+    span {
+      font-weight: normal;
+      font-size: 80%;
     }
     .priceWrap {
-      margin-bottom: 8px;
+      line-height: 1.4;
     }
     .rentalPrice {
-      font-size: 90%;
+      display: inline-block;
+      font-weight: bold;
+      font-size: 96%;
       color: #666;
     }
     .price {
-      font-size: 90%;
+      display: inline-block;
+      font-weight: bold;
+      font-size: 96%;
       color: #666;
     }
   }
