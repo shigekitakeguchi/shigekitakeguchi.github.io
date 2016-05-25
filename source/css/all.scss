@@ -217,6 +217,11 @@ pre {
   padding: 8px;
 }
 
+.banner-2 {
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
 .rating-0 {
   background-position: -47px -7px;
 }
@@ -341,7 +346,7 @@ ul {
   }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1024px){
   h1 {
     margin-top: 40px;
   }
@@ -349,11 +354,11 @@ ul {
     width: 1024px;
   }
   .col-lg-9 {
-    width: 70%;
+    width: 66%;
     padding: 0 40px;
   }
   .col-lg-3 {
-    width: 30%;
+    width: 34%;
     .well {
       padding: 30px;
       h4 {
