@@ -393,6 +393,31 @@ ul {
         margin-top: 0;
       }
     }
+    .profile {
+      padding: 20px;
+      .image {
+        float: left;
+        img {
+          width: 80px;
+          height: 80px;
+        }
+      }
+      .text {
+        float: left;
+        padding-left: 10px;
+        width: 220px;
+        font-size: 80%;
+        margin-bottom: 0;
+      }
+      &::after {
+        content: " ";
+        clear: both;
+        display: block;
+        visibility: hidden;
+        height: 0;
+        font-size: 0;
+      }
+    }
     .well2 {
       padding: 20px;
       margin-bottom: 20px;
