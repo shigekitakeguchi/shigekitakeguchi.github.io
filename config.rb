@@ -189,3 +189,8 @@ activate :deploy do |deploy|
   deploy.method = :git
   deploy.branch = 'master'
 end
+
+activate :sitemap_ping do |config|
+  config.host         = site_url
+  config.after_build  = false
+end
