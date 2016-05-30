@@ -23,3 +23,5 @@ gem "nokogiri", "~> 1.6.7.1"
 gem "builder", "~> 3.0"
 gem "middleman-syntax"
 gem "middleman-disqus"
+
+gem "middleman-sitemap-ping"
