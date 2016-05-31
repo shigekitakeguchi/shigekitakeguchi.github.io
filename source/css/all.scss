@@ -25,8 +25,7 @@ body {
   border: 1px solid #e1e8ed;
   p {
    margin-bottom: 20px;
-   line-height: 2.2;
-   letter-spacing: 0.1em;
+   line-height: 1.8;
   }
 }
 
@@ -270,49 +269,6 @@ pre {
 .rating-45 {
   background-position: -225px -68px;
 }
-
-@media only screen and (max-width: 479px) {
-  html, body {
-    overflow-x: hidden;
-    font-size: 16px;
-    line-height: 1.8;
-  }
-  .container {
-    padding: 0 10px
-  }
-  .navbar-toggle {
-    display: none;
-  }
-  h1 {
-    font-size: 20px;
-  }
-  img {
-    max-width: 300px;
-    height: auto;
-  }
-  .youtube {
-    max-width: 320px;
-    height: 240px;
-  }
-  pre {
-    overflow: scroll;
-    code {
-      white-space: pre;
-    }
-  }
-  .itunes-link {
-    a {
-      .image {
-        float: none;
-        margin-bottom: 12px;
-      }
-      .textWrap{
-        float: none;
-        width: 100%;
-      }
-    }
-  }
-}
 ul {
   &.social-buttons {
     padding: 8px;
@@ -344,12 +300,39 @@ ul {
   }
 }
 
-@media only screen and (max-width: 788px) {
-  .container {
-    overflow: hidden;
+@media only screen and (max-width: 479px) {
+  html, body {
+    overflow-x: hidden;
+    font-size: 16px;
+    line-height: 1.8;
   }
-  .navbar-brand {
-    padding: 25px 15px;
+  .container {
+    padding: 0 10px
+  }
+  .navbar-toggle {
+    display: none;
+  }
+  h1 {
+    font-size: 26px;
+    line-height: 1.4;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  img {
+    max-width: 300px;
+    height: auto;
+  }
+  .youtube {
+    max-width: 320px;
+    height: 240px;
+  }
+  pre {
+    overflow: scroll;
+    code {
+      white-space: pre;
+    }
   }
   .itunes-link {
     a {
@@ -359,22 +342,33 @@ ul {
       }
       .textWrap{
         float: none;
+        width: 100%;
+      }
+    }
+  }
+  ul {
+    &.social-buttons {
+      padding: 0;
+      li {
+        padding-right: 8px;
       }
     }
   }
   .col-lg-3 {
     margin-top: 20px;
-    .amazon-wrapper {
-      border: 1px solid #e1e8ed;
-      background: #fff;
-      .amazon-image {
+    .list-unstyled {
+      li {
         float: left;
-        margin-bottom: 5px;
-      }
-      .amazon-text {
-        float: left;
-        padding-left: 14px;
-        font-size: 80%;
+        span {
+          font-size: 80%;
+          display: block;
+          padding: 4px 16px;
+          margin: 0 4px 16px;
+          border: 1px solid #d5d5d5;
+          border-radius: 16px;
+          text-decoration: none;
+          background: #fff;
+        }
       }
       &::after {
         content: " ";
@@ -395,8 +389,104 @@ ul {
       .amazon-text {
         float: left;
         padding-left: 14px;
-        font-size: 80%;
+        font-size: 96%;
         width: 180px;
+      }
+      &::after {
+        content: " ";
+        clear: both;
+        display: block;
+        visibility: hidden;
+        height: 0;
+        font-size: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 788px) {
+  .container {
+    overflow: hidden;
+  }
+  .navbar-brand {
+    padding: 25px 15px;
+  }
+  .posted {
+    font-size: 16px;
+  }
+  .itunes-link {
+    a {
+      .image {
+        float: none;
+        margin-bottom: 12px;
+      }
+      .textWrap{
+        float: none;
+      }
+    }
+  }
+  .col-lg-3 {
+    margin-top: 20px;
+    .list-unstyled {
+      li {
+        float: left;
+        span {
+          font-size: 80%;
+          display: block;
+          padding: 4px 16px;
+          margin: 0 4px 16px;
+          border: 1px solid #d5d5d5;
+          border-radius: 16px;
+          text-decoration: none;
+          background: #fff;
+        }
+      }
+      &::after {
+        content: " ";
+        clear: both;
+        display: block;
+        visibility: hidden;
+        height: 0;
+        font-size: 0;
+      }
+    }
+    .amazon-wrapper {
+      border: 1px solid #e1e8ed;
+      background: #fff;
+      .amazon-image {
+        float: left;
+        margin-bottom: 5px;
+      }
+      .amazon-text {
+        float: left;
+        padding-left: 14px;
+        font-size: 96%;
+        width: 180px;
+      }
+      &::after {
+        content: " ";
+        clear: both;
+        display: block;
+        visibility: hidden;
+        height: 0;
+        font-size: 0;
+      }
+    }
+    .profile {
+      padding: 20px;
+      .image {
+        float: left;
+        img {
+          width: 80px;
+          height: 80px;
+        }
+      }
+      .text {
+        float: left;
+        padding-left: 10px;
+        width: 232px;
+        font-size: 96%;
+        margin-bottom: 0;
       }
       &::after {
         content: " ";
