@@ -28,13 +28,13 @@
   .well
     h4 Tags
     ul.list-unstyled
-      - blog.tags.each do |tag, articles|
-        li
-          span<>
-            = link_to tag, tag_path(tag)
-            |  (
-            = articles.size
-            | )
+      - blog.tags.sort.each do |tag, articles|
+          li
+            span<>
+              = link_to tag, tag_path(tag)
+              |  (
+              = articles.size
+              | )
   .well
     h4 By year
     ol
