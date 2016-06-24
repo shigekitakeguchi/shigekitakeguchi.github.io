@@ -80,6 +80,33 @@ h3, .h3 {
   background: #fff;
 }
 
+a.well {
+  display: block;
+  font-size: 80%;
+  &:hover {
+    background: #efefef;
+  }
+  img {
+    border: 1px solid #efefef;
+  }
+  .image {
+    float: left;
+    margin-right: 10px;
+  }
+  .text {
+    float: left;
+    width: 210px;
+  }
+  &::after {
+    content: " ";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+  }
+}
+
 .well2 {
   border-radius: 4px;
   border: 1px solid #e1e8ed;
