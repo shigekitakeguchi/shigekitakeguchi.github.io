@@ -548,6 +548,27 @@ ul {
   .col-lg-9 {
     width: 66%;
     padding: 0 40px 20px;
+    .amazon-wrapper {
+      border: 1px solid #e1e8ed;
+      background: #fff;
+      .amazon-image {
+        float: left;
+        margin-bottom: 5px;
+      }
+      .amazon-text {
+        float: left;
+        padding-left: 14px;
+        width: 454px;
+      }
+      &::after {
+        content: " ";
+        clear: both;
+        display: block;
+        visibility: hidden;
+        height: 0;
+        font-size: 0;
+      }
+    }
   }
   .col-lg-3 {
     width: 34%;
