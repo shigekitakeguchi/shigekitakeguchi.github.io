@@ -24,4 +24,4 @@ gem "builder", "~> 3.0"
 gem "middleman-syntax"
 gem "middleman-disqus"
 
-gem "middleman-sitemap-ping"
+#gem "middleman-sitemap-ping"
