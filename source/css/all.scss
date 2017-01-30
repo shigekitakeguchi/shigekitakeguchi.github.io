@@ -5,12 +5,40 @@
 @import "compass";
 @import "syntax_highlight";
 
-@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300);
+$breakpoint-tablet: 980px;
+$breakpoint-mobile: 736px;
+
+@mixin max-screen($break-point) {
+  @media screen and (max-width: $break-point) {
+    @content;
+  }
+}
+
+@mixin min-screen($break-point) {
+  @media screen and (min-width: $break-point) {
+    @content;
+  }
+}
+
+@mixin screen($break-point-min, $break-point-max) {
+  @media screen and (min-width: $break-point-min) and (max-width: $break-point-max) {
+    @content;
+  }
+}
+
+html {
+  font-size: 62.5%;
+  background: #f5f8fa;
+}
 
 body {
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic","MS Gothic","ＭＳ ゴシック","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  -webkit-font-feature-settings: 'palt' 1;
+  font-feature-settings: 'palt' 1;
   margin-top: $marginTopBody;
-  font-size: 16px;
-  line-height: 1.8;
+  font-size: 14px; font-size: 1.4em;
+  color: #333;
+  line-height: 1.6;
   background: #f5f8fa;
   margin-top: 68px;
 }
@@ -24,8 +52,17 @@ body {
   border-radius: 4px;
   border: 1px solid #e1e8ed;
   p {
-   margin-bottom: 20px;
-   line-height: 1.8;
+    margin-bottom: 20px;
+    line-height: 1.8;
+  }
+  .amazon-text {
+    float: left;
+    width: 500px;
+    font-size: 12px; font-size: 1.2rem;
+    margin: 0;
+    @include max-screen($breakpoint-mobile) {
+      width: 100%;
+    }
   }
 }
 
@@ -162,19 +199,29 @@ pre {
 }
 
 .amazon-wrapper {
-  border: 1px solid #ccc;
+  border: 1px solid #e1e8ed;
   padding: 12px;
   margin-bottom: 12px;
-  @include border-radius(4px);
+  background: #fff;
   img {
     box-shadow:0px 0px 3px 1px #ccc;
   }
   .amazon-image-2 {
     float: left;
     margin-bottom: 5px;
+    @include max-screen($breakpoint-mobile) {
+      float: none;
+      margin: 0 auto 5px;
+      width: 160px;
+    }
     img {
       box-shadow: none;
     }
+  }
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
   }
 }
 
@@ -342,11 +389,6 @@ ul {
 }
 
 @media only screen and (max-width: 479px) {
-  html, body {
-    overflow-x: hidden;
-    font-size: 16px;
-    line-height: 1.8;
-  }
   .container {
     padding: 0 10px
   }
@@ -421,7 +463,6 @@ ul {
       }
     }
     .amazon-wrapper {
-      border: 1px solid #e1e8ed;
       background: #fff;
       .amazon-image {
         float: left;
@@ -434,12 +475,9 @@ ul {
         width: 180px;
       }
       &::after {
-        content: " ";
+        content: '';
+        display: table;
         clear: both;
-        display: block;
-        visibility: hidden;
-        height: 0;
-        font-size: 0;
       }
     }
   }
@@ -503,14 +541,19 @@ ul {
         padding-left: 14px;
         font-size: 96%;
         width: 180px;
+        @include max-screen($breakpoint-mobile) {
+          padding-left: 10px;
+          width: 66%;
+        }
+        @include max-screen(320px) {
+          padding-left: 10px;
+          width: 58%;
+        }
       }
       &::after {
-        content: " ";
+        content: '';
+        display: table;
         clear: both;
-        display: block;
-        visibility: hidden;
-        height: 0;
-        font-size: 0;
       }
     }
     .profile {
@@ -568,12 +611,9 @@ ul {
         width: 454px;
       }
       &::after {
-        content: " ";
+        content: '';
+        display: table;
         clear: both;
-        display: block;
-        visibility: hidden;
-        height: 0;
-        font-size: 0;
       }
     }
   }
@@ -622,12 +662,9 @@ ul {
         width: 180px;
       }
       &::after {
-        content: " ";
+        content: '';
+        display: table;
         clear: both;
-        display: block;
-        visibility: hidden;
-        height: 0;
-        font-size: 0;
       }
     }
     .profile {
@@ -685,4 +722,9 @@ blockquote {
   p {
     font-size: 14px;
   }
+}
+
+.amazon-product-image {
+  width: 110px;
+  height: auto;
 }
