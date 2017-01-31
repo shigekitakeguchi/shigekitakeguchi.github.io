@@ -63,7 +63,17 @@ html
               = link_to article.title, article
               span<>
                 = article.date.strftime('%Y-%m-%d')
-        hr        
+        hr
+      aside
+        h4 Tags
+        ul.list-unstyled
+          - blog.tags.sort.each do |tag, articles|
+              li
+                span<>
+                  = link_to tag, tag_path(tag)
+                  |  (
+                  = articles.size
+                  | )
         - if defined?(settings[:disqus_shortname]) && settings[:disqus_shortname]
           #disqus_thread
           javascript:

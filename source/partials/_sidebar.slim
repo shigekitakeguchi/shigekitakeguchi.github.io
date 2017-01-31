@@ -47,16 +47,6 @@
     p.text Watch Moviesは、いつでもどこでも映画を楽しみたい人のためのサービスです。
 
   .well
-    h4 Tags
-    ul.list-unstyled
-      - blog.tags.sort.each do |tag, articles|
-          li
-            span<>
-              = link_to tag, tag_path(tag)
-              |  (
-              = articles.size
-              | )
-  .well
     h4 By year
     ol
       - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
