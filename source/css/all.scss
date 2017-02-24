@@ -4,6 +4,7 @@
 @import "imports";
 @import "compass";
 @import "syntax_highlight";
+@import "monokai";
 
 $breakpoint-tablet: 980px;
 $breakpoint-mobile: 736px;
@@ -742,4 +743,15 @@ blockquote {
 .amazon-product-image {
   width: 110px;
   height: auto;
+}
+
+pre {
+  font-size: 12px;
+  &.highlight {
+    overflow-x: scroll;
+    background: #333;
+  }
+  code {
+    white-space: pre;
+  }
 }
