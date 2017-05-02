@@ -93,7 +93,7 @@ set :markdown_engine, :redcarpet
 
 # Reload the browser automatically whenever files change
 activate :livereload
-
+activate :autoprefixer
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
@@ -169,7 +169,14 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
 end
+
+#activate :autoprefixer do |config|
+#  config.browsers = ['last 2 versions', 'Explorer >= 8', 'Android >= 4', 'ios_saf >= 8']
+#  config.cascade  = false
+#  config.inline   = true
+#end
 
 ###
 # Deploy settings

@@ -25,3 +25,4 @@ gem "middleman-syntax"
 gem "middleman-disqus"
 
 #gem "middleman-sitemap-ping"
+gem "middleman-autoprefixer"
