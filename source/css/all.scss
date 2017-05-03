@@ -93,10 +93,16 @@ ol {
   background: #fff;
   border-bottom: 1px solid #e1e8ed;
   .navbar-brand {
+    display: block;
+    float: none;
     color: #666;
     font-family: "Georgia", "Times New Roman", serif;
     font-size: 26px;
   }
+}
+
+.navbar-reading {
+  text-align: left;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
@@ -441,7 +447,7 @@ ul {
     &.social-buttons {
       padding: 0;
       li {
-        padding-right: 8px;
+        padding-right: 6px;
       }
     }
   }
@@ -496,7 +502,13 @@ ul {
     overflow: hidden;
   }
   .navbar-brand {
-    padding: 25px 15px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px 15px 10px;
+  }
+  .navbar-reading {
+    text-align: center;
   }
   .posted {
     font-size: 16px;
