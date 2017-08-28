@@ -53,7 +53,7 @@ body {
   border-radius: 4px;
   border: 1px solid #e1e8ed;
   p {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     line-height: 1.8;
   }
   .amazon-text {
@@ -77,7 +77,12 @@ ol {
 }
 
 .btn-primary {
-  margin-top: 10px;
+  margin: 0 0 10px;
+  background-color: #0eb535;
+  border-color: #269f42;
+  &:hover {
+    background-color: #269f42;
+  }
 }
 
 .redirect-link {
@@ -162,6 +167,10 @@ a.well {
     height: 0;
     font-size: 0;
   }
+}
+
+a {
+  color: #0366d6;
 }
 
 .well2 {
