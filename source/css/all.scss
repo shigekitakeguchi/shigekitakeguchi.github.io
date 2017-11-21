@@ -4,7 +4,7 @@
 @import "imports";
 @import "compass";
 @import "syntax_highlight";
-@import "monokai";
+@import "tango";
 
 $breakpoint-tablet: 980px;
 $breakpoint-mobile: 736px;
@@ -37,9 +37,9 @@ body {
   -webkit-font-feature-settings: 'palt' 1;
   font-feature-settings: 'palt' 1;
   margin-top: $marginTopBody;
-  font-size: 14px; font-size: 1.4em;
+  font-size: 16px; font-size: 1.6em;
   color: #333;
-  line-height: 1.6;
+  line-height: 2.2;
   background: #f5f8fa;
   margin-top: 98px;
 }
@@ -53,8 +53,9 @@ body {
   border-radius: 4px;
   border: 1px solid #e1e8ed;
   p {
+    letter-spacing: 0.1em;
     margin-bottom: 10px;
-    line-height: 1.8;
+    line-height: 2.2;
   }
   .amazon-text {
     float: left;
@@ -207,17 +208,22 @@ a:focus {
 }
 
 pre {
-  padding: rem-calc(12) rem-calc(10) rem-calc(12) rem-calc(10) ;
+  padding: rem-calc(12) rem-calc(10) rem-calc(12) rem-calc(10);
   margin-bottom: rem-calc(24);
   line-height: rem-calc(22);
-  @include border-radius(6px);
-  font-family: 'Source Code Pro', sans-serif;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
   font-size: 14px;
+  line-height: 24px;
   font-weight: lighter;
   span {
-    font-family: 'Source Code Pro', sans-serif !important;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;
     font-weight: lighter !important;
   }
+  word-wrap: normal;
+  white-space: pre;
+  border-radius: 0;
+  border: 1px solid #ddd;
+  padding-left: 18px;
 }
 
 .amazon-wrapper {
@@ -759,10 +765,10 @@ blockquote {
 }
 
 pre {
-  font-size: 12px;
+  //font-size: 12px;
   &.highlight {
     overflow-x: scroll;
-    background: #333;
+    background: #fff;
   }
   code {
     white-space: pre;
