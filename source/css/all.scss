@@ -4,7 +4,7 @@
 @import "imports";
 @import "compass";
 @import "syntax_highlight";
-@import "tango";
+@import "monokai";
 
 $breakpoint-tablet: 980px;
 $breakpoint-mobile: 736px;
@@ -433,7 +433,7 @@ ul {
     line-height: 1.4;
   }
   img {
-    max-width: 300px;
+    max-width: 100%;
     height: auto;
   }
   .youtube {
@@ -768,9 +768,16 @@ pre {
   //font-size: 12px;
   &.highlight {
     overflow-x: scroll;
-    background: #fff;
   }
   code {
     white-space: pre;
   }
+}
+
+.tabelog {
+  width: 300px;
+}
+
+ul, ol {
+  padding: 0;
 }
