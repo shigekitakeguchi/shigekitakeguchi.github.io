@@ -1,11 +1,12 @@
 xml.instruct!
-xml.urlset "xmlns" => "http://www.sitemaps.org/schemas/sitemap/0.9" do
-  sitemap.resources.each do |resource|
+xml.urlset 'xmlns' => 'http://www.sitemaps.org/schemas/sitemap/0.9' do
+  site_url = 'http://myblog.com/' # TODO: Replace with absolute URL of site
+  sitemap.resources.select { |page| page.path =~ /\.html$/ }.each do |page|
     xml.url do
-      xml.loc "#{site_url}#{resource.url}"
-      xml.lastmod File.mtime(resource.source_file).strftime('%Y-%m-%d')
-      xml.priority (1.1 - resource.url.count("/") * 0.1).round(1).to_s
-      xml.changefreq "daily"
-    end if resource.destination_path =~ /\.html$/
+      xml.loc "#{site_url}#{page.path}"
+      xml.lastmod Date.today.to_time.iso8601
+      xml.changefreq page.data.changefreq || 'weekly'
+      xml.priority page.data.priority || '0.5'
+    end
   end
 end

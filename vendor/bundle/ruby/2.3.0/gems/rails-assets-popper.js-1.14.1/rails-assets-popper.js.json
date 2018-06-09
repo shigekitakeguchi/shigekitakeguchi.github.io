@@ -1,0 +1,32 @@
+{
+  "name": "rails-assets-popper.js",
+  "downloads": null,
+  "version": "1.14.1",
+  "version_downloads": null,
+  "platform": "ruby",
+  "authors": "rails-assets.org",
+  "info": "A kickass library to manage your poppers",
+  
+  "licenses": "MIT",
+  
+  "metadata": {
+
+  },
+  "sha": null,
+  "project_uri": "https://popper.js.org/",
+  "gem_uri": null,
+  "homepage_uri": "https://popper.js.org/",
+  "wiki_uri": null,
+  "documentation_uri": null,
+  "mailing_list_uri": null,
+  "source_code_uri": "https://popper.js.org/",
+  "bug_tracker_uri": null,
+  "dependencies": {
+    "development": [
+    
+    ],
+    "runtime": [
+
+    ]
+  }
+}

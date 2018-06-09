@@ -1,102 +1,47 @@
-# middleman-blog-bootstrap-template
+# middleman-bootstrap-template
 
-* This is a [middleman](http://middlemanapp.com) template for bootstrap-based blogs.
-* This aims at the easy & speedy blog-building for who don't know much about ruby / middleman.
-* Select the themes from [Bootswatch](http://bootswatch.com/), then you can easily build bootstrap-based blogs!
-* And it encourages asset management with [Bower](http://github.com/twitter/bower). 
+middleman-bootstrap-template is a [project template](https://middlemanapp.com/advanced/project-templates/) for the
+[Middleman v4](http://middlemanapp.com/) static site generator that incorporates [Bootstrap v4](https://getbootstrap.com).
 
-##Features:
-* Rendering engine
- - [Markdown](http://daringfireball.net/projects/markdown/) in posts
- - [Slim](http://slim-lang.com/) in layout
-* Middleman plugins
- - [middleman-blog](http://github.com/middleman/middleman-blog/)
- - [middleman-livereload](http://github.com/middleman/middleman-livereload)
- - [middleman-target](http://github.com/xunker/middleman-target) 
- - [middleman-deploy](http://github.com/tvaughan/middleman-deploy) config snippet to ease FTP/SFTP deployment
-* [Bower](http://github.com/twitter/bower) package management
- - [Normalize.css](http://necolas.github.com/normalize.css) 
- - [Modernizr](http://modernizr.com)
- - [Bootswatch](http://bootswatch.com/)
- - [Font-awesome](http://fontawesome.io/)
- - [jQuery](http://jquery.com/)
- - [Respond.js](http://github.com/scottjehl/Respond)
-* [SCSS](http://sass-lang.com)
-* [Coffeescript](http://coffeescript.org/)
+This is a sensible mobile-first starter layout for a blog. The styling is basic and based on Bootstrap with only some minor
+additions, because I didn't want to make any assumptions about the design of your site. Don't judge it on its looks&mdash;this
+isn't a theme, it's meant to be a flexible foundation to build on.
 
-[Preview](source/images/sample-theme-flatly.png) the sample image which is made in Bootswatch "flatly" theme.
+Since you have access to Bootstrap v4, there are many [high quality themes](https://wrapbootstrap.com/themes/blogs-magazines?branch=4.x)
+you can purchase and easily integrate.
 
-##Installation
+## Features
 
-1. If you're just getting started, install the `middleman` gem and generate a new project:
-1. Download/clone to `.middleman/blog-bootstrap`: 
-1. Create your new Middleman project with thie template:
-1. Install the assets in the `bower_components/` directory.
+* [middleman-blog 4.0](https://github.com/middleman/middleman-blog)
+* [middleman-sprockets 4.1](https://github.com/middleman/middleman-sprockets)
+* [middleman-autoprefixer 2.7](https://github.com/middleman/middleman-autoprefixer)
+* [middleman-disqus 1.2](https://github.com/simonrice/middleman-disqus) for Disqus integration
+* [middleman-google-analytics 3.0](https://github.com/danielbayerlein/middleman-google-analytics) for Google Analytics integration
+* [middleman-syntax 3.0](https://github.com/middleman/middleman-syntax) for code syntax highlighting
+* [Twitter Bootstrap 4.0](http://foundation.zurb.com/)
+* [Font Awesome 4.7](http://fontawesome.io/)
+* Many elements and defaults from [HTML5 Boilerplate](http://html5boilerplate.com/)
+* Automatic sitemap.xml generation on build
+* A warning overlay presented to older IE browsers (< 10)
 
-```shell
-gem install middleman
-git clone https://github.com/biblichor/middleman-blog-bootstrap-template.git ~/.middleman/blog-bootstrap
-middleman init my_new_project --template=blog-bootstrap
-cd my_new_project
-bower install
-```
+## Demo
 
-##Configuration
+I have published a [demo site to S3](http://middleman-bootstrap.s3-website-us-east-1.amazonaws.com). Check it out!
 
-###Blog configuration
+## Installation
 
-* Edit `config.rb` as you like.
- - Don't forget to add the site url, author, title, and subtitle(used as description too).
- - To get analytics inclusion, simply add your account name to the appropriate places.
- - To get bootswatch inclusion, simply change `theme_name` to your favorite bootswatch theme.
+1. Install middleman as usual. See [Middleman's documentation](https://middlemanapp.com/basics/install/) for more information.
+2. `middleman init -B -T mattolson/middleman-bootstrap-template my_project`
+3. `cd my_project && bundle install`
+4. `middleman server`
 
-```ruby:config.rb
-set :site_url, 'http://blog.url.com'
-set :site_author, 'Blog author'
-set :site_title, 'Blog title'
-set :site_subtitle, 'Blog subtitle'
-# Select the theme from bootswatch.com.
-# If false, you can get plain bootstrap style.
-# set :theme_name, 'flatly'
-set :theme_name, false
-# set @analytics_account, like 'XX-12345678-9'
-@analytics_account = false
-```
+## Removing blog functionality
 
-###Bower configuration
+This template is also a good starting point for sites that don't have a blog. To remove blog-specific stuff:
 
-* With bower, you can prevent unnecessary files being copied over to ```build/```.
-* All bower packages are put in the ```bower_components/``` directory outside of the source. 
-* By default, these assets are included:
- - [Normalize.css](http://necolas.github.com/normalize.css) 
- - [Modernizr](http://modernizr.com)
- - [Bootswatch](http://bootswatch.com/)
- - [Font-awesome](http://fontawesome.io/)
- - [jQuery](http://jquery.com/)
- - [Respond.js](http://github.com/scottjehl/Respond)
-* If you want another assets, edit `bower.json` as you like, and simply ```bower install``` and include it like you would any other file in sprockets.
-
-###SCSS configuration
-
-By default, bootstrap or bootswatch is installed.
-You can edit `_settings.scss`, `_imports.scss` as you like.
-
-* any variables (like colors and such) go into _settings.scss
-* any packages/imports go into _imports.scss
-
-##Requirements
-Confirmed in ruby 2.0.0p247, rubygem 2.0.3, middleman 3.2.2
-
-###Helpers configuration, etc.
-
-* In ```helpers/```, a few helpers are inclueded to help out with organizing the following information on your site.
- - title
- - meta keywords
- - meta description
-* ```feed.xml``` and ```sitemap.xml``` enables you to tell your readers / search engines the update of articles.
-
-##Misc
-This project is forked from [headcanon's middleman-bower-template](https://github.com/headcanon/middleman-bower-template)  (Big thanks to headcanon). 
-
-All the problems or questions are welcome. And of cource if you have a better idea, give it a fork! 
-Thanks!
+1. `git rm source/blog/*`
+2. `git rm source/layouts/article.erb`
+3. Remove `middleman-blog` and `middleman-disqus` from `Gemfile`.
+4. Remove blog-related styles from `source/stylesheets/base.css.scss`. They are all at the bottom of the file grouped together under the header "Blog Articles".
+5. Remove blog-related settings from `config.rb`. They are all grouped at the top under the header "Blog Settings".
+6. Update `source/index.html.erb` (the home page) to something more relevant to your site.
