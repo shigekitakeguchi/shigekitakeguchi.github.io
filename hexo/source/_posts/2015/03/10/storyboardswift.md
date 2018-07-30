@@ -1,9 +1,14 @@
 ---
 title: Storyboardを使用しないSwiftでアプリを準備する。
 date: 2015-03-10 01:52:18
-tags: ios-app, log, objective-c, swift, xcode,
-id: 1111
+tags: 
+ - ios-app
+ - log
+ - objective-c
+ - swift
+ - xcode
 ---
+
 ObjCで作っていたiOSアプリをSwiftで作り直そうとしたらXcode 6からEmpty Applicationのテンプレートがなくなっていた。
 なのでSingle View ApplicationのテンプレートをベースにStoryboardを使用しないアプリを作っていく。
 

@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
+title: shigeki.takeguchi.log
+subtitle: アラフィフおじさんの技術日記
+description: 渋谷で働くアラフィフおじさんが食べることや興味をもった技術やこれ技術的に面白いやんといったことをつらつらと書いていきます
 keywords:
-author: John Doe
-language:
+author: 竹口 茂樹
+language: 
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://shigekitakeguchi.com
 root: /
 permalink: :title.html
 permalink_defaults:
@@ -73,9 +73,33 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: bootstrap-blog
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:shigekitakeguchi/shigekitakeguchi.github.io.git
+  branch: master
+
+sitemap:
+  path: sitemap.xml
+  template: ./sitemap_template.xml
+
+autoprefixer:
+  browsers:
+    - 'last 2 versions'
+    - 'Android >= 4'
+    - 'ios_saf >= 8'
+
+marked:
+  breaks: false
+
+feed:
+  type: atom
+  path: feed.xml
+  limit: 20
+  hub:
+  content: true
+  content_limit: 140
+  content_limit_delim: ' '

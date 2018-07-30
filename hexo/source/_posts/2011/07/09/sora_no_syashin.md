@@ -1,7 +1,8 @@
 ---
 title: sora no syashin
 date: 2011-07-09 14:18:00
-tags: log,
+tags:
+ - log
 ---
 
 何か空ばかり見てるひとになってます。夏は空と雲がいいんですね。<br>

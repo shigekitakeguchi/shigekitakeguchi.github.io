@@ -1,7 +1,12 @@
 ---
 title: CocoaPodsを使ったXcodeプロジェクトの作り方（４）
 date: 2013-01-05
-tags: about-programing, cocoa-touch, ios-app, objective-c, xcode,
+tags: 
+ - about-programing
+ - cocoa-touch
+ - ios-app
+ - objective-c
+ - xcode
 ---
 
 ４回目ですね。ビルド実行してコンパイルして確認します。<br>

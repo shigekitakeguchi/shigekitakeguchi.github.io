@@ -1,7 +1,8 @@
 ---
 title: kounyu no koudou
 date: 2011-07-05 05:34:00
-tags: log, 
+tags:
+ - log 
 ---
 「購入の行動」って最近どうなっているかなとふと思って自分のことを考えてみてます。
 

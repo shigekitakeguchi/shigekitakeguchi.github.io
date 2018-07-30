@@ -1,7 +1,8 @@
 ---
 title: Command Line ToolでObjective-Cのお勉強。
 date: 2011-10-11 02:11:36
-tags: objective-c,
+tags: 
+ - objective-c
 ---
 
 いつもプロジェクトの作り方を忘れるので自分用にメモ。<br>

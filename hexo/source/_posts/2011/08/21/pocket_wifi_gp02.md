@@ -1,7 +1,8 @@
 ---
 title: Pocket WiFi (GP02)
 date: 2011-08-21 02:16:48
-tags: log,
+tags: 
+ - log
 ---
 MacBook AirのOSをSnow LeopardからLionにアップデートして、それからemobileまったく使ってなかった。<br>
 なのでまったく使えなくなってることに気づかなかったという。。。かなりのしまった！<br>

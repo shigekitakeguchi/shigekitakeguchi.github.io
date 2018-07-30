@@ -1,7 +1,8 @@
 ---
 title: okayama no hibi - 1
 date: 2011-07-19 07:27:34
-tags: okayama,
+tags:
+ - okayama
 ---
 
 少しずつ楽しみかたがわかってきた岡山。<br>

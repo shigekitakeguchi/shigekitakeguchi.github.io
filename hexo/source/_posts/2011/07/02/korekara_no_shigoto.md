@@ -1,7 +1,8 @@
 ---
 title: korekara no shigoto
 date: 2011-07-02 11:12:45
-tags: log, 
+tags: 
+ - log
 ---
 おそらく受託案件の開発は、JavaScriptを主としたフロントエンド開発がよろしいんじゃあないかと考えたりしています。
 

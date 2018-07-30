@@ -1,7 +1,9 @@
 ---
 title: JavaScript - 何かテーマを決めて書いていこう。
 date: 2011-08-29 10:18:52
-tags: javascript, jquery, 
+tags: 
+ - javascript
+ - jquery 
 ---
 JavaScript（jQuery）について書こうと思ってる。
 でも何かテーマを決めて書かないと自分の勉強にもならないなということでずっと放置してたけどそろそろ本気で取り組もうと思った。（さしたる根拠はないけどね）
