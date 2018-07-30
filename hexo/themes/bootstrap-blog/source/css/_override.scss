@@ -1,0 +1,49 @@
+.blog-title {
+  margin-top: 15px;
+  font-size: 26px;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+.blog-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.row {
+  margin: 15px 0 0;
+}
+
+.article-header h1 {
+  font-size: 26px;
+}
+
+header {
+  width: 100%;
+  border-bottom: 1px solid #e1e8ed;
+}
+
+.article-date:before {
+  content: "";
+}
+
+.article-meta > * {
+  margin-right: 4px;
+}
+
+.glyphicon {
+  top: 3px;
+}
+
+.article-meta {
+  margin-top: 20px;
+}
+
+.article-entry {
+  .caption {
+    display: none;
+  }
+}
+
+.blog-main {
+  font-size: 16px;
+}

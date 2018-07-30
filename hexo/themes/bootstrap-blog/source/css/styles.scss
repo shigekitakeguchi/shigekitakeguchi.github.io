@@ -1,0 +1,29 @@
+/* Concatenates the stylesheet files */
+@import "hexo-base";
+@import "callouts";
+@import "share-box";
+@import "highlight-js";
+@import "custom";
+@import "override";
+@import "./font-awesome/font-awesome";
+
+$breakpoint-tablet: 980px;
+$breakpoint-mobile: 736px;
+
+@mixin max-screen($break-point) {
+  @media screen and (max-width: $break-point) {
+    @content;
+  }
+}
+
+@mixin min-screen($break-point) {
+  @media screen and (min-width: $break-point) {
+    @content;
+  }
+}
+
+@mixin screen($break-point-min, $break-point-max) {
+  @media screen and (min-width: $break-point-min) and (max-width: $break-point-max) {
+    @content;
+  }
+}
