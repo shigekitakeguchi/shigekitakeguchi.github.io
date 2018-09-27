@@ -17,6 +17,10 @@
   font-size: 26px;
   line-height: 1.4;
   margin-bottom: 8px;
+  @include max-screen($breakpoint-mobile) {
+    padding: 0 15px;
+    text-align: left;
+  }
 }
 
 header {
@@ -45,11 +49,42 @@ header {
   .caption {
     display: none;
   }
+  @include max-screen($breakpoint-mobile) {
+    p, h2, h3, h4, h5 {
+      padding: 0 15px;  
+    }
+  }
+}
+
+.article-footer {
+  @include max-screen($breakpoint-mobile) {
+    padding: 15px;
+  }
+}
+
+.article {
+  @include max-screen($breakpoint-mobile) {
+    padding-top: 20px;
+    margin: 0;
+    border-top: 1px solid #ededed;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ededed;
+    background-color: #fff;
+  }
+}
+
+header {
+  @include max-screen($breakpoint-mobile) {
+    text-align: center;
+  }
 }
 
 .container {
   padding: 0;
-  width: 1098px;
+  width: 100%;
+  @include min-screen($breakpoint-mobile) {
+    width: 1098px;
+  }
 }
 
 .blog-main {
@@ -62,17 +97,31 @@ header {
     width: 66%;
     padding: 40px 40px 20px;
   }
+  @include max-screen($breakpoint-mobile) {
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-top: 0;
+    background-color: #f7f5f5;
+    border-bottom: 0;
+  }
 }
 
 .blog-sidebar {
   margin-left: 0;
   width: 34%;
+  @include max-screen($breakpoint-mobile) {
+    width: 100%;
+  }
 }
 
 .sidebar-module {
   text-align: left;
   margin: 20px 0 0;
   padding: 0;
+  @include max-screen($breakpoint-mobile) {
+    padding: 0 15px;
+  }
 }
 .sidebar-module-list-item {
   display: inline-block;
@@ -113,6 +162,9 @@ header {
   border-bottom: 1px solid #ededed;
   margin: 0;
   padding-bottom: 10px;
+  @include max-screen($breakpoint-mobile) {
+    padding: 0 15px 10px;
+  }
 }
 
 .article-datetime {
@@ -122,6 +174,9 @@ header {
 .article-tag-list {
   display: block;
   padding: 10px 0;
+  @include max-screen($breakpoint-mobile) {
+    padding: 10px 15px;
+  }
 }
 
 a.article-tag-list-link {
