@@ -2,6 +2,9 @@
   margin-top: 15px;
   font-size: 26px;
   font-family: "Georgia", "Times New Roman", serif;
+  a {
+    text-decoration-line: none;
+  }
 }
 
 .blog-description {
@@ -53,6 +56,11 @@ header {
     p, h2, h3, h4, h5 {
       padding: 0 15px;  
     }
+  }
+  h2 {
+    font-size: 22px;
+    border-left: 6px solid #666;
+    padding: 4px 0 4px 12px;
   }
 }
 
@@ -280,3 +288,4 @@ a.article-tag-list-link {
     padding: 0 15px;
   }
 }
+
