@@ -1,32 +1,25 @@
-# Header
 navbar_brand: false
 menu:
   Home: index.html
   Archives: archives/
 rss: /feed.xml
-
-# Content
-excerpt_link: Read More
+excerpt_link: もっと読む
 fancybox: false
-
-# Sidebar
 widgets:
-- about         # See also: `about_content`
-- category
-- tag
-- tagcloud
-- archive
-- recent_posts
-about_widget_content: 
-
-# widget behavior
-archive_type: 'monthly'
+  - about
+  - category
+  - tag
+  - tagcloud
+  - archive
+  - recent_posts
+about_widget_content: null
+archive_type: monthly
 show_count: true
-
-# Miscellaneous
-google_analytics:
-favicon:
-twitter_id:
-google_plus:
-fb_admins:
-fb_app_id:
+google_analytics: 'UA-21820122-1'
+favicon: null
+twitter_id: null
+google_plus: null
+fb_admins: null
+fb_app_id: null
+disqus_shortname: shigekitakeguchilog
+comment_provider: disqus

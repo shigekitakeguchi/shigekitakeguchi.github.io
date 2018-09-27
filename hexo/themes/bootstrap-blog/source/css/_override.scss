@@ -15,11 +15,14 @@
 
 .article-header h1 {
   font-size: 26px;
+  line-height: 1.4;
+  margin-bottom: 8px;
 }
 
 header {
   width: 100%;
   border-bottom: 1px solid #e1e8ed;
+  background-color: #fff;
 }
 
 .article-date:before {
@@ -44,6 +47,131 @@ header {
   }
 }
 
+.container {
+  padding: 0;
+  width: 1098px;
+}
+
 .blog-main {
   font-size: 16px;
+  padding: 40px 0 0;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #e1e8ed;
+  @include min-screen($breakpoint-mobile) {
+    width: 66%;
+    padding: 40px 40px 20px;
+  }
+}
+
+.blog-sidebar {
+  margin-left: 0;
+  width: 34%;
+}
+
+.sidebar-module {
+  text-align: left;
+  margin: 20px 0 0;
+  padding: 0;
+}
+.sidebar-module-list-item {
+  display: inline-block;
+}
+
+.sidebar-module-list-item {
+  font-size: 80%;
+  display: inline-block;
+  padding: 4px 16px;
+  margin: 0 4px 8px;
+  border: 1px solid #d5d5d5;
+  border-radius: 16px;
+  text-decoration: none;
+  background: #fff;
+}
+
+.table-responsive {
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.highlight {
+  td.gutter {
+    padding: 8px 0;
+    pre {
+      padding: 8px 0 0 8px;
+    }
+  }
+}
+
+.article-meta {
+  margin: 10px 0;
+}
+
+.article-date-wrap {
+  display: block;
+  border-bottom: 1px solid #ededed;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.article-datetime {
+  display: inline-block;
+}
+
+.article-tag-list {
+  display: block;
+  padding: 10px 0;
+}
+
+a.article-tag-list-link {
+  background-color: #999999;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  &::before {
+    content: '';
+  }
+}
+
+#footer-info {
+  font-size: 80%;
+}
+
+.well {
+  border-radius: 4px;
+  border: 1px solid #e1e8ed;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #fff;
+  display: flex;
+  .image {
+    margin-right: 10px;
+  }
+  .text {
+    font-size: 80%;
+  }
+}
+
+.amazon-wrapper {
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #e1e8ed;
+  background: #fff;
+  display: flex;
+  .amazon-image {
+    margin-right: 10px;
+  }
+  .amazon-text {
+    font-size: 80%;
+  }
+  img {
+    box-shadow: 0px 0px 3px 1px #ccc;
+  }
 }
