@@ -13,6 +13,8 @@ tags:
 それぞれ記述したライブラリをダウンロードしてくれます。<br>
 これがなかったときはひとつひとつ検索してダウンロードしてました。
 
+<!-- more -->
+
 ```shell
 Resolving dependencies of `./Podfile'
 Updating spec repositories

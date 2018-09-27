@@ -10,6 +10,8 @@ tags:
 おそらくオライリーのEbookはAmazonで販売されないんじゃないかと思って紹介します。<br>
 少し前まではPDFで販売していましたがePubとMobiでの販売もはじめてました。<br>
 
+<!-- more -->
+
 <a href="http://www.oreilly.co.jp/ebook/">O'Reilly Japan Ebook Store</a><br>
 
 でもすべての書籍でePub、PDF、Mobiがあるわけではなく、このページのタイトルリストを確認して購入しないとですね。

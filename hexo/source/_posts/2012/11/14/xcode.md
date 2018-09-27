@@ -15,6 +15,8 @@ tags:
 左側の上から「新規でXcode projectを作る」「レポジトリに接続する」「Xcodeの使い方を学ぶ」「アップルの開発者ポータルに行く」ですね。<br>
 もちろん「新規でXcode projectを作る」を選んでください。
 
+<!-- more -->
+
 <img src="http://farm9.staticflickr.com/8197/8184420919_d4d99c0962.jpg" alt="">
 
 <img src="http://farm9.staticflickr.com/8343/8184420867_d1f7ef4516.jpg" alt="">

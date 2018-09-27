@@ -14,6 +14,8 @@ iPhoneとは少し違うところがあります。
 
 <img src="http://farm9.staticflickr.com/8341/8190081021_abdb508443.jpg" alt="" />
 
+<!-- more -->
+
 「Status Bar Visibility」はiPhoneとは違ってスタイルや色の変更は設定できません。<br>
 「Supported Interface Orientations」はiPhoneにもありますがデバイスのどの向きをサポートするかの設定です。<br>
 気づいてるかもしれませんがiPhoneのアプリが並んでいるホーム画面は「Portrait」しかサポートしてません。<br>

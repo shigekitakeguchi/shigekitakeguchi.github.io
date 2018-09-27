@@ -9,6 +9,8 @@ tags:
 2011年11月1日ボーイング 787 ドリームライナーが羽田空港と岡山空港間に就航っていうことで乗ってみた。10月27日にANAの国内線予約サイトから購入したので1週間前なら購入できるのかな？<br>
 岡山発、東京行きで10:15発。岡山駅9:05のバスに乗って空港へ。20分遅れだったようでJALの東京行きと同時発になっていつもより混在で混乱気味。
 
+<!-- more -->
+
 正面近くから見ても微妙に顔が違う。でも好きなひとにしか区別できないくらいの違いなのかな？
 
 <a href="http://www.flickr.com/photos/shigeki_takeguchi/6311480500/" title="Untitled by shigeki.takeguchi, on Flickr"><img src="http://farm7.static.flickr.com/6055/6311480500_09d247c777.jpg" width="500" height="375" alt=""></a>

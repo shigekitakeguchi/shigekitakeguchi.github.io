@@ -11,6 +11,8 @@ tags:
 
 ハート型のはなびらと下へ向いた茎のパターンが面白い。
 
+<!-- more -->
+
 <a href="http://www.flickr.com/photos/shigeki_takeguchi/7034244645/" title="Untitled by shigeki.takeguchi, on Flickr"><img src="http://farm8.staticflickr.com/7187/7034244645_e4180015f9.jpg" width="500" height="375" alt=""></a>
 
 <a href="http://www.flickr.com/photos/shigeki_takeguchi/6888150858/" title="Untitled by shigeki.takeguchi, on Flickr"><img src="http://farm8.staticflickr.com/7134/6888150858_d12426bc31.jpg" width="500" height="375" alt=""></a>

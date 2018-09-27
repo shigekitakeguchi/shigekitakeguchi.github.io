@@ -11,6 +11,8 @@ tags:
 なんだか普通の日本の風景って感じでそれが最近、好きになってきました。
 規格物っぽい家、田んぼや畑、電信柱、高圧電線、そして山。単に日本的な郷愁、感傷かもしれませんが何でもない感じっていう良さが身にしみる年齢になったんでしょうね。
 
+<!-- more -->
+
 <img src="http://farm6.static.flickr.com/5303/5827584676_6f7cca2c93.jpg" alt="" />
 <img src="http://farm4.static.flickr.com/3321/5828165592_cd23c07376.jpg" alt="" />
 <img src="http://farm4.static.flickr.com/3023/5835328194_a706227bfb.jpg" alt="" />

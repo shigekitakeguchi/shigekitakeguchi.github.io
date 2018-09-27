@@ -16,6 +16,8 @@ tags:
 インストールはGithubの<br>
 <a href="https://github.com/CocoaPods/CocoaPods">CocoaPods/CocoaPods</a>のページなどを参考にしてください。
 
+<!-- more -->
+
 ちまたで話題のiOSフレームワーク「<a href="http://nimbuskit.info/">NimbusKit</a>」を利用するプロジェクトを作っていきます。<br>
 まずはNimbusフレームワークがあるかどうかを調べます。対応しているとどんなバージョンがあるのかなどがわかります。<br>
 Terminalを起動して以下のように入力して最後にenter（return）ですね。

@@ -13,6 +13,8 @@ tags:
 
 形も長いハートのようでかわいいです。
 
+<!-- more -->
+
 <a href="http://www.flickr.com/photos/shigeki_takeguchi/6888154064/" title="Untitled by shigeki.takeguchi, on Flickr"><img src="http://farm8.staticflickr.com/7189/6888154064_8629ae857f.jpg" width="500" height="375" alt=""></a>
 
 <a href="http://www.flickr.com/photos/shigeki_takeguchi/6888155200/" title="Untitled by shigeki.takeguchi, on Flickr"><img src="http://farm8.staticflickr.com/7195/6888155200_7ffc5cceba.jpg" width="500" height="375" alt=""></a>

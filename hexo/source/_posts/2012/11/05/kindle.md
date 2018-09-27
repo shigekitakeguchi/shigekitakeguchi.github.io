@@ -15,6 +15,8 @@ Kindleストアから日本でも本が買える。どんだけ待ったこと�
 まじで本を読むのはめちゃくちゃ好きだけどそれと同時に整理整頓が苦手な人間としては勇み足を何度もしそうになりつつ、でも我慢して美しい電子書籍生活がはじまるというのにスタートがこれかよ。<br>
 とは言ってもあと１ヶ月のことなので「ま、それまでKindleストアで本を買うのは我慢だな」と堅く決心していた。
 
+<!-- more -->
+
 <div class="amazon-wrapper">
 <p class="amazon-image">
 <a href="http://www.amazon.co.jp/gp/product/B009DED9RA/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=B009DED9RA&linkCode=as2&tag=uuuu-22"><img border="0" src="http://ws.assoc-amazon.jp/widgets/q?_encoding=UTF8&ASIN=B009DED9RA&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=uuuu-22" ></a><img src="http://www.assoc-amazon.jp/e/ir?t=uuuu-22&l=as2&o=9&a=B009DED9RA" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />

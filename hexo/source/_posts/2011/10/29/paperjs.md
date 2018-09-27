@@ -11,6 +11,8 @@ HTML5のCanvasってそのままじゃあ、どうも扱いにくいというか
 おそらく他のフレームワークもそうだろうけどFlashのActionScriptを触ったことあるってひとだと馴染みやすい。<br>
 自分のサイトの背景で動くものからはじめてみたのが<a title="*{ zoom:1; }" href="http://zoomone.net" target="_blank">これ</a>。
 
+<!-- more -->
+
 まずはHTMLの記述から。<br>
 canvasにid属性とその値を設定する。この場合は「myCanvas」とした。少し注意しないといけないのがscript要素のtype属性値の記述。JavaScriptの場合、HTML5ではtype属性そもそも記述しなくてもいいし、記述する場合も「text/javascript」とするがPaper.jsでは値を「text/paperscript」とする（最初書き忘れてたら何も表示されなかった。。。）。リファレンス読むと「text/javascript」という属性値でもやる方法があるけど今回は省略。で、もうひとつは描画するためのcanvasのid属性値をcanvasという属性の値に記述すること（これも違う方法が用意されている）。ちょっとやり方がいろいろあるみたいなので統一して欲しい気もする。<br />
 これで準備は終わり。

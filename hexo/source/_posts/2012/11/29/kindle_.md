@@ -12,6 +12,7 @@ Kindle版を見つけて最初から読んでいくのがいいか読んでい�
 この「瀧夜叉姫」の話は、いつもと違って長編らしい。<br>
 今、上巻の途中だけど移動の電車の中でいっきに読んでしまった。
 
+<!-- more -->
 
 <div class="amazon-wrapper">
 <p class="amazon-image">

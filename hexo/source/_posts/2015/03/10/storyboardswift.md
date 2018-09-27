@@ -12,6 +12,8 @@ tags:
 ObjCで作っていたiOSアプリをSwiftで作り直そうとしたらXcode 6からEmpty Applicationのテンプレートがなくなっていた。
 なのでSingle View ApplicationのテンプレートをベースにStoryboardを使用しないアプリを作っていく。
 
+<!-- more -->
+
 <a href="https://www.flickr.com/photos/shigeki_takeguchi/16092695304" title="スクリーンショット 2015-03-04 23.54.36 by shigeki takeguchi, on Flickr"><img src="https://farm9.staticflickr.com/8674/16092695304_1d75be976e_z.jpg" width="640" height="453" alt="スクリーンショット 2015-03-04 23.54.36"></a>
 
 「Create a new Xcode project」を選び、テンプレートを選択する画面で「iOS」→「Application」で「Single View Application」を選ぶ。

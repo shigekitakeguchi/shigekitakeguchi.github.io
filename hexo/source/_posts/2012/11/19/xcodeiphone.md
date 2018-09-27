@@ -12,6 +12,8 @@ tags:
 基本的な設定はここで行います。もう一度設定したいなというときにはTARGETSの「Summary」タブを選べばこの画面にきます。<br>
 思ったよりも長くなってしまったので今回はiPhoneの設定のみです。
 
+<!-- more -->
+
 <h3>iOS Application Target</h3>
 
 <img src="http://farm9.staticflickr.com/8482/8191165170_1d7d049587.jpg" alt="" />
