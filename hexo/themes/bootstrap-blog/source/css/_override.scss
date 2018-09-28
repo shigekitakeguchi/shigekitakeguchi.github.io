@@ -54,13 +54,14 @@ header {
   }
   @include max-screen($breakpoint-mobile) {
     p, h2, h3, h4, h5 {
-      padding: 0 15px;  
+      padding: 0 15px;
     }
   }
   h2 {
     font-size: 22px;
     border-left: 6px solid #666;
     padding: 4px 0 4px 12px;
+    line-height: 1.5;
   }
 }
 
