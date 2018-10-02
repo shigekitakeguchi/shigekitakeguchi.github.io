@@ -58,15 +58,23 @@ header {
     }
   }
   h2 {
+    width: calc(100% - 30px);
     font-size: 22px;
     border-left: 6px solid #666;
     padding: 4px 0 4px 12px;
     line-height: 1.5;
+    @include max-screen($breakpoint-mobile) {
+      margin: 15px auto;
+    }
   }
   h3 {
+    width: calc(100% - 30px);
     font-size: 20px;
     padding: 4px 0;
     line-height: 1.5;
+    @include max-screen($breakpoint-mobile) {
+      margin: 15px auto;
+    }
   }
 }
 
@@ -295,3 +303,17 @@ a.article-tag-list-link {
   }
 }
 
+.youtube {
+  position: relative;
+  width: calc(100% - 30px);
+  margin: 15px auto;
+  padding-top: 56.25%;
+}
+
+.youtube iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
