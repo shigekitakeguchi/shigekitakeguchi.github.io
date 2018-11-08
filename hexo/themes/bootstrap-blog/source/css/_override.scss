@@ -317,3 +317,14 @@ a.article-tag-list-link {
   width: 100% !important;
   height: 100% !important;
 }
+
+.article-entry {
+  .amazon-wrapper {
+    img {
+      box-shadow: none;
+    }
+    .amazon-image-2 {
+      margin-right: 20px;
+    }
+  }
+}

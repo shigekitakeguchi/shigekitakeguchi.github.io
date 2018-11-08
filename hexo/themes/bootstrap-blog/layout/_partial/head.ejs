@@ -39,6 +39,9 @@
   <%- css('css/styles') %>
   <%- partial('google-analytics') %>
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <% if (is_post() && config.generator_amp){ %>
+    <link rel="amphtml" href="<%= config.url %>/amp/<%= page.path %>">
+  <% } %>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
       google_ad_client: "ca-pub-9198003416420881",
