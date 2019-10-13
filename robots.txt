@@ -1,0 +1,12 @@
+# www.robotstxt.org/
+
+# Allow crawling of all content
+User-agent: *
+Disallow:
+Sitemap: https://shigekitakeguchi.github.io/sitemap.xml
+
+User-agent: bingbot
+Crawl-delay: 30
+
+User-agent: MSNBOT
+Crawl-delay: 30
