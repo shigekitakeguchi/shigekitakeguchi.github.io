@@ -12,7 +12,7 @@ iPhoneとは少し違うところがあります。
 
 <h3>iPad Deployment Info : Supported Interface Orientations</h3>
 
-<img src="http://farm9.staticflickr.com/8341/8190081021_abdb508443.jpg" alt="" />
+<img src="https://farm9.staticflickr.com/8341/8190081021_abdb508443.jpg" alt="" />
 
 <!-- more -->
 
@@ -27,13 +27,13 @@ iPhoneとは少し違うところがあります。
 
 <h3>iPad Deployment Info : App Icons</h3>
 
-<img src="http://farm9.staticflickr.com/8486/8190080883_1d99ab11c4.jpg" alt="" />
+<img src="https://farm9.staticflickr.com/8486/8190080883_1d99ab11c4.jpg" alt="" />
 
 アイコンの設定は大きさ以外は共通しています。
 
 <h3>iPad Deployment Info : Launch Images</h3>
 
-<img src="http://farm9.staticflickr.com/8204/8190080763_c66eb69513.jpg" alt="" />
+<img src="https://farm9.staticflickr.com/8204/8190080763_c66eb69513.jpg" alt="" />
 
 「Launch Images」はiPhoneが3画像を設定するようになっていましたがiPadは4画像になります。<br>
 ここでも常に上にステータスバーがくるようになることからアプリを起動する方向によってサイズが違います。<br>

@@ -14,7 +14,7 @@ Mac本体をスリープさせると接続が切れて、そうなるとGP02側�
 
 <!-- more -->
 
-<img src="http://farm7.static.flickr.com/6073/6091060314_3dbc0003cf.jpg" alt="" />
+<img src="https://farm7.static.flickr.com/6073/6091060314_3dbc0003cf.jpg" alt="" />
 
 まわりはUQ WiMAXを使ってる人が増えた。で評判を聞くと都内というか市街地ではいいらしいけど少しはずれるとまったく繋がらないとか、ルーターが大きすぎるとか、地方に行くとやっぱり駄目らしいとか聞くとemobileのままでよかったのかと思う。
 

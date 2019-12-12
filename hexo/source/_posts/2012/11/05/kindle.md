@@ -17,22 +17,6 @@ Kindleストアから日本でも本が買える。どんだけ待ったこと�
 
 <!-- more -->
 
-<div class="amazon-wrapper">
-<p class="amazon-image">
-<a href="http://www.amazon.co.jp/gp/product/B009DED9RA/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=B009DED9RA&linkCode=as2&tag=uuuu-22"><img border="0" src="http://ws.assoc-amazon.jp/widgets/q?_encoding=UTF8&ASIN=B009DED9RA&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=uuuu-22" ></a><img src="http://www.assoc-amazon.jp/e/ir?t=uuuu-22&l=as2&o=9&a=B009DED9RA" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-<p class="amazon-text">
-<a href="http://www.amazon.co.jp/gp/product/B009DED9RA/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B009DED9RA&linkCode=as2&tag=uuuu-22">よろずや平四郎活人剣（上）</a><img src="http://www.assoc-amazon.jp/e/ir?t=uuuu-22&l=as2&o=9&a=B009DED9RA" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-
-</div>
-<div class="amazon-wrapper">
-<p class="amazon-image">
-<a href="http://www.amazon.co.jp/gp/product/B009DED9U2/ref=as_li_ss_il?ie=UTF8&camp=247&creative=7399&creativeASIN=B009DED9U2&linkCode=as2&tag=uuuu-22"><img border="0" src="http://ws.assoc-amazon.jp/widgets/q?_encoding=UTF8&ASIN=B009DED9U2&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=uuuu-22" ></a><img src="http://www.assoc-amazon.jp/e/ir?t=uuuu-22&l=as2&o=9&a=B009DED9U2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-
-<p class="amazon-text">
-<a href="http://www.amazon.co.jp/gp/product/B009DED9U2/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B009DED9U2&linkCode=as2&tag=uuuu-22">よろずや平四郎活人剣（下）</a><img src="http://www.assoc-amazon.jp/e/ir?t=uuuu-22&l=as2&o=9&a=B009DED9U2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-
-</div>
-
 東京から岡山へ移動する日にそれまでの数日間読んでた「アンドロイドは電気羊の夢を見るか?」をちょうど飛行機の中で読了。
 
 え、どうしよう。。。読む本がない。

@@ -7,9 +7,9 @@ tags:
 ---
 
 HTML5のCanvasってそのままじゃあ、どうも扱いにくいというか学ぶ時の最初のハードルが高いという印象があった。<br>
-その中でもちょっといい感じだと思ったベクターグラフィックを扱いやすくするフレームワーク<a title="Paper.js" href="http://paperjs.org/" target="_blank">Paper.js</a>を触ってみた。<br>
+その中でもちょっといい感じだと思ったベクターグラフィックを扱いやすくするフレームワーク<a title="Paper.js" href="https://paperjs.org/" target="_blank">Paper.js</a>を触ってみた。<br>
 おそらく他のフレームワークもそうだろうけどFlashのActionScriptを触ったことあるってひとだと馴染みやすい。<br>
-自分のサイトの背景で動くものからはじめてみたのが<a title="*{ zoom:1; }" href="http://zoomone.net" target="_blank">これ</a>。
+自分のサイトの背景で動くものからはじめてみたのが<a title="*{ zoom:1; }" href="https://zoomone.net" target="_blank">これ</a>。
 
 <!-- more -->
 

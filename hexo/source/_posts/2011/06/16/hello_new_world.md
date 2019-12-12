@@ -12,4 +12,4 @@ tags:
 
 というわけで、今後ともよろしくお願いいたします。
 
-屋号は<a href="http://zoomone.net">「*{ zoom:1; }」</a>です。
+屋号は<a href="//zoomone.net">「*{ zoom:1; }」</a>です。

@@ -16,7 +16,7 @@ tags:
 
 <h3>iOS Application Target</h3>
 
-<img src="http://farm9.staticflickr.com/8482/8191165170_1d7d049587.jpg" alt="" />
+<img src="https://farm9.staticflickr.com/8482/8191165170_1d7d049587.jpg" alt="" />
 
 「Bundle Identifier」「Version」「Build」は指定があればそれを入力するってのでいいと思います。<br>
 「Devices」はここで変更できます。「iPhone」を選ぶと「iPhone / iPod Deployment Info」という設定項目が表示され、<br>
@@ -24,7 +24,7 @@ tags:
 
 <h3>iPhone / iPod Deployment Info : Supported Interface Orientations</h3>
 
-<img src="http://farm9.staticflickr.com/8210/8191165082_be059727bf.jpg" alt="" />
+<img src="https://farm9.staticflickr.com/8210/8191165082_be059727bf.jpg" alt="" />
 
 iPhone向けのアプリの基本設定ができます。<br>
 「Main Storybord」はプロジェクトファイルを作るプロセスで「Use Storybords」にチェックを入れると自動でその時作られたStorybordファイルが対象として入力されます。<br>
@@ -35,7 +35,7 @@ iPhone向けのアプリの基本設定ができます。<br>
 
 <h3>iPhone / iPod Deployment Info : Status Bar + App Icons</h3>
 
-<img src="http://farm9.staticflickr.com/8342/8190081165_1159e14384.jpg" alt="" />
+<img src="https://farm9.staticflickr.com/8342/8190081165_1159e14384.jpg" alt="" />
 
 iPhoneの画面の一番上にある「Status Bar」の設定をします。<br>
 「Style」は「Default」と「Black Translucent」「Black Opaque」です。<br>
@@ -48,7 +48,7 @@ iOS 5までは薄めのグレーで少し立体感のあるものだったのが
 
 <h3>iPhone / iPod Deployment Info : Launch Images</h3>
 
-<img src="http://farm9.staticflickr.com/8066/8190081089_4d4bac9b2b.jpg" alt="" />
+<img src="https://farm9.staticflickr.com/8066/8190081089_4d4bac9b2b.jpg" alt="" />
 
 最後に「Launch Images」の設定となります。<br>
 iPhone 5の4インチ画面が登場したことで3つ用意しないといけなくなりました。こちらもアイコンと同じくドラッグ&ドロップで登録できます。<br>

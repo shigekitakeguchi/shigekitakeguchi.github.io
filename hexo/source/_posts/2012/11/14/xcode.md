@@ -17,41 +17,41 @@ tags:
 
 <!-- more -->
 
-<img src="http://farm9.staticflickr.com/8197/8184420919_d4d99c0962.jpg" alt="">
+<img src="https://farm9.staticflickr.com/8197/8184420919_d4d99c0962.jpg" alt="">
 
-<img src="http://farm9.staticflickr.com/8343/8184420867_d1f7ef4516.jpg" alt="">
+<img src="https://farm9.staticflickr.com/8343/8184420867_d1f7ef4516.jpg" alt="">
 
 新規でプロジェクトを作ろうとすると必ずこのウィーザード形式で設定を選択しながら進めることになります。
 
-<img src="http://farm9.staticflickr.com/8479/8187153768_0de0c0804a.jpg" alt="">
+<img src="https://farm9.staticflickr.com/8479/8187153768_0de0c0804a.jpg" alt="">
 
 まずは、新規でプロジェクトを作る時にどんなテンプレートを選ぶのかという画面です。<br>
 デザイナーがXibやStorybordを作る目的なら「Single View Application」がいいと思います。<br>
 ただし開発者から指定があった場合はそれを選んでくださいね。「Next」を押すと次の設定に移ります。
 
-<img src="http://farm9.staticflickr.com/8479/8186122855_2bd40ae6e5.jpg" alt="">
+<img src="https://farm9.staticflickr.com/8479/8186122855_2bd40ae6e5.jpg" alt="">
 
 次はオプション選択の画面です。「Product Name」はアプリの名称になります。<br>
 これも指定があればそれを使い、なければわかりやすい名前をつければいいと思います。<br>
 たぶんですが半角英数がいいと思います。「Organization Name」はMacのユーザー名がそのまま出てきます。<br>
 その後の「Company Identifier」「Bundle Identifier」「Class Prefix」はデザイナーの方は気にしないでスルーしていいと思います。もちろん指定があればそれを使います。
 
-<img src="http://farm9.staticflickr.com/8201/8187142086_55bf08761e.jpg" alt="">
+<img src="https://farm9.staticflickr.com/8201/8187142086_55bf08761e.jpg" alt="">
 
 「Devices」の項目は「iPhone」「iPad」「Universal」をひとつだけ選べるようになっています。<br>
 UniversalはiPhoneとiPadをひとつのアプリで両方に対応したものを制作する場合に選択します。<br>
 プロジェクトを作った後でも変更したりXibファイルを作る時にiPadをターゲットにすることもできますので間違えて選んでも大丈夫です。
 
-<img src="http://farm9.staticflickr.com/8059/8187142036_5bf94ddf5e.jpg" alt="">
+<img src="https://farm9.staticflickr.com/8059/8187142036_5bf94ddf5e.jpg" alt="">
 
 「Storyboards」を使って画面を作る場合はチェックしてください。
 
-<img src="http://farm9.staticflickr.com/8483/8187141968_8c4fdb409b.jpg" alt="">
+<img src="https://farm9.staticflickr.com/8483/8187141968_8c4fdb409b.jpg" alt="">
 
 「Automatic Reference Counting」と「Unit Tests」は開発者・プログラマに確認してください。<br>
 これも後で変更できたはずです。「Next」を押すと保存場所を選んで保存します。やっとプロジェクトができたということです。
 
-<img src="http://farm9.staticflickr.com/8070/8184458184_a8c2314b3c.jpg" alt="">
+<img src="https://farm9.staticflickr.com/8070/8184458184_a8c2314b3c.jpg" alt="">
 
 はじめて見たひとには何のことかわからない画面がでてきましたね！<br>
 日本語化されてないのでメニューバーも英語です。<br>

@@ -14,7 +14,7 @@ tags:
 
 <!-- more -->
 
-<a href="http://d.hatena.ne.jp/sandai/20110824/p1" title="知ってて当然？初級者のためのJavaScriptで使う即時関数(function(){...})()の全て - 三等兵" target="_blank">知ってて当然？初級者のためのJavaScriptで使う即時関数(function(){...})()の全て - 三等兵</a>
+<a href="//d.hatena.ne.jp/sandai/20110824/p1" title="知ってて当然？初級者のためのJavaScriptで使う即時関数(function(){...})()の全て - 三等兵" target="_blank">知ってて当然？初級者のためのJavaScriptで使う即時関数(function(){...})()の全て - 三等兵</a>
 
 そういえば、これの呼び名って何て言うんだろうってずっと思ってた。<br>
 即時関数って呼べばいいってことか。今ひとつしっくりこない気もするけど。。。<br>

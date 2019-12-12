@@ -18,7 +18,7 @@ tags:
 
 <!-- more -->
 
-ちまたで話題のiOSフレームワーク「<a href="http://nimbuskit.info/">NimbusKit</a>」を利用するプロジェクトを作っていきます。<br>
+ちまたで話題のiOSフレームワーク「<a href="https://nimbuskit.info/">NimbusKit</a>」を利用するプロジェクトを作っていきます。<br>
 まずはNimbusフレームワークがあるかどうかを調べます。対応しているとどんなバージョンがあるのかなどがわかります。<br>
 Terminalを起動して以下のように入力して最後にenter（return）ですね。
 
@@ -31,7 +31,7 @@ $ pod search 'Nimbus'
 ```shell
 -> Nimbus (1.0.0)
    An iOS framework whose growth is bounded by O(documentation).
-   - Homepage: http://docs.nimbuskit.info/index.html
+   - Homepage: https://docs.nimbuskit.info/index.html
    - Source:   https://github.com/jverkoey/nimbus.git
    - Versions: 1.0.0, 0.9.3, 0.9.2, 0.9.1, 0.9.0 [master repo]
    - Sub specs:
@@ -52,20 +52,20 @@ $ pod search 'Nimbus'
          - Nimbus/WebController (1.0.0)
 ```
 
-<img src="http://farm9.staticflickr.com/8362/8309747906_4ba577f9ec.jpg" alt="" />
+<img src="https://farm9.staticflickr.com/8362/8309747906_4ba577f9ec.jpg" alt="" />
 
 次にXcodeで新規でプロジェクトを作っていきます。わかりやすいように「Empty Application」を選びました。
 
-<img src="http://farm9.staticflickr.com/8216/8309747774_54fa5d6785.jpg" alt="" />
+<img src="https://farm9.staticflickr.com/8216/8309747774_54fa5d6785.jpg" alt="" />
 
 今回はProduct Nameに「Lab046」とつけました。名前は何でもいいです。
 「Devices」はiPhoneで「Use Automatic Reference Counting」にチェックを入れました。
 
-<img src="http://farm9.staticflickr.com/8074/8309747668_3774bfd858.jpg" alt="" />
+<img src="https://farm9.staticflickr.com/8074/8309747668_3774bfd858.jpg" alt="" />
 
 「Development Target」は5.0を選択しました。
 
-<img src="http://farm9.staticflickr.com/8219/8339257247_36afcb6cfb.jpg" alt="" />
+<img src="https://farm9.staticflickr.com/8219/8339257247_36afcb6cfb.jpg" alt="" />
 
 Projectを作ったらProjectフォルダに移動して「.xcodeproj」と同じ階層に「Podfile」というファイルを作成します。拡張子はなしです。
 

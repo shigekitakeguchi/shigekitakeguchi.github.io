@@ -11,7 +11,7 @@ tags:
 
 <!-- more -->
 
-<a href="http://www.flickr.com/photos/shigeki_takeguchi/7327851792/" title="Untitled by shigeki.takeguchi, on Flickr"><img src="http://farm8.staticflickr.com/7087/7327851792_9af36e10a8.jpg" width="500" height="375" alt=""></a>
+<a href="https://www.flickr.com/photos/shigeki_takeguchi/7327851792/" title="Untitled by shigeki.takeguchi, on Flickr"><img src="https://farm8.staticflickr.com/7087/7327851792_9af36e10a8.jpg" width="500" height="375" alt=""></a>
 
 そのお寺の裏あたりに阿智神社（妙見宮）という神社がある。<br>
 そこでもいい建物あるかもということでそちらへ移動して本殿を含めて撮影。

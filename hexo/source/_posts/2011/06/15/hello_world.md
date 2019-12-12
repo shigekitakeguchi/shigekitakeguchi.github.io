@@ -13,12 +13,12 @@ tags:
 
 <!-- more -->
 
-<img src="http://farm6.static.flickr.com/5303/5827584676_6f7cca2c93.jpg" alt="" />
-<img src="http://farm4.static.flickr.com/3321/5828165592_cd23c07376.jpg" alt="" />
-<img src="http://farm4.static.flickr.com/3023/5835328194_a706227bfb.jpg" alt="" />
-<img src="http://farm6.static.flickr.com/5276/5834779541_fe30c1e7c7.jpg" alt="" />
-<img src="http://farm6.static.flickr.com/5185/5835336002_332ef46198.jpg" alt="" />
-<img src="http://farm6.static.flickr.com/5030/5835336208_1e583d886b.jpg" alt="" />
+<img src="//farm6.static.flickr.com/5303/5827584676_6f7cca2c93.jpg" alt="" />
+<img src="//farm4.static.flickr.com/3321/5828165592_cd23c07376.jpg" alt="" />
+<img src="//farm4.static.flickr.com/3023/5835328194_a706227bfb.jpg" alt="" />
+<img src="//farm6.static.flickr.com/5276/5834779541_fe30c1e7c7.jpg" alt="" />
+<img src="//farm6.static.flickr.com/5185/5835336002_332ef46198.jpg" alt="" />
+<img src="//farm6.static.flickr.com/5030/5835336208_1e583d886b.jpg" alt="" />
 
 
 これからこのブログでどんなことを書こうかと考えています。

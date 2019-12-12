@@ -32,7 +32,7 @@ Integrating `libPods.a' into target `Lab046' of Xcode project `./Lab046.xcodepro
 特に便利なのが依存するライブラリをインストールしてくれるところです。<br>
 「NimbusKit」では「AFNetworking」と「JSONKit」が依存するライブラリとなります。
 
-<img src="http://farm9.staticflickr.com/8221/8340313796_1f3f27c6c9.jpg" alt="" />
+<img src="https://farm9.staticflickr.com/8221/8340313796_1f3f27c6c9.jpg" alt="" />
 
 同時にプロジェクトフォルダ内も「Build」フォルダ。<br>
 拡張子「.xcworkspace」というファイル。<br>
@@ -40,14 +40,14 @@ Integrating `libPods.a' into target `Lab046' of Xcode project `./Lab046.xcodepro
 「Pods」というフォルダ。<br>
 が作成されました。
 
-<img src="http://farm9.staticflickr.com/8362/8340354408_5fd69c9090.jpg" alt="" />
+<img src="https://farm9.staticflickr.com/8362/8340354408_5fd69c9090.jpg" alt="" />
 
 「Pods」フォルダ内は依存ライブラリも含めてこんな風になってます。
 
 拡張子「.xcodeproj」のプロジェクトファイルを開いていたと思いますがここでいったん閉じて、<br>
 拡張子「.xcworkspace」のファイルを開きます。
 
-<img src="http://farm9.staticflickr.com/8215/8339325517_2ea285ed09_o.png" alt="" />
+<img src="https://farm9.staticflickr.com/8215/8339325517_2ea285ed09_o.png" alt="" />
 
 起動すると、こんな感じでふたつのプロジェクトを含んだものになります。
 
