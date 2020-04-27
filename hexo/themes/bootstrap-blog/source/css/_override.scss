@@ -7,6 +7,7 @@ ul {
   font-size: 26px;
   font-family: "Georgia", "Times New Roman", serif;
   a {
+    -webkit-text-decoration-line: none;
     text-decoration-line: none;
   }
 }
@@ -57,7 +58,11 @@ header {
     display: none;
   }
   @include max-screen($breakpoint-mobile) {
-    p, h2, h3, h4, h5 {
+    p,
+    h2,
+    h3,
+    h4,
+    h5 {
       padding: 0 15px;
     }
   }
@@ -207,7 +212,7 @@ header {
 
 a.article-tag-list-link {
   background-color: #999999;
-  padding: .2em .6em .3em;
+  padding: 0.2em 0.6em 0.3em;
   font-size: 75%;
   font-weight: bold;
   line-height: 1;
@@ -215,9 +220,9 @@ a.article-tag-list-link {
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: .25em;
+  border-radius: 0.25em;
   &::before {
-    content: '';
+    content: "";
   }
 }
 
@@ -232,9 +237,9 @@ a.article-tag-list-link {
 .well {
   border-radius: 4px;
   border: 1px solid #e1e8ed;
-  -webkit-box-shadow: none;
   box-shadow: none;
   background: #fff;
+  display: -webkit-box;
   display: flex;
   .image {
     margin-right: 10px;
@@ -249,6 +254,7 @@ a.article-tag-list-link {
   margin-bottom: 12px;
   border: 1px solid #e1e8ed;
   background: #fff;
+  display: -webkit-box;
   display: flex;
   .amazon-image {
     margin-right: 10px;
@@ -263,13 +269,14 @@ a.article-tag-list-link {
 
 #article-nav {
   width: 100%;
+  display: -webkit-box;
   display: flex;
   li {
     width: 50%;
   }
   @include max-screen($breakpoint-mobile) {
     margin-top: 0;
-    padding: 0 15px 15px; 
+    padding: 0 15px 15px;
   }
   .fa-chevron-left {
     position: absolute;
@@ -329,6 +336,14 @@ a.article-tag-list-link {
     }
     .amazon-image-2 {
       margin-right: 20px;
+    }
+  }
+}
+
+@include max-screen($breakpoint-mobile) {
+  .article-entry {
+    iframe {
+      width: 375px;
     }
   }
 }
