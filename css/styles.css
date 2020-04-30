@@ -750,7 +750,7 @@ ul {
   font-family: "Georgia", "Times New Roman", serif; }
   .blog-title a {
     -webkit-text-decoration-line: none;
-            text-decoration-line: none; }
+    text-decoration-line: none; }
 
 .blog-description {
   font-size: 16px;
@@ -789,7 +789,11 @@ header {
   display: none; }
 
 @media screen and (max-width: 736px) {
-  .article-entry p, .article-entry h2, .article-entry h3, .article-entry h4, .article-entry h5 {
+  .article-entry p,
+  .article-entry h2,
+  .article-entry h3,
+  .article-entry h4,
+  .article-entry h5 {
     padding: 0 15px; } }
 
 .article-entry h2 {
@@ -916,7 +920,7 @@ header {
 
 a.article-tag-list-link {
   background-color: #999999;
-  padding: .2em .6em .3em;
+  padding: 0.2em 0.6em 0.3em;
   font-size: 75%;
   font-weight: bold;
   line-height: 1;
@@ -924,9 +928,9 @@ a.article-tag-list-link {
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: .25em; }
+  border-radius: 0.25em; }
   a.article-tag-list-link::before {
-    content: ''; }
+    content: ""; }
 
 #footer-info {
   font-size: 80%; }
@@ -1023,6 +1027,10 @@ a.article-tag-list-link {
 
 .article-entry .amazon-wrapper .amazon-image-2 {
   margin-right: 20px; }
+
+@media screen and (max-width: 736px) {
+  .article-entry iframe {
+    width: 375px; } }
 
 /*!
  *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
