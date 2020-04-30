@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
     <loc>https://shigekitakeguchi.com/2020/04/30/1.html</loc>
@@ -12,13 +12,6 @@
     <loc>https://shigekitakeguchi.com/2019/12/11/1.html</loc>
     
     <lastmod>2020-04-30T10:15:07.996Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shigekitakeguchi.com/2018/09/30/1.html</loc>
-    
-    <lastmod>2020-04-30T10:15:07.995Z</lastmod>
     
   </url>
   
@@ -44,14 +37,14 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2016/09/05/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2018/09/30/1.html</loc>
     
-    <lastmod>2020-04-30T10:15:07.994Z</lastmod>
+    <lastmod>2020-04-30T10:15:07.995Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2016/09/02/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2016/09/05/1.html</loc>
     
     <lastmod>2020-04-30T10:15:07.994Z</lastmod>
     
@@ -65,30 +58,16 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2016/08/10/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2016/09/02/1.html</loc>
     
     <lastmod>2020-04-30T10:15:07.994Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2016/06/24/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2016/08/10/1.html</loc>
     
-    <lastmod>2020-04-30T10:15:07.993Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shigekitakeguchi.com/2016/05/27/2.html</loc>
-    
-    <lastmod>2020-04-30T10:15:07.993Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shigekitakeguchi.com/2016/06/01/1.html</loc>
-    
-    <lastmod>2020-04-30T10:15:07.993Z</lastmod>
+    <lastmod>2020-04-30T10:15:07.994Z</lastmod>
     
   </url>
   
@@ -107,6 +86,34 @@
   </url>
   
   <url>
+    <loc>https://shigekitakeguchi.com/2016/06/24/1.html</loc>
+    
+    <lastmod>2020-04-30T10:15:07.993Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shigekitakeguchi.com/2016/06/01/1.html</loc>
+    
+    <lastmod>2020-04-30T10:15:07.993Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shigekitakeguchi.com/2016/05/27/2.html</loc>
+    
+    <lastmod>2020-04-30T10:15:07.993Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shigekitakeguchi.com/2016/04/28/1.html</loc>
+    
+    <lastmod>2020-04-30T10:15:07.992Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shigekitakeguchi.com/2016/04/18/1.html</loc>
     
     <lastmod>2020-04-30T10:15:07.992Z</lastmod>
@@ -121,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2016/04/28/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2016/04/04/1.html</loc>
     
     <lastmod>2020-04-30T10:15:07.992Z</lastmod>
     
@@ -135,14 +142,7 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2016/04/04/1.html</loc>
-    
-    <lastmod>2020-04-30T10:15:07.992Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shigekitakeguchi.com/2016/03/29/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2016/03/29/2.html</loc>
     
     <lastmod>2020-04-30T10:15:07.991Z</lastmod>
     
@@ -156,7 +156,7 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2016/03/29/2.html</loc>
+    <loc>https://shigekitakeguchi.com/2016/03/29/1.html</loc>
     
     <lastmod>2020-04-30T10:15:07.991Z</lastmod>
     
@@ -170,21 +170,7 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2016/03/23/1.html</loc>
-    
-    <lastmod>2020-04-30T10:15:07.990Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://shigekitakeguchi.com/2015/08/26/1.html</loc>
-    
-    <lastmod>2020-04-30T10:15:07.990Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shigekitakeguchi.com/2015/04/04/15/1.html</loc>
     
     <lastmod>2020-04-30T10:15:07.990Z</lastmod>
     
@@ -198,14 +184,21 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2013/07/07/3.html</loc>
+    <loc>https://shigekitakeguchi.com/2016/03/23/1.html</loc>
     
-    <lastmod>2020-04-30T10:15:07.989Z</lastmod>
+    <lastmod>2020-04-30T10:15:07.990Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2013/03/03/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2015/04/04/15/1.html</loc>
+    
+    <lastmod>2020-04-30T10:15:07.990Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shigekitakeguchi.com/2013/03/30/1.html</loc>
     
     <lastmod>2020-04-30T10:15:07.989Z</lastmod>
     
@@ -219,6 +212,13 @@
   </url>
   
   <url>
+    <loc>https://shigekitakeguchi.com/2013/07/07/3.html</loc>
+    
+    <lastmod>2020-04-30T10:15:07.989Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shigekitakeguchi.com/2015/04/04/03/1.html</loc>
     
     <lastmod>2020-04-30T10:15:07.989Z</lastmod>
@@ -226,7 +226,7 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2013/03/30/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2013/03/03/1.html</loc>
     
     <lastmod>2020-04-30T10:15:07.989Z</lastmod>
     
@@ -254,13 +254,6 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2013/01/05/cocoapodsxcode.html</loc>
-    
-    <lastmod>2020-04-30T10:15:07.987Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://shigekitakeguchi.com/2013/01/06/1.html</loc>
     
     <lastmod>2020-04-30T10:15:07.987Z</lastmod>
@@ -268,14 +261,7 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2013/01/04/cocoapodsxcode.html</loc>
-    
-    <lastmod>2020-04-30T10:15:07.987Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shigekitakeguchi.com/2013/01/03/cocoapodsxcode.html</loc>
+    <loc>https://shigekitakeguchi.com/2013/01/05/cocoapodsxcode.html</loc>
     
     <lastmod>2020-04-30T10:15:07.987Z</lastmod>
     
@@ -289,6 +275,13 @@
   </url>
   
   <url>
+    <loc>https://shigekitakeguchi.com/2013/01/04/cocoapodsxcode.html</loc>
+    
+    <lastmod>2020-04-30T10:15:07.987Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shigekitakeguchi.com/2013/01/08/1.html</loc>
     
     <lastmod>2020-04-30T10:15:07.987Z</lastmod>
@@ -296,14 +289,21 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2012/12/26/cocoapodsxcode.html</loc>
+    <loc>https://shigekitakeguchi.com/2013/01/03/cocoapodsxcode.html</loc>
+    
+    <lastmod>2020-04-30T10:15:07.987Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shigekitakeguchi.com/2012/11/24/oreilly_ebook.html</loc>
     
     <lastmod>2020-04-30T10:15:07.986Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2012/11/24/oreilly_ebook.html</loc>
+    <loc>https://shigekitakeguchi.com/2012/11/29/kindle_.html</loc>
     
     <lastmod>2020-04-30T10:15:07.986Z</lastmod>
     
@@ -317,9 +317,23 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2012/11/29/kindle_.html</loc>
+    <loc>https://shigekitakeguchi.com/2012/12/26/cocoapodsxcode.html</loc>
     
     <lastmod>2020-04-30T10:15:07.986Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shigekitakeguchi.com/2012/11/19/kindle.html</loc>
+    
+    <lastmod>2020-04-30T10:15:07.985Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shigekitakeguchi.com/2012/11/22/kindleceo_of_the_internet_wired_single_stories_010_.html</loc>
+    
+    <lastmod>2020-04-30T10:15:07.985Z</lastmod>
     
   </url>
   
@@ -338,16 +352,9 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2012/11/22/kindleceo_of_the_internet_wired_single_stories_010_.html</loc>
+    <loc>https://shigekitakeguchi.com/2012/11/05/kindle.html</loc>
     
-    <lastmod>2020-04-30T10:15:07.985Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shigekitakeguchi.com/2012/11/19/kindle.html</loc>
-    
-    <lastmod>2020-04-30T10:15:07.985Z</lastmod>
+    <lastmod>2020-04-30T10:15:07.984Z</lastmod>
     
   </url>
   
@@ -360,13 +367,6 @@
   
   <url>
     <loc>https://shigekitakeguchi.com/2012/06/07/1.html</loc>
-    
-    <lastmod>2020-04-30T10:15:07.984Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shigekitakeguchi.com/2012/11/05/kindle.html</loc>
     
     <lastmod>2020-04-30T10:15:07.984Z</lastmod>
     
@@ -387,6 +387,13 @@
   </url>
   
   <url>
+    <loc>https://shigekitakeguchi.com/2012/04/04/untitled_photos.html</loc>
+    
+    <lastmod>2020-04-30T10:15:07.983Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shigekitakeguchi.com/2012/05/07/twincamera.html</loc>
     
     <lastmod>2020-04-30T10:15:07.983Z</lastmod>
@@ -397,20 +404,6 @@
     <loc>https://shigekitakeguchi.com/2012/04/06/untitled_photos.html</loc>
     
     <lastmod>2020-04-30T10:15:07.983Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shigekitakeguchi.com/2012/04/04/untitled_photos.html</loc>
-    
-    <lastmod>2020-04-30T10:15:07.983Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shigekitakeguchi.com/2012/04/02/untitled_photos.html</loc>
-    
-    <lastmod>2020-04-30T10:15:07.982Z</lastmod>
     
   </url>
   
@@ -436,14 +429,21 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2011/11/23/787_boeing_787.html</loc>
+    <loc>https://shigekitakeguchi.com/2012/04/02/untitled_photos.html</loc>
+    
+    <lastmod>2020-04-30T10:15:07.982Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shigekitakeguchi.com/2011/11/18/1.html</loc>
     
     <lastmod>2020-04-30T10:15:07.981Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2011/11/18/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2011/11/23/787_boeing_787.html</loc>
     
     <lastmod>2020-04-30T10:15:07.981Z</lastmod>
     
@@ -464,7 +464,7 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2011/09/22/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2011/10/23/1.html</loc>
     
     <lastmod>2020-04-30T10:15:07.980Z</lastmod>
     
@@ -478,14 +478,7 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2011/10/23/1.html</loc>
-    
-    <lastmod>2020-04-30T10:15:07.980Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shigekitakeguchi.com/2011/09/19/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2011/10/11/command_line_toolobjective-c.html</loc>
     
     <lastmod>2020-04-30T10:15:07.980Z</lastmod>
     
@@ -499,35 +492,21 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2011/10/11/command_line_toolobjective-c.html</loc>
+    <loc>https://shigekitakeguchi.com/2011/09/22/1.html</loc>
     
     <lastmod>2020-04-30T10:15:07.980Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2011/09/05/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2011/09/19/1.html</loc>
     
-    <lastmod>2020-04-30T10:15:07.979Z</lastmod>
+    <lastmod>2020-04-30T10:15:07.980Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://shigekitakeguchi.com/2011/09/08/1.html</loc>
-    
-    <lastmod>2020-04-30T10:15:07.979Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shigekitakeguchi.com/2011/09/03/1.html</loc>
-    
-    <lastmod>2020-04-30T10:15:07.979Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shigekitakeguchi.com/2011/08/31/1.html</loc>
     
     <lastmod>2020-04-30T10:15:07.979Z</lastmod>
     
@@ -541,14 +520,28 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2011/07/09/sora_no_syashin.html</loc>
+    <loc>https://shigekitakeguchi.com/2011/08/31/1.html</loc>
     
-    <lastmod>2020-04-30T10:15:07.978Z</lastmod>
+    <lastmod>2020-04-30T10:15:07.979Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2011/08/26/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2011/09/03/1.html</loc>
+    
+    <lastmod>2020-04-30T10:15:07.979Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shigekitakeguchi.com/2011/09/05/1.html</loc>
+    
+    <lastmod>2020-04-30T10:15:07.979Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shigekitakeguchi.com/2011/08/21/pocket_wifi_gp02.html</loc>
     
     <lastmod>2020-04-30T10:15:07.978Z</lastmod>
     
@@ -562,14 +555,7 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2011/08/28/pocket_wifi_gp02.html</loc>
-    
-    <lastmod>2020-04-30T10:15:07.978Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shigekitakeguchi.com/2011/08/21/pocket_wifi_gp02.html</loc>
+    <loc>https://shigekitakeguchi.com/2011/08/26/1.html</loc>
     
     <lastmod>2020-04-30T10:15:07.978Z</lastmod>
     
@@ -583,14 +569,28 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2011/06/16/hello_new_world.html</loc>
+    <loc>https://shigekitakeguchi.com/2011/07/09/sora_no_syashin.html</loc>
+    
+    <lastmod>2020-04-30T10:15:07.978Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shigekitakeguchi.com/2011/08/28/pocket_wifi_gp02.html</loc>
+    
+    <lastmod>2020-04-30T10:15:07.978Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shigekitakeguchi.com/2011/06/15/hello_world.html</loc>
     
     <lastmod>2020-04-30T10:15:07.977Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2011/06/15/hello_world.html</loc>
+    <loc>https://shigekitakeguchi.com/2011/06/16/hello_new_world.html</loc>
     
     <lastmod>2020-04-30T10:15:07.977Z</lastmod>
     
@@ -604,14 +604,14 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2019/09/03/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2018/11/03/1.html</loc>
     
     <lastmod>2019-10-13T08:38:58.006Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2018/11/03/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2019/09/03/1.html</loc>
     
     <lastmod>2019-10-13T08:38:58.006Z</lastmod>
     
@@ -625,7 +625,7 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2017/10/08/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2018/06/08/1.html</loc>
     
     <lastmod>2019-10-13T08:38:58.005Z</lastmod>
     
@@ -639,21 +639,7 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2018/06/08/1.html</loc>
-    
-    <lastmod>2019-10-13T08:38:58.005Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shigekitakeguchi.com/2018/09/28/1.html</loc>
-    
-    <lastmod>2019-10-13T08:38:58.005Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shigekitakeguchi.com/2018/06/07/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2017/09/21/1.html</loc>
     
     <lastmod>2019-10-13T08:38:58.005Z</lastmod>
     
@@ -667,9 +653,30 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2017/09/21/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2017/10/08/1.html</loc>
     
     <lastmod>2019-10-13T08:38:58.005Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shigekitakeguchi.com/2018/06/07/1.html</loc>
+    
+    <lastmod>2019-10-13T08:38:58.005Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shigekitakeguchi.com/2018/09/28/1.html</loc>
+    
+    <lastmod>2019-10-13T08:38:58.005Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shigekitakeguchi.com/2017/02/10/1.html</loc>
+    
+    <lastmod>2019-10-13T08:38:58.004Z</lastmod>
     
   </url>
   
@@ -681,7 +688,7 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2017/05/15/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2017/02/05/1.html</loc>
     
     <lastmod>2019-10-13T08:38:58.004Z</lastmod>
     
@@ -695,7 +702,7 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2017/02/10/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2017/05/15/1.html</loc>
     
     <lastmod>2019-10-13T08:38:58.004Z</lastmod>
     
@@ -709,9 +716,9 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2017/02/05/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2017/01/22/1.html</loc>
     
-    <lastmod>2019-10-13T08:38:58.004Z</lastmod>
+    <lastmod>2019-10-13T08:38:58.003Z</lastmod>
     
   </url>
   
@@ -730,9 +737,9 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2017/01/22/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2016/09/01/1.html</loc>
     
-    <lastmod>2019-10-13T08:38:58.003Z</lastmod>
+    <lastmod>2019-10-13T08:38:58.002Z</lastmod>
     
   </url>
   
@@ -751,14 +758,7 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2016/09/01/1.html</loc>
-    
-    <lastmod>2019-10-13T08:38:58.002Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shigekitakeguchi.com/2015/04/04/09/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2015/04/04/06/1.html</loc>
     
     <lastmod>2019-10-13T08:38:57.999Z</lastmod>
     
@@ -772,14 +772,14 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2015/04/04/06/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2015/04/04/20/1.html</loc>
     
     <lastmod>2019-10-13T08:38:57.999Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2015/04/04/20/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2015/04/04/09/1.html</loc>
     
     <lastmod>2019-10-13T08:38:57.999Z</lastmod>
     
@@ -828,14 +828,14 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2012/11/13/xcode.html</loc>
+    <loc>https://shigekitakeguchi.com/2012/11/11/xcode.html</loc>
     
     <lastmod>2019-10-13T08:38:57.995Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2012/11/11/xcode.html</loc>
+    <loc>https://shigekitakeguchi.com/2012/11/13/xcode.html</loc>
     
     <lastmod>2019-10-13T08:38:57.995Z</lastmod>
     
@@ -856,7 +856,7 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2011/08/28/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2011/08/13/1.html</loc>
     
     <lastmod>2019-10-13T08:38:57.991Z</lastmod>
     
@@ -870,14 +870,14 @@
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2011/08/13/1.html</loc>
+    <loc>https://shigekitakeguchi.com/2011/08/28/1.html</loc>
     
     <lastmod>2019-10-13T08:38:57.991Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://shigekitakeguchi.com/2011/07/02/korekara_no_shigoto.html</loc>
+    <loc>https://shigekitakeguchi.com/2011/08/12/1.html</loc>
     
     <lastmod>2019-10-13T08:38:57.990Z</lastmod>
     
@@ -885,13 +885,6 @@
   
   <url>
     <loc>https://shigekitakeguchi.com/2011/08/08/1.html</loc>
-    
-    <lastmod>2019-10-13T08:38:57.990Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shigekitakeguchi.com/2011/08/12/1.html</loc>
     
     <lastmod>2019-10-13T08:38:57.990Z</lastmod>
     
@@ -906,6 +899,13 @@
   
   <url>
     <loc>https://shigekitakeguchi.com/2011/07/05/kounyu_no_koudou.html</loc>
+    
+    <lastmod>2019-10-13T08:38:57.990Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shigekitakeguchi.com/2011/07/02/korekara_no_shigoto.html</loc>
     
     <lastmod>2019-10-13T08:38:57.990Z</lastmod>
     
