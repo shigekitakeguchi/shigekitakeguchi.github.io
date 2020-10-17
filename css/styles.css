@@ -951,6 +951,8 @@ a.article-tag-list-link {
     margin-right: 10px; }
   .well .text {
     font-size: 80%; }
+  .well.profile {
+    display: block; }
 
 .amazon-wrapper {
   padding: 12px;
