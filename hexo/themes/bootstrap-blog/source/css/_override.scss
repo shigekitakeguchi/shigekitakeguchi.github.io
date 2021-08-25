@@ -22,7 +22,7 @@ ul {
 }
 
 .article-header h1 {
-  font-size: 26px;
+  font-size: 22px;
   line-height: 1.4;
   margin-bottom: 8px;
   @include max-screen($breakpoint-mobile) {
@@ -68,9 +68,9 @@ header {
   }
   h2 {
     width: calc(100% - 30px);
-    font-size: 22px;
+    font-size: 20px;
     border-left: 6px solid #666;
-    padding: 4px 0 4px 12px;
+    padding: 0px 0 0px 9px;
     line-height: 1.5;
     @include max-screen($breakpoint-mobile) {
       margin: 15px auto;
@@ -247,6 +247,9 @@ a.article-tag-list-link {
   .text {
     font-size: 80%;
   }
+  &.profile {
+    display: block;
+  }
 }
 
 .amazon-wrapper {
@@ -345,5 +348,11 @@ a.article-tag-list-link {
     iframe {
       width: 375px;
     }
+  }
+}
+
+.article-entry {
+  .article-more-link {
+    margin: 20px 0;
   }
 }
