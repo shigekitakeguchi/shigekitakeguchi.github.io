@@ -45,7 +45,7 @@ pagination_dir: page
 theme: bootstrap-blog
 deploy:
   type: git
-  repo: "git@github.com:shigekitakeguchi/shigekitakeguchi.github.io.git"
+  repo: git@github.com:shigekitakeguchi/shigekitakeguchi.github.io.git
   branch: master
 sitemap:
   path: sitemap.xml
