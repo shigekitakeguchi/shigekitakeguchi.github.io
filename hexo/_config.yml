@@ -1,5 +1,5 @@
 title: shigeki.takeguchi.log
-subtitle: アラフィフおじさんの技術日記
+subtitle: もうすぐ還暦のYouTubeチャンネル奮闘記
 description: 渋谷で働くアラフィフおじさんが食べることや興味をもった技術やこれ技術的に面白いやんといったことをつらつらと書いていきます
 keywords: null
 author: 竹口 茂樹
@@ -50,11 +50,6 @@ deploy:
 sitemap:
   path: sitemap.xml
   template: ./sitemap_template.xml
-autoprefixer:
-  browsers:
-    - last 2 versions
-    - Android >= 4
-    - ios_saf >= 8
 marked:
   breaks: false
 feed:

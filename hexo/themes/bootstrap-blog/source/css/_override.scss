@@ -321,7 +321,7 @@ a.article-tag-list-link {
 
 .youtube {
   position: relative;
-  width: calc(100% - 30px);
+  width: 100%;
   margin: 15px auto 30px;
   padding-top: 56.25%;
 }
@@ -356,5 +356,15 @@ a.article-tag-list-link {
 .article-entry {
   .article-more-link {
     margin: 20px 0;
+  }
+}
+
+.image-link {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+  img {
+    width: 100%;
+    margin: 0;
   }
 }

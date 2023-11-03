@@ -14,6 +14,7 @@
   "dependencies": {
     "hexo": "^6.3.0",
     "hexo-autoprefixer": "^2.0.0",
+    "hexo-browsersync": "^0.3.0",
     "hexo-deployer-git": "^4.0.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
@@ -29,5 +30,9 @@
     "hexo-tag-bootstrap": "^0.2.2",
     "hexo-tag-fontawesome": "^1.1.0",
     "hexo-theme-landscape": "^1.0.0"
-  }
+  },
+  "browserslist": [
+    "defaults and fully supports es6-module",
+    "maintained node versions"
+  ]
 }
