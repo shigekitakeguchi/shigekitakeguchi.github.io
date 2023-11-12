@@ -34,5 +34,8 @@
   "browserslist": [
     "defaults and fully supports es6-module",
     "maintained node versions"
-  ]
+  ],
+  "volta": {
+    "node": "16.18.0"
+  }
 }
