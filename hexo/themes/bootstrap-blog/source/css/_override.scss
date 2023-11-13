@@ -302,7 +302,7 @@ a.article-tag-list-link {
     font-size: 94%;
   }
   img {
-    box-shadow: 0px 0px 3px 1px #ccc;
+    margin-bottom: 12px;
   }
 }
 
@@ -400,5 +400,43 @@ a.article-tag-list-link {
   img {
     width: 100%;
     margin: 0;
+  }
+}
+
+.amazon-text {
+  .image-link img {
+    height: 1px;
+  }
+}
+
+.amazon-wrapper-3 {
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #e1e8ed;
+  background: #fff;
+  h3 {
+    font-size: 100%;
+    font-weight: bold;
+    margin: 0 0 12px 0;
+  }
+  p {
+    margin: 0;
+  }
+  .amazon-image-3 {
+    margin-right: 10px;
+    width: 320px;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .amazon-text-3 {
+    font-size: 94%;
+    margin-bottom: 24px;
+  }
+  img {
+    margin-top: 6px;
+    margin-bottom: 12px;
+    box-shadow: 0px 0px 3px 1px #ccc;
   }
 }
