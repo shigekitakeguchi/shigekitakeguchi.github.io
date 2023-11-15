@@ -1282,6 +1282,11 @@ a.article-tag-list-link::before {
     width: 375px;
   }
 }
+.article-entry {
+  padding-bottom: 20px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid #eee;
+}
 .article-entry .article-more-link {
   margin: 20px 0;
 }
