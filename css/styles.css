@@ -889,8 +889,8 @@ ul {
 
 .blog-title {
   margin-top: 15px;
-  font-size: 26px;
-  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 120%;
+  font-weight: bold;
 }
 .blog-title a {
   -webkit-text-decoration-line: none;
@@ -898,8 +898,9 @@ ul {
 }
 
 .blog-description {
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-size: 100%;
+  margin: 10px 0;
+  font-weight: bold;
 }
 
 .row {
@@ -1329,6 +1330,30 @@ a.article-tag-list-link::before {
   margin-top: 6px;
   margin-bottom: 12px;
   box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+.profile h3 {
+  font-size: 100%;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+.profile .subtitle {
+  margin: 0 0 2px 0;
+}
+.profile .profile-image {
+  width: 100%;
+  margin: 0 0 8px 0;
+}
+.profile .profile-image img {
+  width: 100%;
+}
+.profile .text {
+  margin: 0 0 28px 0;
+  font-size: 80%;
+}
+.profile .link {
+  margin: 0 0 8px 0;
+  font-size: 94%;
 }
 
 /*!
