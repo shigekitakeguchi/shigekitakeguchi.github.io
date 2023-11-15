@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>shigeki.takeguchi.log</title>
+  <title>街撮りchの中のひとのブログ | shigeki.takeguchi.log</title>
   
-  <subtitle>もうすぐ還暦のYouTubeチャンネル奮闘記</subtitle>
-  <link href="https://shigekitakeguchi.github.io/feed.xml" rel="self"/>
+  <subtitle>もうすぐ還暦ジジイのYouTubeチャンネル奮闘記</subtitle>
+  <link href="https://shigekitakeguchi.com/feed.xml" rel="self"/>
   
-  <link href="https://shigekitakeguchi.github.io/"/>
+  <link href="https://shigekitakeguchi.com/"/>
   <updated>2023-11-13T15:31:53.132Z</updated>
-  <id>https://shigekitakeguchi.github.io/</id>
+  <id>https://shigekitakeguchi.com/</id>
   
   <author>
     <name>竹口 茂樹</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>帯広と釧路の賑わいの逆転 夏の北海道を旅して</title>
-    <link href="https://shigekitakeguchi.github.io/2023/11/14/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2023/11/14/1.html</id>
+    <link href="https://shigekitakeguchi.com/2023/11/14/1.html"/>
+    <id>https://shigekitakeguchi.com/2023/11/14/1.html</id>
     <published>2023-11-13T15:00:00.000Z</published>
     <updated>2023-11-13T15:31:53.132Z</updated>
     
@@ -31,20 +31,20 @@
     
     
     
-    <category term="YouTube" scheme="https://shigekitakeguchi.github.io/tags/YouTube/"/>
+    <category term="YouTube" scheme="https://shigekitakeguchi.com/tags/YouTube/"/>
     
-    <category term="北海道" scheme="https://shigekitakeguchi.github.io/tags/%E5%8C%97%E6%B5%B7%E9%81%93/"/>
+    <category term="北海道" scheme="https://shigekitakeguchi.com/tags/%E5%8C%97%E6%B5%B7%E9%81%93/"/>
     
-    <category term="帯広" scheme="https://shigekitakeguchi.github.io/tags/%E5%B8%AF%E5%BA%83/"/>
+    <category term="帯広" scheme="https://shigekitakeguchi.com/tags/%E5%B8%AF%E5%BA%83/"/>
     
-    <category term="釧路" scheme="https://shigekitakeguchi.github.io/tags/%E9%87%A7%E8%B7%AF/"/>
+    <category term="釧路" scheme="https://shigekitakeguchi.com/tags/%E9%87%A7%E8%B7%AF/"/>
     
   </entry>
   
   <entry>
     <title>再開発直前と再開発で解体工事開始直後の比較 京成立石駅の周辺を歩いた</title>
-    <link href="https://shigekitakeguchi.github.io/2023/11/11/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2023/11/11/1.html</id>
+    <link href="https://shigekitakeguchi.com/2023/11/11/1.html"/>
+    <id>https://shigekitakeguchi.com/2023/11/11/1.html</id>
     <published>2023-11-10T15:00:00.000Z</published>
     <updated>2023-11-13T12:55:27.064Z</updated>
     
@@ -56,26 +56,26 @@
     
     
     
-    <category term="YouTube" scheme="https://shigekitakeguchi.github.io/tags/YouTube/"/>
+    <category term="YouTube" scheme="https://shigekitakeguchi.com/tags/YouTube/"/>
     
-    <category term="街撮り" scheme="https://shigekitakeguchi.github.io/tags/%E8%A1%97%E6%92%AE%E3%82%8A/"/>
+    <category term="街撮り" scheme="https://shigekitakeguchi.com/tags/%E8%A1%97%E6%92%AE%E3%82%8A/"/>
     
-    <category term="繁華街" scheme="https://shigekitakeguchi.github.io/tags/%E7%B9%81%E8%8F%AF%E8%A1%97/"/>
+    <category term="繁華街" scheme="https://shigekitakeguchi.com/tags/%E7%B9%81%E8%8F%AF%E8%A1%97/"/>
     
-    <category term="飲み屋街" scheme="https://shigekitakeguchi.github.io/tags/%E9%A3%B2%E3%81%BF%E5%B1%8B%E8%A1%97/"/>
+    <category term="飲み屋街" scheme="https://shigekitakeguchi.com/tags/%E9%A3%B2%E3%81%BF%E5%B1%8B%E8%A1%97/"/>
     
-    <category term="葛飾区" scheme="https://shigekitakeguchi.github.io/tags/%E8%91%9B%E9%A3%BE%E5%8C%BA/"/>
+    <category term="葛飾区" scheme="https://shigekitakeguchi.com/tags/%E8%91%9B%E9%A3%BE%E5%8C%BA/"/>
     
-    <category term="せんべろの街" scheme="https://shigekitakeguchi.github.io/tags/%E3%81%9B%E3%82%93%E3%81%B9%E3%82%8D%E3%81%AE%E8%A1%97/"/>
+    <category term="せんべろの街" scheme="https://shigekitakeguchi.com/tags/%E3%81%9B%E3%82%93%E3%81%B9%E3%82%8D%E3%81%AE%E8%A1%97/"/>
     
-    <category term="立石" scheme="https://shigekitakeguchi.github.io/tags/%E7%AB%8B%E7%9F%B3/"/>
+    <category term="立石" scheme="https://shigekitakeguchi.com/tags/%E7%AB%8B%E7%9F%B3/"/>
     
   </entry>
   
   <entry>
     <title>酔っぱらいへの愛にあふれた街 八戸の中心街を歩いた</title>
-    <link href="https://shigekitakeguchi.github.io/2023/11/09/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2023/11/09/1.html</id>
+    <link href="https://shigekitakeguchi.com/2023/11/09/1.html"/>
+    <id>https://shigekitakeguchi.com/2023/11/09/1.html</id>
     <published>2023-11-08T15:00:00.000Z</published>
     <updated>2023-11-09T12:44:19.500Z</updated>
     
@@ -87,26 +87,26 @@
     
     
     
-    <category term="YouTube" scheme="https://shigekitakeguchi.github.io/tags/YouTube/"/>
+    <category term="YouTube" scheme="https://shigekitakeguchi.com/tags/YouTube/"/>
     
-    <category term="街撮り" scheme="https://shigekitakeguchi.github.io/tags/%E8%A1%97%E6%92%AE%E3%82%8A/"/>
+    <category term="街撮り" scheme="https://shigekitakeguchi.com/tags/%E8%A1%97%E6%92%AE%E3%82%8A/"/>
     
-    <category term="繁華街" scheme="https://shigekitakeguchi.github.io/tags/%E7%B9%81%E8%8F%AF%E8%A1%97/"/>
+    <category term="繁華街" scheme="https://shigekitakeguchi.com/tags/%E7%B9%81%E8%8F%AF%E8%A1%97/"/>
     
-    <category term="飲食店街" scheme="https://shigekitakeguchi.github.io/tags/%E9%A3%B2%E9%A3%9F%E5%BA%97%E8%A1%97/"/>
+    <category term="飲食店街" scheme="https://shigekitakeguchi.com/tags/%E9%A3%B2%E9%A3%9F%E5%BA%97%E8%A1%97/"/>
     
-    <category term="飲み屋街" scheme="https://shigekitakeguchi.github.io/tags/%E9%A3%B2%E3%81%BF%E5%B1%8B%E8%A1%97/"/>
+    <category term="飲み屋街" scheme="https://shigekitakeguchi.com/tags/%E9%A3%B2%E3%81%BF%E5%B1%8B%E8%A1%97/"/>
     
-    <category term="青森" scheme="https://shigekitakeguchi.github.io/tags/%E9%9D%92%E6%A3%AE/"/>
+    <category term="青森" scheme="https://shigekitakeguchi.com/tags/%E9%9D%92%E6%A3%AE/"/>
     
-    <category term="八戸" scheme="https://shigekitakeguchi.github.io/tags/%E5%85%AB%E6%88%B8/"/>
+    <category term="八戸" scheme="https://shigekitakeguchi.com/tags/%E5%85%AB%E6%88%B8/"/>
     
   </entry>
   
   <entry>
     <title>生まれ育った街を歩く（母校 神戸市立雲雀丘中学校から神戸電鉄鵯越駅まで）</title>
-    <link href="https://shigekitakeguchi.github.io/2023/11/06/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2023/11/06/1.html</id>
+    <link href="https://shigekitakeguchi.com/2023/11/06/1.html"/>
+    <id>https://shigekitakeguchi.com/2023/11/06/1.html</id>
     <published>2023-11-05T15:00:00.000Z</published>
     <updated>2023-11-06T14:12:46.917Z</updated>
     
@@ -118,22 +118,22 @@
     
     
     
-    <category term="神戸" scheme="https://shigekitakeguchi.github.io/tags/%E7%A5%9E%E6%88%B8/"/>
+    <category term="神戸" scheme="https://shigekitakeguchi.com/tags/%E7%A5%9E%E6%88%B8/"/>
     
-    <category term="思い出" scheme="https://shigekitakeguchi.github.io/tags/%E6%80%9D%E3%81%84%E5%87%BA/"/>
+    <category term="思い出" scheme="https://shigekitakeguchi.com/tags/%E6%80%9D%E3%81%84%E5%87%BA/"/>
     
-    <category term="YouTube" scheme="https://shigekitakeguchi.github.io/tags/YouTube/"/>
+    <category term="YouTube" scheme="https://shigekitakeguchi.com/tags/YouTube/"/>
     
-    <category term="街撮り" scheme="https://shigekitakeguchi.github.io/tags/%E8%A1%97%E6%92%AE%E3%82%8A/"/>
+    <category term="街撮り" scheme="https://shigekitakeguchi.com/tags/%E8%A1%97%E6%92%AE%E3%82%8A/"/>
     
-    <category term="母校" scheme="https://shigekitakeguchi.github.io/tags/%E6%AF%8D%E6%A0%A1/"/>
+    <category term="母校" scheme="https://shigekitakeguchi.com/tags/%E6%AF%8D%E6%A0%A1/"/>
     
   </entry>
   
   <entry>
     <title>「サクマ＆ピース」にはまってます</title>
-    <link href="https://shigekitakeguchi.github.io/2023/11/05/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2023/11/05/1.html</id>
+    <link href="https://shigekitakeguchi.com/2023/11/05/1.html"/>
+    <id>https://shigekitakeguchi.com/2023/11/05/1.html</id>
     <published>2023-11-04T15:00:00.000Z</published>
     <updated>2023-11-05T11:28:45.387Z</updated>
     
@@ -145,18 +145,18 @@
     
     
     
-    <category term="いわき市" scheme="https://shigekitakeguchi.github.io/tags/%E3%81%84%E3%82%8F%E3%81%8D%E5%B8%82/"/>
+    <category term="いわき市" scheme="https://shigekitakeguchi.com/tags/%E3%81%84%E3%82%8F%E3%81%8D%E5%B8%82/"/>
     
-    <category term="福島県" scheme="https://shigekitakeguchi.github.io/tags/%E7%A6%8F%E5%B3%B6%E7%9C%8C/"/>
+    <category term="福島県" scheme="https://shigekitakeguchi.com/tags/%E7%A6%8F%E5%B3%B6%E7%9C%8C/"/>
     
-    <category term="配信" scheme="https://shigekitakeguchi.github.io/tags/%E9%85%8D%E4%BF%A1/"/>
+    <category term="配信" scheme="https://shigekitakeguchi.com/tags/%E9%85%8D%E4%BF%A1/"/>
     
   </entry>
   
   <entry>
     <title>TikTokの収益化奮闘記（収益化したくてTikTokをはじめようとする人へ）</title>
-    <link href="https://shigekitakeguchi.github.io/2023/11/04/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2023/11/04/1.html</id>
+    <link href="https://shigekitakeguchi.com/2023/11/04/1.html"/>
+    <id>https://shigekitakeguchi.com/2023/11/04/1.html</id>
     <published>2023-11-03T15:00:00.000Z</published>
     <updated>2023-11-04T02:40:51.078Z</updated>
     
@@ -168,18 +168,18 @@
     
     
     
-    <category term="TikTok" scheme="https://shigekitakeguchi.github.io/tags/TikTok/"/>
+    <category term="TikTok" scheme="https://shigekitakeguchi.com/tags/TikTok/"/>
     
-    <category term="Creativity Program Beta" scheme="https://shigekitakeguchi.github.io/tags/Creativity-Program-Beta/"/>
+    <category term="Creativity Program Beta" scheme="https://shigekitakeguchi.com/tags/Creativity-Program-Beta/"/>
     
-    <category term="収益化" scheme="https://shigekitakeguchi.github.io/tags/%E5%8F%8E%E7%9B%8A%E5%8C%96/"/>
+    <category term="収益化" scheme="https://shigekitakeguchi.com/tags/%E5%8F%8E%E7%9B%8A%E5%8C%96/"/>
     
   </entry>
   
   <entry>
     <title>「岡山駅から岡山城までの道のりを紹介」記事が今もよく見られてるのであらためて岡山の魅力を書いてみる</title>
-    <link href="https://shigekitakeguchi.github.io/2023/11/03/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2023/11/03/1.html</id>
+    <link href="https://shigekitakeguchi.com/2023/11/03/1.html"/>
+    <id>https://shigekitakeguchi.com/2023/11/03/1.html</id>
     <published>2023-11-02T15:00:00.000Z</published>
     <updated>2023-11-03T07:56:29.429Z</updated>
     
@@ -191,22 +191,22 @@
     
     
     
-    <category term="okayama" scheme="https://shigekitakeguchi.github.io/tags/okayama/"/>
+    <category term="okayama" scheme="https://shigekitakeguchi.com/tags/okayama/"/>
     
-    <category term="地方都市" scheme="https://shigekitakeguchi.github.io/tags/%E5%9C%B0%E6%96%B9%E9%83%BD%E5%B8%82/"/>
+    <category term="地方都市" scheme="https://shigekitakeguchi.com/tags/%E5%9C%B0%E6%96%B9%E9%83%BD%E5%B8%82/"/>
     
-    <category term="散歩動画" scheme="https://shigekitakeguchi.github.io/tags/%E6%95%A3%E6%AD%A9%E5%8B%95%E7%94%BB/"/>
+    <category term="散歩動画" scheme="https://shigekitakeguchi.com/tags/%E6%95%A3%E6%AD%A9%E5%8B%95%E7%94%BB/"/>
     
-    <category term="街撮りch" scheme="https://shigekitakeguchi.github.io/tags/%E8%A1%97%E6%92%AE%E3%82%8Ach/"/>
+    <category term="街撮りch" scheme="https://shigekitakeguchi.com/tags/%E8%A1%97%E6%92%AE%E3%82%8Ach/"/>
     
-    <category term="岡山" scheme="https://shigekitakeguchi.github.io/tags/%E5%B2%A1%E5%B1%B1/"/>
+    <category term="岡山" scheme="https://shigekitakeguchi.com/tags/%E5%B2%A1%E5%B1%B1/"/>
     
   </entry>
   
   <entry>
     <title>西千葉にある某社へ転職しました。</title>
-    <link href="https://shigekitakeguchi.github.io/2023/11/02/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2023/11/02/1.html</id>
+    <link href="https://shigekitakeguchi.com/2023/11/02/1.html"/>
+    <id>https://shigekitakeguchi.com/2023/11/02/1.html</id>
     <published>2023-11-01T15:00:00.000Z</published>
     <updated>2023-11-03T07:56:27.459Z</updated>
     
@@ -218,16 +218,16 @@
     
     
     
-    <category term="転職" scheme="https://shigekitakeguchi.github.io/tags/%E8%BB%A2%E8%81%B7/"/>
+    <category term="転職" scheme="https://shigekitakeguchi.com/tags/%E8%BB%A2%E8%81%B7/"/>
     
-    <category term="西千葉" scheme="https://shigekitakeguchi.github.io/tags/%E8%A5%BF%E5%8D%83%E8%91%89/"/>
+    <category term="西千葉" scheme="https://shigekitakeguchi.com/tags/%E8%A5%BF%E5%8D%83%E8%91%89/"/>
     
   </entry>
   
   <entry>
     <title>街撮りchというYouTubeのチェンネルをはじめて3年を超えました</title>
-    <link href="https://shigekitakeguchi.github.io/2023/10/30/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2023/10/30/1.html</id>
+    <link href="https://shigekitakeguchi.com/2023/10/30/1.html"/>
+    <id>https://shigekitakeguchi.com/2023/10/30/1.html</id>
     <published>2023-10-29T15:00:00.000Z</published>
     <updated>2023-11-03T07:56:24.749Z</updated>
     
@@ -239,18 +239,18 @@
     
     
     
-    <category term="YouTube" scheme="https://shigekitakeguchi.github.io/tags/YouTube/"/>
+    <category term="YouTube" scheme="https://shigekitakeguchi.com/tags/YouTube/"/>
     
-    <category term="散歩動画" scheme="https://shigekitakeguchi.github.io/tags/%E6%95%A3%E6%AD%A9%E5%8B%95%E7%94%BB/"/>
+    <category term="散歩動画" scheme="https://shigekitakeguchi.com/tags/%E6%95%A3%E6%AD%A9%E5%8B%95%E7%94%BB/"/>
     
-    <category term="街撮りch" scheme="https://shigekitakeguchi.github.io/tags/%E8%A1%97%E6%92%AE%E3%82%8Ach/"/>
+    <category term="街撮りch" scheme="https://shigekitakeguchi.com/tags/%E8%A1%97%E6%92%AE%E3%82%8Ach/"/>
     
   </entry>
   
   <entry>
     <title>街撮りchというYouTubeのチェンネルをはじめて1年が経ちました</title>
-    <link href="https://shigekitakeguchi.github.io/2021/09/15/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2021/09/15/1.html</id>
+    <link href="https://shigekitakeguchi.com/2021/09/15/1.html"/>
+    <id>https://shigekitakeguchi.com/2021/09/15/1.html</id>
     <published>2021-09-14T15:00:00.000Z</published>
     <updated>2023-10-23T11:02:15.160Z</updated>
     
@@ -262,20 +262,20 @@
     
     
     
-    <category term="YouTube" scheme="https://shigekitakeguchi.github.io/tags/YouTube/"/>
+    <category term="YouTube" scheme="https://shigekitakeguchi.com/tags/YouTube/"/>
     
-    <category term="散歩動画" scheme="https://shigekitakeguchi.github.io/tags/%E6%95%A3%E6%AD%A9%E5%8B%95%E7%94%BB/"/>
+    <category term="散歩動画" scheme="https://shigekitakeguchi.com/tags/%E6%95%A3%E6%AD%A9%E5%8B%95%E7%94%BB/"/>
     
-    <category term="街撮りch" scheme="https://shigekitakeguchi.github.io/tags/%E8%A1%97%E6%92%AE%E3%82%8Ach/"/>
+    <category term="街撮りch" scheme="https://shigekitakeguchi.com/tags/%E8%A1%97%E6%92%AE%E3%82%8Ach/"/>
     
-    <category term="動画" scheme="https://shigekitakeguchi.github.io/tags/%E5%8B%95%E7%94%BB/"/>
+    <category term="動画" scheme="https://shigekitakeguchi.com/tags/%E5%8B%95%E7%94%BB/"/>
     
   </entry>
   
   <entry>
     <title>天才の頭の中: ビル・ゲイツを解読する（動画配信を観てステイホーム）</title>
-    <link href="https://shigekitakeguchi.github.io/2020/05/03/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2020/05/03/1.html</id>
+    <link href="https://shigekitakeguchi.com/2020/05/03/1.html"/>
+    <id>https://shigekitakeguchi.com/2020/05/03/1.html</id>
     <published>2020-05-02T15:00:00.000Z</published>
     <updated>2023-11-02T23:42:46.229Z</updated>
     
@@ -287,20 +287,20 @@
     
     
     
-    <category term="ステイホーム" scheme="https://shigekitakeguchi.github.io/tags/%E3%82%B9%E3%83%86%E3%82%A4%E3%83%9B%E3%83%BC%E3%83%A0/"/>
+    <category term="ステイホーム" scheme="https://shigekitakeguchi.com/tags/%E3%82%B9%E3%83%86%E3%82%A4%E3%83%9B%E3%83%BC%E3%83%A0/"/>
     
-    <category term="Netflix" scheme="https://shigekitakeguchi.github.io/tags/Netflix/"/>
+    <category term="Netflix" scheme="https://shigekitakeguchi.com/tags/Netflix/"/>
     
-    <category term="おすすめ動画" scheme="https://shigekitakeguchi.github.io/tags/%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E5%8B%95%E7%94%BB/"/>
+    <category term="おすすめ動画" scheme="https://shigekitakeguchi.com/tags/%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E5%8B%95%E7%94%BB/"/>
     
-    <category term="ドキュメンタリー" scheme="https://shigekitakeguchi.github.io/tags/%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%82%BF%E3%83%AA%E3%83%BC/"/>
+    <category term="ドキュメンタリー" scheme="https://shigekitakeguchi.com/tags/%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%82%BF%E3%83%AA%E3%83%BC/"/>
     
   </entry>
   
   <entry>
     <title>眩（くらら）～北斎の娘～（動画配信を観てステイホーム）</title>
-    <link href="https://shigekitakeguchi.github.io/2020/05/01/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2020/05/01/1.html</id>
+    <link href="https://shigekitakeguchi.com/2020/05/01/1.html"/>
+    <id>https://shigekitakeguchi.com/2020/05/01/1.html</id>
     <published>2020-04-30T15:00:00.000Z</published>
     <updated>2023-10-23T11:02:15.160Z</updated>
     
@@ -312,22 +312,22 @@
     
     
     
-    <category term="おすすめドラマ" scheme="https://shigekitakeguchi.github.io/tags/%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E3%83%89%E3%83%A9%E3%83%9E/"/>
+    <category term="おすすめドラマ" scheme="https://shigekitakeguchi.com/tags/%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E3%83%89%E3%83%A9%E3%83%9E/"/>
     
-    <category term="ステイホーム" scheme="https://shigekitakeguchi.github.io/tags/%E3%82%B9%E3%83%86%E3%82%A4%E3%83%9B%E3%83%BC%E3%83%A0/"/>
+    <category term="ステイホーム" scheme="https://shigekitakeguchi.com/tags/%E3%82%B9%E3%83%86%E3%82%A4%E3%83%9B%E3%83%BC%E3%83%A0/"/>
     
-    <category term="葛飾北斎" scheme="https://shigekitakeguchi.github.io/tags/%E8%91%9B%E9%A3%BE%E5%8C%97%E6%96%8E/"/>
+    <category term="葛飾北斎" scheme="https://shigekitakeguchi.com/tags/%E8%91%9B%E9%A3%BE%E5%8C%97%E6%96%8E/"/>
     
-    <category term="葛飾応為" scheme="https://shigekitakeguchi.github.io/tags/%E8%91%9B%E9%A3%BE%E5%BF%9C%E7%82%BA/"/>
+    <category term="葛飾応為" scheme="https://shigekitakeguchi.com/tags/%E8%91%9B%E9%A3%BE%E5%BF%9C%E7%82%BA/"/>
     
-    <category term="U-NEXT" scheme="https://shigekitakeguchi.github.io/tags/U-NEXT/"/>
+    <category term="U-NEXT" scheme="https://shigekitakeguchi.com/tags/U-NEXT/"/>
     
   </entry>
   
   <entry>
     <title>攻殻機動隊 SAC_2045（動画配信を観てステイホーム）</title>
-    <link href="https://shigekitakeguchi.github.io/2020/04/30/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2020/04/30/1.html</id>
+    <link href="https://shigekitakeguchi.com/2020/04/30/1.html"/>
+    <id>https://shigekitakeguchi.com/2020/04/30/1.html</id>
     <published>2020-04-29T15:00:00.000Z</published>
     <updated>2023-10-23T11:02:15.159Z</updated>
     
@@ -339,20 +339,20 @@
     
     
     
-    <category term="おすすめドラマ" scheme="https://shigekitakeguchi.github.io/tags/%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E3%83%89%E3%83%A9%E3%83%9E/"/>
+    <category term="おすすめドラマ" scheme="https://shigekitakeguchi.com/tags/%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E3%83%89%E3%83%A9%E3%83%9E/"/>
     
-    <category term="攻殻機動隊" scheme="https://shigekitakeguchi.github.io/tags/%E6%94%BB%E6%AE%BB%E6%A9%9F%E5%8B%95%E9%9A%8A/"/>
+    <category term="攻殻機動隊" scheme="https://shigekitakeguchi.com/tags/%E6%94%BB%E6%AE%BB%E6%A9%9F%E5%8B%95%E9%9A%8A/"/>
     
-    <category term="ステイホーム" scheme="https://shigekitakeguchi.github.io/tags/%E3%82%B9%E3%83%86%E3%82%A4%E3%83%9B%E3%83%BC%E3%83%A0/"/>
+    <category term="ステイホーム" scheme="https://shigekitakeguchi.com/tags/%E3%82%B9%E3%83%86%E3%82%A4%E3%83%9B%E3%83%BC%E3%83%A0/"/>
     
-    <category term="Netflix" scheme="https://shigekitakeguchi.github.io/tags/Netflix/"/>
+    <category term="Netflix" scheme="https://shigekitakeguchi.com/tags/Netflix/"/>
     
   </entry>
   
   <entry>
     <title>ひさびさにwebpackの設定を書いたらバージョンが4になっていて色々と変わっていた</title>
-    <link href="https://shigekitakeguchi.github.io/2019/12/11/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2019/12/11/1.html</id>
+    <link href="https://shigekitakeguchi.com/2019/12/11/1.html"/>
+    <id>https://shigekitakeguchi.com/2019/12/11/1.html</id>
     <published>2019-12-10T15:00:00.000Z</published>
     <updated>2023-10-23T11:02:15.158Z</updated>
     
@@ -364,20 +364,20 @@
     
     
     
-    <category term="webpack" scheme="https://shigekitakeguchi.github.io/tags/webpack/"/>
+    <category term="webpack" scheme="https://shigekitakeguchi.com/tags/webpack/"/>
     
-    <category term="フロントエンドエンジニア" scheme="https://shigekitakeguchi.github.io/tags/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2/"/>
+    <category term="フロントエンドエンジニア" scheme="https://shigekitakeguchi.com/tags/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2/"/>
     
-    <category term="TypeScript" scheme="https://shigekitakeguchi.github.io/tags/TypeScript/"/>
+    <category term="TypeScript" scheme="https://shigekitakeguchi.com/tags/TypeScript/"/>
     
-    <category term="Scss" scheme="https://shigekitakeguchi.github.io/tags/Scss/"/>
+    <category term="Scss" scheme="https://shigekitakeguchi.com/tags/Scss/"/>
     
   </entry>
   
   <entry>
     <title>Nuxt.js + TypeScript（Class-based）にはnuxt-property-decorator</title>
-    <link href="https://shigekitakeguchi.github.io/2019/10/11/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2019/10/11/1.html</id>
+    <link href="https://shigekitakeguchi.com/2019/10/11/1.html"/>
+    <id>https://shigekitakeguchi.com/2019/10/11/1.html</id>
     <published>2019-10-11T15:00:00.000Z</published>
     <updated>2023-10-23T11:02:15.158Z</updated>
     
@@ -389,18 +389,18 @@
     
     
     
-    <category term="フロントエンドエンジニア" scheme="https://shigekitakeguchi.github.io/tags/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2/"/>
+    <category term="フロントエンドエンジニア" scheme="https://shigekitakeguchi.com/tags/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2/"/>
     
-    <category term="Nuxt.js" scheme="https://shigekitakeguchi.github.io/tags/Nuxt-js/"/>
+    <category term="Nuxt.js" scheme="https://shigekitakeguchi.com/tags/Nuxt-js/"/>
     
-    <category term="TypeScript" scheme="https://shigekitakeguchi.github.io/tags/TypeScript/"/>
+    <category term="TypeScript" scheme="https://shigekitakeguchi.com/tags/TypeScript/"/>
     
   </entry>
   
   <entry>
     <title>Nuxt.js（v2.9.x）+ TypeScript（Class-based）で環境を用意する</title>
-    <link href="https://shigekitakeguchi.github.io/2019/09/03/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2019/09/03/1.html</id>
+    <link href="https://shigekitakeguchi.com/2019/09/03/1.html"/>
+    <id>https://shigekitakeguchi.com/2019/09/03/1.html</id>
     <published>2019-09-02T15:00:00.000Z</published>
     <updated>2023-10-23T11:02:15.158Z</updated>
     
@@ -412,18 +412,18 @@
     
     
     
-    <category term="フロントエンドエンジニア" scheme="https://shigekitakeguchi.github.io/tags/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2/"/>
+    <category term="フロントエンドエンジニア" scheme="https://shigekitakeguchi.com/tags/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2/"/>
     
-    <category term="Nuxt.js" scheme="https://shigekitakeguchi.github.io/tags/Nuxt-js/"/>
+    <category term="Nuxt.js" scheme="https://shigekitakeguchi.com/tags/Nuxt-js/"/>
     
-    <category term="TypeScript" scheme="https://shigekitakeguchi.github.io/tags/TypeScript/"/>
+    <category term="TypeScript" scheme="https://shigekitakeguchi.com/tags/TypeScript/"/>
     
   </entry>
   
   <entry>
     <title>フロントエンドエンジニアのための海外カンファレンスのすすめ（飲食編）</title>
-    <link href="https://shigekitakeguchi.github.io/2018/11/06/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2018/11/06/1.html</id>
+    <link href="https://shigekitakeguchi.com/2018/11/06/1.html"/>
+    <id>https://shigekitakeguchi.com/2018/11/06/1.html</id>
     <published>2018-11-05T15:00:00.000Z</published>
     <updated>2023-10-23T11:02:15.157Z</updated>
     
@@ -435,24 +435,24 @@
     
     
     
-    <category term="Vue.js" scheme="https://shigekitakeguchi.github.io/tags/Vue-js/"/>
+    <category term="Vue.js" scheme="https://shigekitakeguchi.com/tags/Vue-js/"/>
     
-    <category term="フロントエンド" scheme="https://shigekitakeguchi.github.io/tags/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89/"/>
+    <category term="フロントエンド" scheme="https://shigekitakeguchi.com/tags/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89/"/>
     
-    <category term="Conference" scheme="https://shigekitakeguchi.github.io/tags/Conference/"/>
+    <category term="Conference" scheme="https://shigekitakeguchi.com/tags/Conference/"/>
     
-    <category term="カンファレンス" scheme="https://shigekitakeguchi.github.io/tags/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/"/>
+    <category term="カンファレンス" scheme="https://shigekitakeguchi.com/tags/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/"/>
     
-    <category term="オランダ" scheme="https://shigekitakeguchi.github.io/tags/%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80/"/>
+    <category term="オランダ" scheme="https://shigekitakeguchi.com/tags/%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80/"/>
     
-    <category term="アムステルダム" scheme="https://shigekitakeguchi.github.io/tags/%E3%82%A2%E3%83%A0%E3%82%B9%E3%83%86%E3%83%AB%E3%83%80%E3%83%A0/"/>
+    <category term="アムステルダム" scheme="https://shigekitakeguchi.com/tags/%E3%82%A2%E3%83%A0%E3%82%B9%E3%83%86%E3%83%AB%E3%83%80%E3%83%A0/"/>
     
   </entry>
   
   <entry>
     <title>フロントエンドエンジニアのための海外カンファレンスのすすめ（渡航編）</title>
-    <link href="https://shigekitakeguchi.github.io/2018/11/03/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2018/11/03/1.html</id>
+    <link href="https://shigekitakeguchi.com/2018/11/03/1.html"/>
+    <id>https://shigekitakeguchi.com/2018/11/03/1.html</id>
     <published>2018-11-02T15:00:00.000Z</published>
     <updated>2023-10-23T11:02:15.157Z</updated>
     
@@ -464,24 +464,24 @@
     
     
     
-    <category term="Vue.js" scheme="https://shigekitakeguchi.github.io/tags/Vue-js/"/>
+    <category term="Vue.js" scheme="https://shigekitakeguchi.com/tags/Vue-js/"/>
     
-    <category term="フロントエンド" scheme="https://shigekitakeguchi.github.io/tags/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89/"/>
+    <category term="フロントエンド" scheme="https://shigekitakeguchi.com/tags/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89/"/>
     
-    <category term="Conference" scheme="https://shigekitakeguchi.github.io/tags/Conference/"/>
+    <category term="Conference" scheme="https://shigekitakeguchi.com/tags/Conference/"/>
     
-    <category term="カンファレンス" scheme="https://shigekitakeguchi.github.io/tags/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/"/>
+    <category term="カンファレンス" scheme="https://shigekitakeguchi.com/tags/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/"/>
     
-    <category term="オランダ" scheme="https://shigekitakeguchi.github.io/tags/%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80/"/>
+    <category term="オランダ" scheme="https://shigekitakeguchi.com/tags/%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80/"/>
     
-    <category term="アムステルダム" scheme="https://shigekitakeguchi.github.io/tags/%E3%82%A2%E3%83%A0%E3%82%B9%E3%83%86%E3%83%AB%E3%83%80%E3%83%A0/"/>
+    <category term="アムステルダム" scheme="https://shigekitakeguchi.com/tags/%E3%82%A2%E3%83%A0%E3%82%B9%E3%83%86%E3%83%AB%E3%83%80%E3%83%A0/"/>
     
   </entry>
   
   <entry>
     <title>フロントエンドエンジニアのための海外カンファレンスのすすめ（準備編）</title>
-    <link href="https://shigekitakeguchi.github.io/2018/09/30/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2018/09/30/1.html</id>
+    <link href="https://shigekitakeguchi.com/2018/09/30/1.html"/>
+    <id>https://shigekitakeguchi.com/2018/09/30/1.html</id>
     <published>2018-09-29T15:00:00.000Z</published>
     <updated>2023-10-23T11:02:15.157Z</updated>
     
@@ -493,24 +493,24 @@
     
     
     
-    <category term="Vue.js" scheme="https://shigekitakeguchi.github.io/tags/Vue-js/"/>
+    <category term="Vue.js" scheme="https://shigekitakeguchi.com/tags/Vue-js/"/>
     
-    <category term="フロントエンド" scheme="https://shigekitakeguchi.github.io/tags/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89/"/>
+    <category term="フロントエンド" scheme="https://shigekitakeguchi.com/tags/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89/"/>
     
-    <category term="Conference" scheme="https://shigekitakeguchi.github.io/tags/Conference/"/>
+    <category term="Conference" scheme="https://shigekitakeguchi.com/tags/Conference/"/>
     
-    <category term="カンファレンス" scheme="https://shigekitakeguchi.github.io/tags/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/"/>
+    <category term="カンファレンス" scheme="https://shigekitakeguchi.com/tags/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/"/>
     
-    <category term="オランダ" scheme="https://shigekitakeguchi.github.io/tags/%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80/"/>
+    <category term="オランダ" scheme="https://shigekitakeguchi.com/tags/%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80/"/>
     
-    <category term="アムステルダム" scheme="https://shigekitakeguchi.github.io/tags/%E3%82%A2%E3%83%A0%E3%82%B9%E3%83%86%E3%83%AB%E3%83%80%E3%83%A0/"/>
+    <category term="アムステルダム" scheme="https://shigekitakeguchi.com/tags/%E3%82%A2%E3%83%A0%E3%82%B9%E3%83%86%E3%83%AB%E3%83%80%E3%83%A0/"/>
     
   </entry>
   
   <entry>
     <title>MiddlemanからHexoへ乗り換えた話（なぜHexoにしたのか）</title>
-    <link href="https://shigekitakeguchi.github.io/2018/09/28/1.html"/>
-    <id>https://shigekitakeguchi.github.io/2018/09/28/1.html</id>
+    <link href="https://shigekitakeguchi.com/2018/09/28/1.html"/>
+    <id>https://shigekitakeguchi.com/2018/09/28/1.html</id>
     <published>2018-09-27T15:00:00.000Z</published>
     <updated>2023-10-23T11:02:15.157Z</updated>
     
@@ -522,11 +522,11 @@
     
     
     
-    <category term="Middleman" scheme="https://shigekitakeguchi.github.io/tags/Middleman/"/>
+    <category term="Middleman" scheme="https://shigekitakeguchi.com/tags/Middleman/"/>
     
-    <category term="Node.js" scheme="https://shigekitakeguchi.github.io/tags/Node-js/"/>
+    <category term="Node.js" scheme="https://shigekitakeguchi.com/tags/Node-js/"/>
     
-    <category term="Hexo" scheme="https://shigekitakeguchi.github.io/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://shigekitakeguchi.com/tags/Hexo/"/>
     
   </entry>
   

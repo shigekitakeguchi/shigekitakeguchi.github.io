@@ -5,8 +5,8 @@ ul {
 
 .blog-title {
   margin-top: 15px;
-  font-size: 26px;
-  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 120%;
+  font-weight: bold;
   a {
     -webkit-text-decoration-line: none;
     text-decoration-line: none;
@@ -14,8 +14,9 @@ ul {
 }
 
 .blog-description {
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-size: 100%;
+  margin: 10px 0;
+  font-weight: bold;
 }
 
 .row {
@@ -445,25 +446,24 @@ a.article-tag-list-link {
   h3 {
     font-size: 100%;
     font-weight: bold;
-    margin: 0 0 12px 0;
+    margin: 0 0 8px 0;
   }
   .subtitle {
-    margin: 4px;
+    margin: 0 0 2px 0;
   }
   .profile-image {
     width: 100%;
-    margin: 0;
+    margin: 0 0 8px 0;
     img {
       width: 100%;
     }
   }
   .text {
-    margin: 0;
-    padding: 20px 0;
-    font-size: 94%;
+    margin: 0 0 28px 0;
+    font-size: 80%;
   }
   .link {
-    margin: 0;
+    margin: 0 0 8px 0;
     font-size: 94%;
   }
 }
