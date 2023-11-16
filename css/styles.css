@@ -1361,6 +1361,45 @@ a.article-tag-list-link::before {
   font-size: 94%;
 }
 
+.toc-article {
+  background-color: #fafafa;
+  margin-bottom: 24px;
+  padding: 14px 14px 6px 14px;
+}
+.toc-article .toc-title {
+  font-size: 86%;
+  font-weight: bold;
+  margin: 6px 0 8px 0;
+  line-height: 1;
+}
+.toc-article ol {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+.toc-article ol li {
+  font-size: 76%;
+  border-bottom: 1px solid #ededed;
+  padding: 5px 0 6px 2px;
+}
+.toc-article ol li:last-child {
+  border-bottom: none;
+}
+.toc-article .toc-number {
+  display: none;
+}
+
+@media screen and (max-width: 736px) {
+  .toc-article {
+    margin: 0 15px 15px;
+  }
+  .toc-article .toc-title {
+    padding-left: 0;
+  }
+  .youtube {
+    width: 92%;
+  }
+}
 /*!
  *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
