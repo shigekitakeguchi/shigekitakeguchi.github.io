@@ -3,7 +3,7 @@
 # Allow crawling of all content
 User-agent: *
 Disallow:
-Sitemap: https://shigekitakeguchi.github.io/sitemap.xml
+Sitemap: https://shigekitakeguchi.com/sitemap.xml
 
 User-agent: bingbot
 Crawl-delay: 30

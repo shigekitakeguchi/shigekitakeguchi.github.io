@@ -15,10 +15,10 @@ widgets:
 about_widget_content: null
 archive_type: monthly
 show_count: true
-favicon: null
 twitter_id: null
 google_plus: null
 fb_admins: null
 fb_app_id: null
 disqus_shortname: shigekitakeguchilog
 comment_provider: disqus
+favicon: /favicon.ico
