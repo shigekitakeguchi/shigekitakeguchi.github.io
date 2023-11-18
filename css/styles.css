@@ -1398,6 +1398,13 @@ a.article-tag-list-link::before {
   }
   .youtube {
     width: 92%;
+    padding-top: 51.75%;
+  }
+  .amazon-wrapper-2 .amazon-image-2 {
+    margin: 0 auto;
+  }
+  .amazon-wrapper-3 .amazon-image-3 {
+    margin: 0 auto;
   }
 }
 /*!
