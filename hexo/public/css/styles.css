@@ -916,6 +916,26 @@ ul {
   margin: 15px 0 0;
 }
 
+.hero-image {
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 16px;
+}
+
+.pagination {
+  font-size: 80%;
+}
+
+.col-sm-3 {
+  padding-right: 0;
+}
+@media screen and (max-width: 736px) {
+  .col-sm-3 {
+    padding-right: 15px;
+  }
+}
+
 .article-header h1 {
   font-weight: bold;
   font-size: 24px;
