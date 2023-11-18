@@ -14,9 +14,16 @@ ul {
 }
 
 .blog-description {
-  font-size: 100%;
-  margin: 10px 0;
+  font-size: 96%;
   font-weight: bold;
+  padding: 15px 0;
+  @include max-screen($breakpoint-mobile) {
+    padding: 15px 32px;
+  }
+}
+
+.lead {
+  margin: 0;
 }
 
 .row {
@@ -499,6 +506,50 @@ a.article-tag-list-link {
   }
 }
 
+.sidebar-module {
+  padding: 8px;
+}
+
+.sidebar-module-list-item {
+  margin-left: 0;
+}
+
+.sidebar-module-list {
+  margin-bottom: 0;
+}
+
+.tag-wrap {
+  margin-bottom: 20px;
+}
+
+.app-info {
+  display: none;
+  padding: 0 15px;
+  .h2 {
+    border-top: 1px solid #ededed;
+    font-size: 100%;
+    font-weight: bold;
+    text-align: left;
+    margin: 24px 0 0 0;
+    padding: 32px 0 0 0;
+  }
+  .h3 {
+    font-weight: bold;
+    text-align: left;
+    margin: 0 0 8px 0;
+    font-size: 90%;
+    padding: 0;
+  }
+  .text {
+    font-size: 80%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 @include max-screen($breakpoint-mobile) {
   .toc-article {
     margin: 0 15px 15px;
@@ -519,5 +570,21 @@ a.article-tag-list-link {
     .amazon-image-3 {
       margin: 0 auto;
     }
+  }
+
+  .sidebar-module {
+    padding: 0 15px;
+  }
+  .profile .text {
+    font-size: 90%;
+  }
+  .recents {
+    margin-top: 0;
+  }
+  .tags {
+    margin-top: 20px;
+  }
+  .app-info {
+    display: block;
   }
 }

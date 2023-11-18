@@ -1,6 +1,6 @@
 <% if (site.tags.length){ %>
-  <div class="sidebar-module">
-    <h4>Tags</h4>
-    <span class="tag-wrap"><%- list_tags({show_count: theme.show_count, class: 'sidebar-module'}) %></span>
+  <div class="sidebar-module tags">
+    <h4>タグ：</h4>
+    <div class="tag-wrap"><%- list_tags({show_count: theme.show_count, class: 'sidebar-module'}) %></div>
   </div>
 <% } %>
