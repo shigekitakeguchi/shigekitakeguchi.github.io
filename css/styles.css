@@ -898,9 +898,18 @@ ul {
 }
 
 .blog-description {
-  font-size: 100%;
-  margin: 10px 0;
+  font-size: 96%;
   font-weight: bold;
+  padding: 15px 0;
+}
+@media screen and (max-width: 736px) {
+  .blog-description {
+    padding: 15px 32px;
+  }
+}
+
+.lead {
+  margin: 0;
 }
 
 .row {
