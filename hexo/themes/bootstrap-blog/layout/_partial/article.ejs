@@ -24,6 +24,10 @@
           </p>
         <% } %>
       <% } else { %>
+        <div id="toc" class="toc-article">
+          <p class="toc-title">目次</p>
+          <%- toc(post.content) %>
+        </div>
         <%- post.content %>
       <% } %>
     </div>

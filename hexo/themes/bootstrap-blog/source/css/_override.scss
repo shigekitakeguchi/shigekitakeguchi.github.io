@@ -470,3 +470,54 @@ a.article-tag-list-link {
     font-size: 94%;
   }
 }
+
+.toc-article {
+  background-color: #fafafa;
+  margin-bottom: 24px;
+  padding: 14px 14px 6px 14px;
+  .toc-title {
+    font-size: 86%;
+    font-weight: bold;
+    margin: 6px 0 8px 0;
+    line-height: 1;
+  }
+  ol {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    li {
+      font-size: 76%;
+      border-bottom: 1px solid #ededed;
+      padding: 5px 0 6px 2px;
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+  .toc-number {
+    display: none;
+  }
+}
+
+@include max-screen($breakpoint-mobile) {
+  .toc-article {
+    margin: 0 15px 15px;
+    .toc-title {
+      padding-left: 0;
+    }
+  }
+  .youtube {
+    width: 92%;
+    padding-top: 51.75%;
+  }
+  .amazon-wrapper-2 {
+    .amazon-image-2 {
+      margin: 0 auto;
+    }
+  }
+  .amazon-wrapper-3 {
+    .amazon-image-3 {
+      margin: 0 auto;
+    }
+  }
+}
