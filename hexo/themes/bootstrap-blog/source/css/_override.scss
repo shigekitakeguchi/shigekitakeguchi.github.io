@@ -16,7 +16,7 @@ ul {
 .blog-description {
   font-size: 96%;
   font-weight: bold;
-  padding: 15px 0;
+  padding: 12px 0 20px;
   @include max-screen($breakpoint-mobile) {
     padding: 15px 32px;
   }
@@ -50,12 +50,13 @@ ul {
 
 .article-header h1 {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.4;
-  margin-bottom: 8px;
+  margin-bottom: 18px;
   @include max-screen($breakpoint-mobile) {
     padding: 0 15px;
     text-align: left;
+    margin-bottom: 10px;
   }
 }
 
@@ -123,10 +124,9 @@ header {
 
 .article {
   @include max-screen($breakpoint-mobile) {
-    padding-top: 20px;
+    padding-top: 12px;
     margin: 0;
-    border-top: 1px solid #ededed;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     border-bottom: 1px solid #ededed;
     background-color: #fff;
   }
@@ -154,7 +154,7 @@ header {
   border: 1px solid #e1e8ed;
   @include min-screen($breakpoint-mobile) {
     width: 66%;
-    padding: 40px 40px 20px;
+    padding: 24px 40px 20px;
   }
   @include max-screen($breakpoint-mobile) {
     border-radius: 0;
@@ -414,7 +414,7 @@ a.article-tag-list-link {
 }
 
 .article-entry {
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   margin-bottom: 28px;
   border-bottom: 1px solid #eee;
   .article-more-link {
@@ -566,6 +566,50 @@ a.article-tag-list-link {
   }
   text-align: center;
   margin-bottom: 30px;
+}
+
+.article-share-x {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg class='drawer__icon' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 1227'%3E%3Ctitle%3Eframe%3C/title%3E%3Cg%3E%3Cpath fill='%23ffffff' d='m714.163 519.284 446.727-519.284h-105.86l-387.893 450.887-309.809-450.887h-357.328l468.492 681.821-468.492 544.549h105.866l409.625-476.152 327.181 476.152h357.328l-485.863-707.086zm-144.998 168.544-47.468-67.894-377.686-540.2396h162.604l304.797 435.9906 47.468 67.894 396.2 566.721h-162.604l-323.311-462.446z' /%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+  display: block;
+  border-radius: 4px;
+  background-color: #000;
+  width: 84px;
+  height: 40px;
+}
+
+.article-share-facebook {
+  display: flex;
+  border-radius: 4px;
+  background-color: #0866ff;
+  width: 84px;
+  height: 40px;
+  color: #fff;
+  text-shadow: none;
+}
+
+.article-share-facebook:before {
+  font-size: 30px;
+  margin-top: -23px;
+}
+
+.share-icons {
+  border-top: 1px solid #ededed;
+  padding-top: 20px;
+  margin: 0;
+  display: flex;
+  a {
+    margin-right: 12px;
+  }
+  #share-contents {
+    display: flex;
+  }
+}
+
+.hatena-bookmark-button-frame {
+  margin-right: 12px;
 }
 
 @include max-screen($breakpoint-mobile) {

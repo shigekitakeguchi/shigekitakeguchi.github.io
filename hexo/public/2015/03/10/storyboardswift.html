@@ -128,7 +128,24 @@ AppDelegate.h</p>
 <figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#import <span class="string">&quot;AppDelegate.h&quot;</span></span></span><br><span class="line"><span class="meta">#import <span class="string">&quot;ViewController.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">@interface</span> <span class="title">AppDelegate</span> ()</span></span><br><span class="line"><span class="keyword">@end</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">@implementation</span> <span class="title">AppDelegate</span></span></span><br><span class="line"></span><br><span class="line">- (<span class="type">BOOL</span>)application:(<span class="built_in">UIApplication</span> *)application</span><br><span class="line">didFinishLaunchingWithOptions:(<span class="built_in">NSDictionary</span> *)launchOptions</span><br><span class="line">&#123;</span><br><span class="line">  <span class="keyword">self</span>.window = [[<span class="built_in">UIWindow</span> alloc] initWithFrame:[[<span class="built_in">UIScreen</span> mainScreen] bounds]];</span><br><span class="line">  <span class="keyword">self</span>.viewController = [[ViewController alloc] init];</span><br><span class="line">  <span class="built_in">UINavigationController</span> *naviController = [[<span class="built_in">UINavigationController</span> alloc] initWithRootViewController:<span class="keyword">self</span>.viewController];</span><br><span class="line">  <span class="keyword">self</span>.window.rootViewController = naviController;</span><br><span class="line">  [<span class="keyword">self</span>.window makeKeyAndVisible];</span><br><span class="line">  <span class="keyword">return</span> <span class="literal">YES</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">- (<span class="type">void</span>)applicationWillResignActive:(<span class="built_in">UIApplication</span> *)application</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">- (<span class="type">void</span>)applicationDidEnterBackground:(<span class="built_in">UIApplication</span> *)application</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">- (<span class="type">void</span>)applicationWillEnterForeground:(<span class="built_in">UIApplication</span> *)application</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">- (<span class="type">void</span>)applicationDidBecomeActive:(<span class="built_in">UIApplication</span> *)application</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">- (<span class="type">void</span>)applicationWillTerminate:(<span class="built_in">UIApplication</span> *)application</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@end</span></span><br></pre></td></tr></table></figure>
 
       
+      
+        <div class="share-icons">
+          <a target="_blank" rel="noopener" href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-normal" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+          <span id="share-contents"></span>
+        </div>
+      
     </div>
+    <script>
+      const url = document.location.href;
+      const title = document.title + ' ';
+      const encodedUrl = encodeURIComponent(url);
+      const encodedTitle = encodeURIComponent(title);
+      var html = [
+        '<a href="https://twitter.com/intent/tweet?' + 'text=' + encodedTitle + '&url=' + encodedUrl + '" class="article-share-x" target="_blank" title="Twitter"></a>',
+        '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+      ].join('');
+      document.getElementById('share-contents').insertAdjacentHTML('afterbegin', html);
+    </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9198003416420881"
         crossorigin="anonymous"></script>
     <ins class="adsbygoogle"
@@ -146,9 +163,6 @@ AppDelegate.h</p>
     
 
     <footer class="article-footer">
-      <a data-url="https://shigekitakeguchi.com/2015/03/10/storyboardswift.html" data-id="clozjk8qr003klacxfpew92c5" class="article-share-link">
-        <i class="fa fa-share"></i> Share
-      </a>
       
         <a href="https://shigekitakeguchi.com/2015/03/10/storyboardswift.html#disqus_thread" class="article-comment-link">
           <i class="fa fa-comment"></i> Comments
@@ -262,9 +276,7 @@ AppDelegate.h</p>
     <h3>管理人：タケグチシゲキ</h3>
     <div class='profile-image'><img alt='' src='/images/profile.jpg' /></div>
     <p class="text">
-      フロントエンドエンジニアとして働く55歳のジジイです。
-    </p>
-    <p class="text">
+      フロントエンドエンジニアとして働く55歳のジジイです。<br />
       首都圏を中心に散歩動画を撮影してYouTubeで配信してます。現在は夜の街のネオンや光が作り出す陰影が好きで撮影することが多いです。
     </p>
     <h3 class='subtitle'>YouTbueチャンネル</h3>

@@ -122,7 +122,24 @@ Retina対応なんだけどスプライト画像といっしょに出力され�
 <figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@mixin</span> sprite-position-<span class="number">2</span>x(<span class="variable">$sprite</span>) &#123;</span><br><span class="line">  <span class="variable">$sprite-offset-x</span>: <span class="built_in">nth</span>(<span class="variable">$sprite</span>, <span class="number">3</span>) / <span class="number">2</span>;</span><br><span class="line">  <span class="variable">$sprite-offset-y</span>: <span class="built_in">nth</span>(<span class="variable">$sprite</span>, <span class="number">4</span>) / <span class="number">2</span>;</span><br><span class="line">  <span class="attribute">background-position</span>: <span class="variable">$sprite-offset-x</span>  <span class="variable">$sprite-offset-y</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@mixin</span> sprite-<span class="number">2</span>x(<span class="variable">$sprite</span>) &#123;</span><br><span class="line">  <span class="keyword">@include</span> sprite-image(<span class="variable">$sprite</span>);</span><br><span class="line">  <span class="keyword">@include</span> sprite-position-<span class="number">2</span>x(<span class="variable">$sprite</span>);</span><br><span class="line">  <span class="keyword">@include</span> sprite-width(<span class="variable">$sprite</span>);</span><br><span class="line">  <span class="keyword">@include</span> sprite-height(<span class="variable">$sprite</span>);</span><br><span class="line">  <span class="attribute">background-size</span>: <span class="variable">$spritesheet-width</span> / <span class="number">2</span> auto;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
+      
+        <div class="share-icons">
+          <a target="_blank" rel="noopener" href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-normal" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+          <span id="share-contents"></span>
+        </div>
+      
     </div>
+    <script>
+      const url = document.location.href;
+      const title = document.title + ' ';
+      const encodedUrl = encodeURIComponent(url);
+      const encodedTitle = encodeURIComponent(title);
+      var html = [
+        '<a href="https://twitter.com/intent/tweet?' + 'text=' + encodedTitle + '&url=' + encodedUrl + '" class="article-share-x" target="_blank" title="Twitter"></a>',
+        '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+      ].join('');
+      document.getElementById('share-contents').insertAdjacentHTML('afterbegin', html);
+    </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9198003416420881"
         crossorigin="anonymous"></script>
     <ins class="adsbygoogle"
@@ -140,9 +157,6 @@ Retina対応なんだけどスプライト画像といっしょに出力され�
     
 
     <footer class="article-footer">
-      <a data-url="https://shigekitakeguchi.com/2017/01/31/1.html" data-id="clozjk8ri006ylacx4fslfolf" class="article-share-link">
-        <i class="fa fa-share"></i> Share
-      </a>
       
         <a href="https://shigekitakeguchi.com/2017/01/31/1.html#disqus_thread" class="article-comment-link">
           <i class="fa fa-comment"></i> Comments
@@ -256,9 +270,7 @@ Retina対応なんだけどスプライト画像といっしょに出力され�
     <h3>管理人：タケグチシゲキ</h3>
     <div class='profile-image'><img alt='' src='/images/profile.jpg' /></div>
     <p class="text">
-      フロントエンドエンジニアとして働く55歳のジジイです。
-    </p>
-    <p class="text">
+      フロントエンドエンジニアとして働く55歳のジジイです。<br />
       首都圏を中心に散歩動画を撮影してYouTubeで配信してます。現在は夜の街のネオンや光が作り出す陰影が好きで撮影することが多いです。
     </p>
     <h3 class='subtitle'>YouTbueチャンネル</h3>
