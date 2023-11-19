@@ -108,7 +108,24 @@
 <figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> UIKit</span><br><span class="line"></span><br><span class="line"><span class="keyword">@UIApplicationMain</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AppDelegate</span>: <span class="title class_">UIResponder</span>, <span class="title class_">UIApplicationDelegate</span> &#123;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">var</span> window: <span class="type">UIWindow</span>?</span><br><span class="line">  <span class="keyword">var</span> navigationController: <span class="type">UINavigationController</span>?</span><br><span class="line"></span><br><span class="line">  <span class="keyword">private</span> <span class="keyword">func</span> <span class="title function_">application</span>(<span class="keyword">_</span> <span class="params">application</span>: <span class="type">UIApplication</span>, <span class="params">didFinishLaunchingWithOptions</span> <span class="params">launchOptions</span>: [<span class="params">NSObject</span>: <span class="type">AnyObject</span>]<span class="operator">?</span>) -&gt; <span class="type">Bool</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">func</span> <span class="title function_">applicationDidFinishLaunching</span>(<span class="keyword">_</span> <span class="params">application</span>: <span class="type">UIApplication</span>) &#123;</span><br><span class="line">    window <span class="operator">=</span> <span class="type">UIWindow</span>(frame: <span class="type">UIScreen</span>.main.bounds)</span><br><span class="line">    window<span class="operator">?</span>.makeKeyAndVisible()</span><br><span class="line">    <span class="keyword">let</span> viewController <span class="operator">=</span> <span class="type">ViewController</span>()</span><br><span class="line">    navigationController <span class="operator">=</span> <span class="type">UINavigationController</span>(rootViewController: viewController)</span><br><span class="line">    window<span class="operator">?</span>.rootViewController <span class="operator">=</span> navigationController</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">func</span> <span class="title function_">applicationWillResignActive</span>(<span class="keyword">_</span> <span class="params">application</span>: <span class="type">UIApplication</span>) &#123;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">func</span> <span class="title function_">applicationDidEnterBackground</span>(<span class="keyword">_</span> <span class="params">application</span>: <span class="type">UIApplication</span>) &#123;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">func</span> <span class="title function_">applicationWillEnterForeground</span>(<span class="keyword">_</span> <span class="params">application</span>: <span class="type">UIApplication</span>) &#123;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">func</span> <span class="title function_">applicationDidBecomeActive</span>(<span class="keyword">_</span> <span class="params">application</span>: <span class="type">UIApplication</span>) &#123;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">func</span> <span class="title function_">applicationWillTerminate</span>(<span class="keyword">_</span> <span class="params">application</span>: <span class="type">UIApplication</span>) &#123;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
+      
+        <div class="share-icons">
+          <a target="_blank" rel="noopener" href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-normal" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+          <span id="share-contents"></span>
+        </div>
+      
     </div>
+    <script>
+      const url = document.location.href;
+      const title = document.title + ' ';
+      const encodedUrl = encodeURIComponent(url);
+      const encodedTitle = encodeURIComponent(title);
+      var html = [
+        '<a href="https://twitter.com/intent/tweet?' + 'text=' + encodedTitle + '&url=' + encodedUrl + '" class="article-share-x" target="_blank" title="Twitter"></a>',
+        '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+      ].join('');
+      document.getElementById('share-contents').insertAdjacentHTML('afterbegin', html);
+    </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9198003416420881"
         crossorigin="anonymous"></script>
     <ins class="adsbygoogle"
@@ -126,9 +143,6 @@
     
 
     <footer class="article-footer">
-      <a data-url="https://shigekitakeguchi.com/2017/02/24/1.html" data-id="clozjk8rk0078lacxc53wepd2" class="article-share-link">
-        <i class="fa fa-share"></i> Share
-      </a>
       
         <a href="https://shigekitakeguchi.com/2017/02/24/1.html#disqus_thread" class="article-comment-link">
           <i class="fa fa-comment"></i> Comments
@@ -242,9 +256,7 @@
     <h3>管理人：タケグチシゲキ</h3>
     <div class='profile-image'><img alt='' src='/images/profile.jpg' /></div>
     <p class="text">
-      フロントエンドエンジニアとして働く55歳のジジイです。
-    </p>
-    <p class="text">
+      フロントエンドエンジニアとして働く55歳のジジイです。<br />
       首都圏を中心に散歩動画を撮影してYouTubeで配信してます。現在は夜の街のネオンや光が作り出す陰影が好きで撮影することが多いです。
     </p>
     <h3 class='subtitle'>YouTbueチャンネル</h3>

@@ -144,7 +144,24 @@
 <p>次は平泉の旅、まだつづく。</p>
 
       
+      
+        <div class="share-icons">
+          <a target="_blank" rel="noopener" href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-normal" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+          <span id="share-contents"></span>
+        </div>
+      
     </div>
+    <script>
+      const url = document.location.href;
+      const title = document.title + ' ';
+      const encodedUrl = encodeURIComponent(url);
+      const encodedTitle = encodeURIComponent(title);
+      var html = [
+        '<a href="https://twitter.com/intent/tweet?' + 'text=' + encodedTitle + '&url=' + encodedUrl + '" class="article-share-x" target="_blank" title="Twitter"></a>',
+        '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+      ].join('');
+      document.getElementById('share-contents').insertAdjacentHTML('afterbegin', html);
+    </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9198003416420881"
         crossorigin="anonymous"></script>
     <ins class="adsbygoogle"
@@ -162,9 +179,6 @@
     
 
     <footer class="article-footer">
-      <a data-url="https://shigekitakeguchi.com/2011/11/18/1.html" data-id="clozjk8qh002clacxh5zcbt0k" class="article-share-link">
-        <i class="fa fa-share"></i> Share
-      </a>
       
         <a href="https://shigekitakeguchi.com/2011/11/18/1.html#disqus_thread" class="article-comment-link">
           <i class="fa fa-comment"></i> Comments
@@ -278,9 +292,7 @@
     <h3>管理人：タケグチシゲキ</h3>
     <div class='profile-image'><img alt='' src='/images/profile.jpg' /></div>
     <p class="text">
-      フロントエンドエンジニアとして働く55歳のジジイです。
-    </p>
-    <p class="text">
+      フロントエンドエンジニアとして働く55歳のジジイです。<br />
       首都圏を中心に散歩動画を撮影してYouTubeで配信してます。現在は夜の街のネオンや光が作り出す陰影が好きで撮影することが多いです。
     </p>
     <h3 class='subtitle'>YouTbueチャンネル</h3>
