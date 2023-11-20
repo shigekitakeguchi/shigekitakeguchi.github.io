@@ -1572,6 +1572,46 @@ a.article-tag-list-link::before {
     display: block;
   }
 }
+.banner-image {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.banner-wrapper {
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+.banner-wrapper img {
+  margin: 0 0 6px 0;
+}
+
+.banner-wrapper-well {
+  border-radius: 4px;
+  border: 1px solid #e1e8ed;
+  box-shadow: none;
+  background: #fff;
+  padding: 19px;
+  margin-bottom: 32px;
+}
+.banner-wrapper-well h3 {
+  font-size: 100%;
+  font-weight: bold;
+  margin: 0 0 12px 0;
+}
+.banner-wrapper-well .link {
+  font-size: 86%;
+  line-height: 1.6;
+}
+.banner-wrapper-well .text {
+  font-size: 80%;
+  display: inline-block;
+  line-height: 1.6;
+}
+
+.mt12p {
+  margin-top: 12px;
+}
+
 /*!
  *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
