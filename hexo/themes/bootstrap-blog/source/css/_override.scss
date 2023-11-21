@@ -484,6 +484,7 @@ a.article-tag-list-link {
     margin: 0 0 8px 0;
     img {
       width: 100%;
+      border-radius: 4px;
     }
   }
   .text {
@@ -645,6 +646,17 @@ a.article-tag-list-link {
     padding: 8px 20px;
     margin-bottom: 20px;
   }
+}
+
+.image-link {
+  img {
+    border-radius: 6px;
+  }
+}
+
+.youtube {
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 @include max-screen($breakpoint-mobile) {
