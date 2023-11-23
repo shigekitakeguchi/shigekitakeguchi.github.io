@@ -998,7 +998,8 @@ header {
 }
 .article-entry h3 {
   width: calc(100% - 30px);
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: bold;
   padding: 4px 0;
   line-height: 1.5;
 }
@@ -1006,6 +1007,11 @@ header {
   .article-entry h3 {
     margin: 15px auto;
   }
+}
+.article-entry strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
 }
 
 @media screen and (max-width: 736px) {
@@ -1041,7 +1047,7 @@ header {
 }
 
 .blog-main {
-  font-size: 18px;
+  font-size: 16px;
   padding: 40px 0 0;
   background-color: #fff;
   border-radius: 4px;
@@ -1323,7 +1329,7 @@ a.article-tag-list-link::before {
 .image-link {
   display: flex;
   justify-content: flex-start;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 }
 .image-link img {
   width: 100%;
@@ -1380,6 +1386,7 @@ a.article-tag-list-link::before {
 }
 .profile .profile-image img {
   width: 100%;
+  border-radius: 4px;
 }
 .profile .text {
   margin: 0 0 28px 0;
@@ -1511,6 +1518,16 @@ a.article-tag-list-link::before {
   font-size: 14px;
 }
 
+.blog-main .codoc-support {
+  max-width: 100%;
+  margin: 20px 0 0;
+}
+.blog-main .codoc-support .codoc-btn {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+}
+
 .hatena-bookmark-button-frame {
   margin-right: 12px;
 }
@@ -1537,6 +1554,15 @@ a.article-tag-list-link::before {
   text-align: center;
   padding: 8px 20px;
   margin-bottom: 20px;
+}
+
+.image-link img {
+  border-radius: 6px;
+}
+
+.youtube {
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 736px) {
