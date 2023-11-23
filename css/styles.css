@@ -1329,7 +1329,7 @@ a.article-tag-list-link::before {
 .image-link {
   display: flex;
   justify-content: flex-start;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 }
 .image-link img {
   width: 100%;
