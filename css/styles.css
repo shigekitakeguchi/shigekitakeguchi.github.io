@@ -998,7 +998,8 @@ header {
 }
 .article-entry h3 {
   width: calc(100% - 30px);
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: bold;
   padding: 4px 0;
   line-height: 1.5;
 }
@@ -1006,6 +1007,11 @@ header {
   .article-entry h3 {
     margin: 15px auto;
   }
+}
+.article-entry strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
 }
 
 @media screen and (max-width: 736px) {
@@ -1041,7 +1047,7 @@ header {
 }
 
 .blog-main {
-  font-size: 18px;
+  font-size: 16px;
   padding: 40px 0 0;
   background-color: #fff;
   border-radius: 4px;
@@ -1323,7 +1329,7 @@ a.article-tag-list-link::before {
 .image-link {
   display: flex;
   justify-content: flex-start;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 }
 .image-link img {
   width: 100%;
@@ -1380,6 +1386,7 @@ a.article-tag-list-link::before {
 }
 .profile .profile-image img {
   width: 100%;
+  border-radius: 4px;
 }
 .profile .text {
   margin: 0 0 28px 0;
@@ -1502,8 +1509,63 @@ a.article-tag-list-link::before {
   display: flex;
 }
 
+.codoc-support-wrapper {
+  padding-top: 4px;
+}
+.codoc-support-wrapper .codoc-support {
+  border-radius: 4px;
+  border: 1px solid #e9f0f5;
+  margin-top: -15px;
+}
+.codoc-support-wrapper .codoc-support .codoc-support-title {
+  font-size: 14px;
+}
+
+.blog-main .codoc-support {
+  max-width: 100%;
+  margin: 20px 0 0;
+}
+.blog-main .codoc-support .codoc-btn {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+}
+
 .hatena-bookmark-button-frame {
   margin-right: 12px;
+}
+
+.paypal-support-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #e8eff5;
+  margin: 15px 0;
+  padding: 20px;
+}
+.paypal-support-wrapper .paypal-support-link {
+  border: 3px solid #5ba0dd;
+  border-radius: 6px;
+  display: block;
+  font-size: 90%;
+  color: #333;
+  font-weight: bold;
+  width: calc(100% - 24px);
+  height: calc(100% - 24px);
+  text-align: center;
+  padding: 8px 20px;
+  margin-bottom: 20px;
+}
+
+.image-link img {
+  border-radius: 6px;
+}
+
+.youtube {
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 736px) {
@@ -1539,6 +1601,58 @@ a.article-tag-list-link::before {
     display: block;
   }
 }
+.banner-image {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.banner-wrapper {
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+.banner-wrapper img {
+  margin: 0 0 6px 0;
+}
+
+.banner-wrapper-well {
+  border-radius: 4px;
+  border: 1px solid #e1e8ed;
+  box-shadow: none;
+  background: #fff;
+  padding: 19px;
+  margin-bottom: 14px;
+}
+.banner-wrapper-well h3 {
+  font-size: 100%;
+  font-weight: bold;
+  margin: 0 0 12px 0;
+}
+.banner-wrapper-well .link {
+  font-size: 86%;
+  line-height: 1.6;
+}
+.banner-wrapper-well .text {
+  font-size: 80%;
+  display: inline-block;
+  line-height: 1.6;
+}
+
+.mt12p {
+  margin-top: 12px;
+}
+
+.affiliate-wrapper-well {
+  border-radius: 4px;
+  border: 1px solid #e1e8ed;
+  box-shadow: none;
+  background: #fff;
+  padding: 19px;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 /*!
  *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
