@@ -2,10 +2,7 @@
 title: デザイナー・ノンプログラマーのためのXcode入門。（４）iPadの設定編の場合。
 date: 2012-11-22 15:23:38
 tags: 
- - cocoa-touch
- - ios-app
- - objective-c
- - xcode
+ - アプリエンジニア
 ---
 今回はiPadの設定となります。<br>
 iPhoneとは少し違うところがあります。

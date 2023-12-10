@@ -2,7 +2,7 @@
 title: アプリ（FastShot.Goody）の使ってるところ撮影で倉敷へ
 date: 2012-06-05 16:08:15
 tags: 
- - ios-app
+ - アプリエンジニア
 ---
 
 倉敷でFastShot.Goodyの使っているところを撮影。<br>

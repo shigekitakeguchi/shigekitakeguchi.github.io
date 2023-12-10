@@ -2,10 +2,7 @@
 title: CocoaPodsを使ったXcodeプロジェクトの作り方（２）
 date: 2013-01-03 00:35:14
 tags: 
- - cocoa-touch
- - ios-app
- - objective-c
- - xcode
+ - アプリエンジニア
 ---
 
 ２回目ですね。前回からの続きです。<br>

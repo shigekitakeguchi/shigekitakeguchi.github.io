@@ -2,10 +2,7 @@
 title: デザイナー・ノンプログラマーのためのXcode入門。（２）設定編
 date: 2012-11-14 09:53:08
 tags: 
- - cocoa-touch
- - ios-app
- - objective-c
- - xcode
+ - アプリエンジニア
 ---
 
 今回はXcodeを起動して仕様に沿ったプロジェクト（Project）の作るところまでを説明していきます。

@@ -2,8 +2,7 @@
 title: Kindle本の紹介：よろずや平四郎活人剣（藤沢周平）
 date: 2012-11-05 14:51:45
 tags: 
- - book
- - kindle
+ - 本の紹介
 ---
 
 Kindle Paperwhiteを日本のアマゾンで発売された日に購入。<br>

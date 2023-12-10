@@ -2,8 +2,7 @@
 title: TwinCamera
 date: 2012-05-07 15:43:00
 tags: 
- - ios-app
- - log
+ - アプリエンジニア
 ---
 
 Not just one, it’s two now!<br>

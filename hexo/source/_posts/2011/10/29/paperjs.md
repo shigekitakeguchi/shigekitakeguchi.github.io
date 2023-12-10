@@ -2,8 +2,7 @@
 title: Paper.jsを触ってみた。
 date: 2011-10-29 18:11:00
 tags: 
- - htmlcss
- - javascript
+ - フロントエンドエンジニア
 ---
 
 HTML5のCanvasってそのままじゃあ、どうも扱いにくいというか学ぶ時の最初のハードルが高いという印象があった。<br>

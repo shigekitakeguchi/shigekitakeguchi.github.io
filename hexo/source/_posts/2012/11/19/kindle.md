@@ -2,8 +2,7 @@
 title: Kindle本の紹介：ワーク・シフト（リンダ・グラットン）
 date: 2012-11-19 14:30:30
 tags: 
- - book
- - kindle
+ - 本の紹介
 ---
 
 やっとKindle Paperwhiteが配達されてきました。<br>

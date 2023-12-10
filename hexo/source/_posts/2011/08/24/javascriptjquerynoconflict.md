@@ -2,8 +2,7 @@
 title: JavaScript：即時関数を意識して使ってみた（jQuery.noConflict()の場合）。
 date: 2011-08-24 14:00:40
 tags: 
- - javascript
- - jquery
+ - フロントエンドエンジニア
 ---
 
 たまには技術的な話題を。

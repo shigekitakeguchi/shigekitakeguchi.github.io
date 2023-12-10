@@ -2,10 +2,7 @@
 title: デザイナー・ノンプログラマーのためのXcode入門。（１）準備編
 date: 2012-11-11 13:52:48
 tags: 
- - cocoa-touch
- - ios-app
- - objective-c
- - xcode
+ - アプリエンジニア
 ---
 
 今、iPhoneアプリのデザインをXibというXML形式のファイルに変換する仕事をしています。<br>

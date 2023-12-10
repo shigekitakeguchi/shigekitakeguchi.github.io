@@ -2,7 +2,7 @@
 title: Untitled Photos
 date: 2012-04-02 15:26:01
 tags: 
- - log
+ - ブログ
 ---
 
 あじさいの花の枯れたものだと思います。<br>

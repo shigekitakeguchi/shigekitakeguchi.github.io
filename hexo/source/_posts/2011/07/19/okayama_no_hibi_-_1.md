@@ -2,7 +2,7 @@
 title: okayama no hibi - 1
 date: 2011-07-19 07:27:34
 tags:
- - okayama
+ - 岡山県：岡山市
 ---
 
 少しずつ楽しみかたがわかってきた岡山。<br>

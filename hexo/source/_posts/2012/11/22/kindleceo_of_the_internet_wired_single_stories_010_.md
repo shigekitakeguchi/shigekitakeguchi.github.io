@@ -2,8 +2,7 @@
 title: Kindle本の紹介：CEO OF THE INTERNET ジェフ・ベゾス、かく語りき(WIRED Single Stories 010)
 date: 2012-11-22 16:08:17
 tags: 
- - book
- - kindle
+ - 本の紹介
 ---
 
 たぶん雑誌のWIREDで読んだ記事だと思う。<br>
