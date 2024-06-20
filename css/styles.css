@@ -1559,6 +1559,31 @@ a.article-tag-list-link::before {
   margin-bottom: 20px;
 }
 
+.amazon-support-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #e8eff5;
+  margin: 15px 0;
+  padding: 20px 20px 10px;
+  font-size: 80%;
+}
+.amazon-support-wrapper .amazon-support-link {
+  border: 3px solid #ffa724;
+  border-radius: 6px;
+  display: block;
+  font-size: 120%;
+  color: #333;
+  font-weight: bold;
+  width: calc(100% - 24px);
+  height: calc(100% - 24px);
+  text-align: center;
+  padding: 8px 20px;
+  margin-bottom: 20px;
+}
+
 .image-link img {
   border-radius: 6px;
 }
