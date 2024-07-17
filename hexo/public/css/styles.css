@@ -107,11 +107,6 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.article-footer {
-  border-top: 1px solid #eee;
-  padding-top: 15px;
-}
-
 .article-comment-link {
   display: inline-block;
 }
@@ -794,10 +789,8 @@ code {
 
 /* article footer content */
 .article-footer {
-  margin-top: 50px;
+  margin-top: 10px;
   font-size: 0.85em;
-  border-top: 1px solid #eee;
-  padding-top: 15px;
 }
 
 .article-footer:after { /* clearfix */
@@ -1319,7 +1312,7 @@ a.article-tag-list-link::before {
 }
 .article-entry {
   padding-bottom: 5px;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
 .article-entry .article-more-link {
