@@ -565,15 +565,20 @@ body {
   background-color: #f7f5f5;
 }
 
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6 {
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
   margin-top: 1em;
   margin-bottom: 15px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: #333;
 }
@@ -636,7 +641,7 @@ code {
 
 .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-toggle:hover {
-  background-color: #65A2D6;
+  background-color: #65a2d6;
 }
 
 .navbar-inverse .navbar-brand,
@@ -796,7 +801,8 @@ code {
   font-size: 0.85em;
 }
 
-.article-footer:after { /* clearfix */
+.article-footer:after {
+  /* clearfix */
   content: " ";
   visibility: hidden;
   display: block;
@@ -1002,10 +1008,11 @@ header a {
 }
 .article-entry h2 {
   width: calc(100% - 30px);
+  margin: 0 0 2px;
   font-size: 16px;
   font-weight: bold;
   padding: 0;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 @media screen and (max-width: 736px) {
   .article-entry h2 {
@@ -1014,7 +1021,7 @@ header a {
 }
 .article-entry h3 {
   width: calc(100% - 30px);
-  font-size: 17px;
+  font-size: 16px;
   font-weight: bold;
   padding: 4px 0;
   line-height: 1.5;
@@ -1063,8 +1070,8 @@ header a {
 }
 
 .blog-main {
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 15px;
+  line-height: 1.8;
   padding: 40px 0 0;
   background-color: #fff;
   border-radius: 4px;
