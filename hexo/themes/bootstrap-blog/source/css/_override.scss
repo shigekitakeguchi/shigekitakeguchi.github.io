@@ -82,7 +82,7 @@ header {
 }
 
 .article-date:before {
-  content: "";
+  content: '';
 }
 
 .article-meta > * {
@@ -113,17 +113,18 @@ header {
   }
   h2 {
     width: calc(100% - 30px);
+    margin: 0 0 2px;
     font-size: 16px;
     font-weight: bold;
     padding: 0;
-    line-height: 1.5;
+    line-height: 1.8;
     @include max-screen($breakpoint-mobile) {
       margin: 10px auto 4px;
     }
   }
   h3 {
     width: calc(100% - 30px);
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
     padding: 4px 0;
     line-height: 1.5;
@@ -137,7 +138,6 @@ header {
     font-size: 18px;
     margin-bottom: 8px;
   }
-
 }
 
 .article-footer {
@@ -171,8 +171,8 @@ header {
 }
 
 .blog-main {
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 15px;
+  line-height: 1.8;
   padding: 40px 0 0;
   background-color: #fff;
   border-radius: 4px;
@@ -275,7 +275,7 @@ a.article-tag-list-link {
   vertical-align: baseline;
   border-radius: 0.25em;
   &::before {
-    content: "";
+    content: '';
   }
 }
 
@@ -815,4 +815,26 @@ a.article-tag-list-link {
 
 a {
   color: #000;
+}
+
+.not-found-container {
+  min-height: calc(100vh - 300px);
+  width: 1098px;
+  background-color: #fff;
+  margin-inline: auto;
+  margin: 20px auto;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .button {
+    background-color: #000;
+    width: 320px;
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+    padding-top: 14px;
+  }
 }
