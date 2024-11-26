@@ -913,6 +913,9 @@ ul {
 .row {
   margin: 15px 0 0;
 }
+.row::after {
+  clear: none;
+}
 
 .hero-image {
   width: 100%;
@@ -926,12 +929,17 @@ ul {
 }
 
 .col-sm-3 {
-  padding-right: 0;
+  float: none;
+  padding: 0;
 }
 @media screen and (max-width: 736px) {
   .col-sm-3 {
     padding-right: 15px;
   }
+}
+
+.col-sm-8 {
+  float: none;
 }
 
 .article-header h1 {
@@ -955,9 +963,11 @@ header .container {
   display: block;
   margin: 19px 0 6px;
   background-image: url(/images/header/bg_pc.png);
-  width: 1098px;
+  background-position: center;
+  width: 780px;
   height: 168px;
   margin-inline: auto;
+  border-radius: 6px;
 }
 @media screen and (max-width: 736px) {
   header .container {
@@ -1065,7 +1075,7 @@ header a {
 }
 @media screen and (min-width: 736px) {
   .container {
-    width: 1098px;
+    width: 780px;
   }
 }
 
@@ -1079,7 +1089,7 @@ header a {
 }
 @media screen and (min-width: 736px) {
   .blog-main {
-    width: 66%;
+    width: 100%;
     padding: 24px 19px 20px;
   }
 }
@@ -1096,7 +1106,7 @@ header a {
 
 .blog-sidebar {
   margin-left: 0;
-  width: 34%;
+  width: 100%;
 }
 @media screen and (max-width: 736px) {
   .blog-sidebar {
